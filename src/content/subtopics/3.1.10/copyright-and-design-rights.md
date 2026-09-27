@@ -1,8 +1,5 @@
-# Copyright And Design Rights
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<section class="note-panel"><h2>Protecting designs and intellectual property</h2></section>
 <section class="note-panel"><h2>Protecting designs and intellectual property</h2>
 <div class="note-intro"><p>This topic is for A-level only. If you are studying at AS-level you do not need to cover the content in this chapter.</p></div></section>
 <section class="note-panel"><h2>Intellectual property (IP)</h2>
