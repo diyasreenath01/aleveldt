@@ -1,5 +1,3 @@
-# Manufacture Repair Maintenance And Disposal
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel"><h2>Design for MMRD</h2></section>
