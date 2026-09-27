@@ -1,8 +1,5 @@
-# Scales Of Production
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<section class="note-panel"><h2>Modern Industrial &amp; Commercial Practice</h2></section>
 <section class="note-panel"><h2>Modern Industrial &amp; Commercial Practice</h2>
 <div class="note-intro"><p>Manufacturing strategy focused on reducing lead times.</p>
 <p>A company owns and controls its own supply chain, producing parts and sub-assemblies internally.</p>
