@@ -2,7 +2,8 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<div class="study-card"><h3>Rapid prototyping</h3>
+<section class="note-panel">
+<div class="note-grid"><div class="study-card"><h3>Rapid prototyping</h3>
 <p>Rapid prototyping produces physical 3D models directly from CAD data, usually using polymer materials.</p>
 <p><strong>Benefits</strong></p>
 <p>Fast and automated production</p>
@@ -16,4 +17,4 @@
 <p>Uses thermoplastic filament and removable support material</p>
 <p>Suitable for bespoke and one-off production</p>
 <p>Metal 3D printing produces complex parts with no weak joints</p>
-<p>Common materials include ABS, titanium, stainless steel, aluminium</p></div>
+<p>Common materials include ABS, titanium, stainless steel, aluminium</p></div></div></section>

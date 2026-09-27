@@ -2,10 +2,10 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<h2>Wood enhancement</h2>
-<h2>Wood enhancement</h2>
-<div class="study-card"><p>Wood is enhanced to improve durability, stability, strength, appearance, and resistance to environmental damage, particularly for outdoor or structural use.</p></div>
-<div class="study-card"><h3>Wood enhancement methods</h3>
+<section class="note-panel"><h2>Wood enhancement</h2></section>
+<section class="note-panel"><h2>Wood enhancement</h2>
+<div class="note-intro"><p>Wood is enhanced to improve durability, stability, strength, appearance, and resistance to environmental damage, particularly for outdoor or structural use.</p></div>
+<div class="note-grid"><div class="study-card"><h3>Wood enhancement methods</h3>
 <p><strong>Resins and laminations</strong></p>
 <p>Used in engineered woods to enhance the usable parts of trees such as chips, fibres, and sawdust.</p>
 <p>Chipboard is made by compressing wood chips with resin (e.g. urea formaldehyde).</p>
@@ -31,4 +31,4 @@
 <p><strong>Structural composite lumber (SCL) and laminated veneer lumber (LVL)</strong></p>
 <p>Manufactured by layering wood strands or veneers with resin and curing under heat and pressure.</p>
 <p>Produce stable sections with fewer defects such as warping or splitting.</p>
-<p>Used in beams, joists, and rafters due to high load-bearing capacity.</p></div>
+<p>Used in beams, joists, and rafters due to high load-bearing capacity.</p></div></div></section>

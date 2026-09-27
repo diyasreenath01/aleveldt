@@ -2,9 +2,9 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<h2>Modern Industrial &amp; Commercial Practice</h2>
-<h2>Modern Industrial &amp; Commercial Practice</h2>
-<div class="study-card"><h3>Scale of production</h3></div>
+<section class="note-panel"><h2>Modern Industrial &amp; Commercial Practice</h2></section>
+<section class="note-panel"><h2>Modern Industrial &amp; Commercial Practice</h2>
+<div class="note-grid"><div class="study-card"><h3>Scale of production</h3></div>
 <div class="study-card"><h3>One-off / bespoke (job production)</h3>
 <p>Products are individually designed and manufactured to meet specific customer requirements.</p>
 <p>Production is labour-intensive and relies heavily on skilled workers.</p>
@@ -66,4 +66,4 @@
 <p>increased administration</p>
 <p>reduced flexibility</p>
 <p>possible loss of specialist expertise</p>
-<p><strong>Example:</strong> Vertical integration is commonly seen in manufacturers that produce their own components rather than outsourcing, allowing greater control over quality and supply.</p></div>
+<p><strong>Example:</strong> Vertical integration is commonly seen in manufacturers that produce their own components rather than outsourcing, allowing greater control over quality and supply.</p></div></div></section>

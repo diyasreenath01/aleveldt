@@ -2,7 +2,8 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<div class="study-card"><h3>Electronic point of sale (EPOS)</h3>
+<section class="note-panel">
+<div class="note-grid"><div class="study-card"><h3>Electronic point of sale (EPOS)</h3>
 <p>EPOS systems use barcode scanning to collect sales data.</p>
 <p>Automates stock monitoring and reordering</p>
 <p>Collects customer data for marketing</p>
@@ -21,4 +22,4 @@
 <p>Coordinates availability of skilled labour</p>
 <p>Enables rapid reconfiguration of FMS cells to meet demand</p>
 <p><strong>Supplier and customer coordination</strong></p>
-<p>Links with EPOS to automatically transmit JiT manufacturing requirements</p></div>
+<p>Links with EPOS to automatically transmit JiT manufacturing requirements</p></div></div></section>

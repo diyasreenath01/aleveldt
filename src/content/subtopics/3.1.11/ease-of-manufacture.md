@@ -2,8 +2,8 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<h2>2. Ease of manufacture</h2>
-<div class="study-card"><h3>Ease of manufacture</h3>
+<section class="note-panel"><h2>2. Ease of manufacture</h2>
+<div class="note-grid"><div class="study-card"><h3>Ease of manufacture</h3>
 <p>Efficient manufacture is essential to <strong>reduce unit cost, improve consistency, and maximise product quality</strong>. Poor manufacturability increases labour time, error rates, and waste.</p>
 <p>Ease of manufacture is achieved by:</p>
 <p>Using <strong>modular designs</strong> with clearly defined sub-systems, allowing parallel manufacture, easier quality control, and fault isolation<br> </p>
@@ -23,4 +23,4 @@
 <div class="study-card"><h3>Choice of materials (manufacture-focused aspects)</h3>
 <p>Material choice directly affects a product’s <strong>manufacture, performance, maintenance, and end-of-life disposal</strong>.</p>
 <p>Key considerations:</p>
-<p>Materials are identified using <strong>standardised recycling codes</strong>, often moulded into products to aid separation<br> </p></div>
+<p>Materials are identified using <strong>standardised recycling codes</strong>, often moulded into products to aid separation<br> </p></div></div></section>

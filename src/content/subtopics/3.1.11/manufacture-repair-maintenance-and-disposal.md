@@ -2,9 +2,9 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<h2>Design for MMRD</h2>
-<h2>1. Manufacture, repair, maintenance and disposal</h2>
-<div class="study-card"><h3>The six Rs of sustainability</h3>
+<section class="note-panel"><h2>Design for MMRD</h2></section>
+<section class="note-panel"><h2>1. Manufacture, repair, maintenance and disposal</h2>
+<div class="note-grid"><div class="study-card"><h3>The six Rs of sustainability</h3>
 <p>Sustainability is the <strong>management of resources to minimise depletion, pollution, and environmental damage</strong> across a product’s life cycle.</p>
 <p>The six Rs provide a framework for sustainable design:</p>
 <p><strong>Reduce<br> </strong></p>
@@ -82,4 +82,4 @@
 <p>Community repair initiatives promote sustainable behaviour<br> </p></div>
 <div class="study-card"><h3>Ability to upgrade with software</h3>
 <p>Firmware updates can improve performance and extend product life<br> </p>
-<p>Software updates may also cause <strong>planned obsolescence</strong> if hardware becomes incompatible<br> </p></div>
+<p>Software updates may also cause <strong>planned obsolescence</strong> if hardware becomes incompatible<br> </p></div></div></section>

@@ -2,11 +2,11 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<h2>Polymer Enhancement</h2>
-<div class="study-card"><p><strong>ENHANCEMENTS OF MATERIALS</strong></p></div>
-<h2>Polymer enhancement</h2>
-<div class="study-card"><p>Polymers are enhanced by adding <strong>additives</strong> to the polymer stock, usually while the polymer is molten during processing. These additives improve processing, performance, durability, safety, and environmental behaviour.</p></div>
-<div class="study-card"><h3>Polymer additives and reasons for adding them</h3>
+<section class="note-panel"><h2>Polymer Enhancement</h2>
+<div class="note-intro"><p><strong>ENHANCEMENTS OF MATERIALS</strong></p></div></section>
+<section class="note-panel"><h2>Polymer enhancement</h2>
+<div class="note-intro"><p>Polymers are enhanced by adding <strong>additives</strong> to the polymer stock, usually while the polymer is molten during processing. These additives improve processing, performance, durability, safety, and environmental behaviour.</p></div>
+<div class="note-grid"><div class="study-card"><h3>Polymer additives and reasons for adding them</h3>
 <p><strong>Lubricants</strong></p>
 <p>Reduce the viscosity of molten polymer, making it less sticky and easier to mould.</p>
 <p>Allow more intricate shapes to be formed and enable lower moulding temperatures, reducing energy use.</p>
@@ -41,4 +41,4 @@
 <p>Prevent brittleness, surface cracking, and pigment discolouration in outdoor use.</p>
 <p><strong>UV light stabilisers</strong></p>
 <p>Prevent polymer chains breaking down due to ultraviolet radiation.</p>
-<p>Reduce colour fading and embrittlement in outdoor products.</p></div>
+<p>Reduce colour fading and embrittlement in outdoor products.</p></div></div></section>

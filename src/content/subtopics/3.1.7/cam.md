@@ -2,7 +2,8 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<div class="study-card"><h3>Computer aided manufacture (CAM)</h3>
+<section class="note-panel">
+<div class="note-grid"><div class="study-card"><h3>Computer aided manufacture (CAM)</h3>
 <p>CAM uses digital design data to control manufacturing machinery, most commonly CNC machines.</p>
 <p><strong>CAM processes</strong></p>
 <p>CAD files are converted into CNC control programs</p>
@@ -28,4 +29,4 @@
 <p><strong>Plotter cutting</strong></p>
 <p>Cuts compliant materials such as vinyl</p>
 <p>Uses X-Y coordinate paths from 2D CAD files</p>
-<p>Commonly used for graphics and signage</p></div>
+<p>Commonly used for graphics and signage</p></div></div></section>

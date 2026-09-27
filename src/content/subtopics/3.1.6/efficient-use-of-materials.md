@@ -2,7 +2,8 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<div class="study-card"><h3>Efficient use of materials</h3>
+<section class="note-panel">
+<div class="note-grid"><div class="study-card"><h3>Efficient use of materials</h3>
 <p>Designers reduce cost and waste by:</p>
 <p>nesting parts using CAD/CAM to minimise off-cuts</p>
 <p>designing around standard material sizes</p>
@@ -27,4 +28,4 @@
 <p>continuous improvement (Kaizen)</p>
 <p>waste reduction (Muda)</p>
 <p>Kanban stock control systems</p>
-<p><strong>Example:</strong> JiT manufacture was successfully adopted by Harley-Davidson, where motorcycles were produced only after customer orders were received.</p></div>
+<p><strong>Example:</strong> JiT manufacture was successfully adopted by Harley-Davidson, where motorcycles were produced only after customer orders were received.</p></div></div></section>

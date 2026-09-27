@@ -2,11 +2,11 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<h2>Digital design and manufacture</h2>
-<h2>Digital design and manufacture</h2>
-<div class="study-card"><p>Digital design and manufacture uses computer hardware and dedicated software to design products and transfer design data directly to manufacturing equipment.</p>
+<section class="note-panel"><h2>Digital design and manufacture</h2></section>
+<section class="note-panel"><h2>Digital design and manufacture</h2>
+<div class="note-intro"><p>Digital design and manufacture uses computer hardware and dedicated software to design products and transfer design data directly to manufacturing equipment.</p>
 <p>Simulation software is increasingly important as it allows manufacturers to plan, organise, predict, and optimise production processes before physical manufacture begins.</p></div>
-<div class="study-card"><h3>Computer aided design (CAD)</h3>
+<div class="note-grid"><div class="study-card"><h3>Computer aided design (CAD)</h3>
 <p>CAD is the use of computers to create 2D drawings and 3D computer models, stored in digital file formats that allow direct transfer to CAM equipment.</p>
 <p><strong>Advantages</strong></p>
 <p>Faster design development due to editing, modification, and reuse of files</p>
@@ -27,4 +27,4 @@
 <div class="study-card"><h3>Industrial CAD features</h3>
 <p>Libraries of standard components (e.g. electronics, hydraulics)</p>
 <p>Layered 2D drawings showing structure, wiring, and casing</p>
-<p>CAD/CAM simulations to predict machining strategies and errors</p></div>
+<p>CAD/CAM simulations to predict machining strategies and errors</p></div></div></section>

@@ -2,7 +2,8 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<div class="study-card"><h3>Use of computer systems in manufacture</h3>
+<section class="note-panel">
+<div class="note-grid"><div class="study-card"><h3>Use of computer systems in manufacture</h3>
 <p>Planning and control software schedules production.</p>
 <p>Barcodes and RFID track stock and components.</p>
 <p>EPOS systems record sales and trigger re-ordering.</p>
@@ -20,12 +21,12 @@
 <p>access to specialist expertise</p>
 <p>consistent quality</p>
 <p>availability of supplier CAD models</p>
-<p><strong>Example:</strong> Bought-in components commonly include electric motors, batteries, and audio connectors, which are integrated into products without being manufactured in-house.</p></div>
-<h2>Exam practice from my notes</h2>
-<div class="study-card"><p><strong>21 Explain how computer systems have assisted designers’ ability to develop products collaboratively. [6]</strong></p>
+<p><strong>Example:</strong> Bought-in components commonly include electric motors, batteries, and audio connectors, which are integrated into products without being manufactured in-house.</p></div></div></section>
+<section class="note-panel"><h2>Exam practice from my notes</h2>
+<div class="note-intro"><p><strong>21 Explain how computer systems have assisted designers’ ability to develop products collaboratively. [6]</strong></p>
 <p>Computer systems have significantly improved collaborative product development by allowing designers to work together in real time, even when located in different countries. Cloud-based CAD software such as Onshape allows multiple designers to access and edit the same design simultaneously, improving communication and reducing delays.</p>
 <p>Cloud storage systems also allow files and data to be shared instantly. Designers can upload CAD models, technical drawings and prototypes to shared servers so team members can access the latest versions at any time. This reduces the risk of outdated files being used and improves version control.</p>
 <p>Video conferencing platforms such as Microsoft Teams and Zoom allow designers, engineers and manufacturers to communicate easily through virtual meetings. Teams can discuss changes, present concepts and solve design problems without needing to meet physically, reducing travel costs and speeding up development.</p>
 <p>Modern computer systems also improve communication speed and reliability through high-speed fibre networking and internet services. Large CAD files, renders and simulations can be transferred quickly between global teams.</p>
 <p>Collaborative software tools allow comments, annotations and mark-ups directly on designs, helping teams provide immediate feedback and improve designs efficiently. This speeds up iteration and allows products to be refined faster.</p>
-<p>Computer simulation and virtual prototyping also allow multiple specialists to test and analyse products together before physical manufacture, reducing development costs and improving product quality.</p></div>
+<p>Computer simulation and virtual prototyping also allow multiple specialists to test and analyse products together before physical manufacture, reducing development costs and improving product quality.</p></div></section>

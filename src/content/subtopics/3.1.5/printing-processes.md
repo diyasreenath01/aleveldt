@@ -2,9 +2,9 @@
 
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<h2>Paper and Board Printing Processes</h2>
-<div class="study-card"><p>Industrial printing involves applying graphics to a <strong>substrate</strong> (the material being printed on). Most processes use the <strong>CMYK</strong> (Cyan, Magenta, Yellow, and Key/Black) four-colour process.</p></div>
-<div class="study-card"><h3>Screen Printing</h3>
+<section class="note-panel"><h2>Paper and Board Printing Processes</h2>
+<div class="note-intro"><p>Industrial printing involves applying graphics to a <strong>substrate</strong> (the material being printed on). Most processes use the <strong>CMYK</strong> (Cyan, Magenta, Yellow, and Key/Black) four-colour process.</p></div>
+<div class="note-grid"><div class="study-card"><h3>Screen Printing</h3>
 <p><strong>Setup:</strong> Uses basic screens and inks; low setup costs make it ideal for workshops.</p>
 <p><strong>Method:</strong> Ink is pushed through open areas in a mesh screen. A different screen is required for every color used.</p>
 <p><strong>Usage:</strong> Slow process with a high cost per unit. Best for small runs of posters, display boards, and T-shirts.</p></div>
@@ -32,4 +32,4 @@
 <p>Digital printing is the go-to for speed and efficiency, as it requires no physical plates.</p>
 <p><strong>Capabilities:</strong> Produces full-color, high-detail prints with the ability to change the design on every single page (front and back).</p>
 <p><strong>Mass Customisation:</strong> Ideal for &quot;Print on Demand&quot; (e.g., personalized names on bottles) because it uses fast-drying inks and requires zero setup time between different designs.</p>
-<p><strong>Usage:</strong> Popular for both low- and high-volume runs, especially promotional materials like flyers and business cards</p></div>
+<p><strong>Usage:</strong> Popular for both low- and high-volume runs, especially promotional materials like flyers and business cards</p></div></div></section>
