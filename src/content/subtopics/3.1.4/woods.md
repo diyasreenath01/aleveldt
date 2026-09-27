@@ -148,55 +148,55 @@
 <p><strong>Machining<br> Wasting</strong> (not shown on this page but examinable)<br> </p>
 <p>Production methods vary depending on <strong>product type and scale of manufacture</strong>.</p></div></section>
 <section class="note-panel"><h2>Addition / fabrication processes</h2>
-<div class="note-grid"><div class="study-card"><h3>Traditional wood jointing</h3>
-<p>Joint strength increases with <strong>greater glued contact area<br> </strong></p>
-<p>Joints are selected based on <strong>strength requirements, appearance, and production method<br> </strong></p>
-<p><strong>Common joints and uses</strong></p>
+<div class="note-grid"><div class="note-group-title"><h3>Traditional wood jointing</h3></div>
+<div class="study-card"><h4>Joint strength increases with greater glued contact area</h4>
+<p>Joints are selected based on <strong>strength requirements, appearance, and production method<br> </strong></p></div>
+<div class="study-card"><h4>Common joints and uses</h4>
 <p><strong>Dovetail joint</strong> – drawers; strong in multiple directions<br> </p>
 <p><strong>Comb / finger joint</strong> – box construction; large glue area<br> </p>
-<p><strong>Housing joint</strong> – framework, cabinets, shelving<br> </p>
-<p><strong>Half-lap joint</strong> – simple frames or boxes<br> </p>
-<p><strong>Dowel joint</strong> – flat-pack furniture (bookcases, wardrobes)<br> </p>
+<p><strong>Housing joint</strong> – framework, cabinets, shelving<br> </p></div>
+<div class="study-card"><h4>Half-lap joint – simple frames or boxes</h4></div>
+<div class="study-card"><h4>Dowel joint – flat-pack furniture (bookcases, wardrobes)</h4>
 <p><strong>Mortise and tenon joint</strong> – frame construction (tables, chairs); high strength<br> </p></div></div></section>
 <section class="note-panel"><h2>Component jointing (KD fittings)</h2>
 <div class="note-intro"><p><strong>Knock-down (KD) fittings</strong></p>
 <p>Used in <strong>flat-pack furniture<br> </strong></p>
 <p>Require <strong>few simple tools<br> </strong></p>
 <p><strong>Standardised and interchangeable</strong>, allowing mass production and easy assembly<br> </p></div>
-<div class="note-grid"><div class="study-card"><h3>Types of KD fittings</h3>
-<p><strong>Modesty blocks</strong></p>
-<p>Small rigid <strong>polymer blocks<br> </strong></p>
-<p>Moulded holes take screws<br> </p>
-<p>Used to join panels in cupboards and storage units<br> </p>
-<p><strong>Barrel nuts and bolts</strong></p>
-<p>Use a <strong>cross-dowel</strong> inserted into one component<br> </p>
+<div class="note-grid"><div class="note-group-title"><h3>Types of KD fittings</h3></div>
+<div class="study-card"><h4>Modesty blocks</h4>
+<p>Small rigid <strong>polymer blocks<br> </strong></p></div>
+<div class="study-card"><h4>Moulded holes take screws</h4>
+<p>Used to join panels in cupboards and storage units<br> </p></div>
+<div class="study-card"><h4>Barrel nuts and bolts</h4></div>
+<div class="study-card"><h4>Use a cross-dowel inserted into one component</h4>
 <p>Bolt passes through the second component and tightens into the cross-dowel<br> </p>
 <p>Typically tightened with an <strong>Allen key<br> </strong></p>
-<p>Commonly used in <strong>bed frames<br> </strong></p>
-<p><strong>Cam-lock connectors</strong></p>
-<p>Metal dowel screws into one component<br> </p>
-<p>Cam (disk) fits into a pre-drilled hole<br> </p>
-<p>Rotating the cam pulls components tightly together<br> </p>
-<p>Widely used in <strong>flat-pack furniture</strong> (e.g. bookcases)<br> </p>
-<p><strong>Wood screws</strong></p>
-<p>Used when thread is needed only in the lower component<br> </p>
-<p><strong>Clearance hole</strong> in top piece<br> </p>
-<p><strong>Pilot hole</strong> (smaller than thread) in bottom piece for grip<br> </p>
-<p><strong>Coach bolts</strong></p>
-<p>Domed head with square section beneath<br> </p>
+<p>Commonly used in <strong>bed frames<br> </strong></p></div>
+<div class="study-card"><h4>Cam-lock connectors</h4></div>
+<div class="study-card"><h4>Metal dowel screws into one component</h4></div>
+<div class="study-card"><h4>Cam (disk) fits into a pre-drilled hole</h4></div>
+<div class="study-card"><h4>Rotating the cam pulls components tightly together</h4>
+<p>Widely used in <strong>flat-pack furniture</strong> (e.g. bookcases)<br> </p></div>
+<div class="study-card"><h4>Wood screws</h4>
+<p>Used when thread is needed only in the lower component<br> </p></div>
+<div class="study-card"><h4>Clearance hole in top piece</h4>
+<p><strong>Pilot hole</strong> (smaller than thread) in bottom piece for grip<br> </p></div>
+<div class="study-card"><h4>Coach bolts</h4></div>
+<div class="study-card"><h4>Domed head with square section beneath</h4>
 <p>Square section bites into timber to prevent rotation<br> </p>
 <p>Used for <strong>door furniture</strong> and <strong>street furniture<br> </strong></p></div></div></section>
 <section class="note-panel"><h2>Forming processes</h2>
+<div class="note-intro"><p>Uses <strong>heat and steam</strong> to soften wood fibres<br> </p></div>
 <div class="note-grid"><div class="study-card"><h3>Lamination</h3>
 <p>Bonds layers of <strong>veneers or thin boards</strong> (e.g. 3 mm plywood)<br> </p>
 <p>Layers are glued and bent over a <strong>former<br> </strong></p>
 <p>Once dry, layers form a <strong>strong, shaped component<br> </strong></p>
 <p>Held during curing using <strong>clamps or vacuum bags<br> </strong></p></div>
-<div class="study-card"><h3>Steam bending</h3>
-<p>Uses <strong>heat and steam</strong> to soften wood fibres<br> </p>
-<p>Wood is placed in a <strong>steam box<br> </strong></p>
-<p>Bent over a former and clamped until dry<br> </p>
-<p><strong>Quicker and less wasteful</strong> than lamination<br> </p>
+<div class="note-group-title"><h3>Steam bending</h3></div>
+<div class="study-card"><h4>Wood is placed in a steam box</h4></div>
+<div class="study-card"><h4>Bent over a former and clamped until dry</h4></div>
+<div class="study-card"><h4>Quicker and less wasteful than lamination</h4>
 <p>Lamination requires glue curing time and trimming<br> </p></div></div></section>
 <section class="note-panel"><h2>Machine processes</h2>
 <div class="note-grid"><div class="study-card"><h3>Turning</h3>

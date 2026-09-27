@@ -3,60 +3,60 @@
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel"><h2>Metal Processes</h2>
-<div class="note-intro"><p><strong>METAL PROCESSES</strong></p>
-<p><strong>Redistribution processes (casting)</strong></p>
-<p><strong>Redistribution processes involve melting metal and pouring it into a mould, where it cools and solidifies into the required shape. These processes are used for complex shapes that are difficult to form by deformation.</strong></p>
-<p><strong>Die casting</strong></p>
+<div class="note-grid"><div class="study-card"><h4>METAL PROCESSES</h4></div>
+<div class="study-card"><h4>Redistribution processes (casting)</h4>
+<p><strong>Redistribution processes involve melting metal and pouring it into a mould, where it cools and solidifies into the required shape. These processes are used for complex shapes that are difficult to form by deformation.</strong></p></div>
+<div class="study-card"><h4>Die casting</h4>
 <p><strong>Die casting uses permanent metal moulds to produce accurate, high-quality castings with good surface finish. It is mainly used for non-ferrous metals.</strong></p>
-<p><strong>Types of die casting:</strong></p>
-<p><strong>Gravity die casting</strong></p>
-<p><strong>Pressure die casting (hot chamber)</strong></p>
-<p><strong>Pressure die casting (cold chamber)</strong></p>
-<p><strong>Gravity die casting</strong></p>
-<p><strong>Gravity die casting is a permanent mould casting process where molten metal fills the mould using gravity only.</strong></p>
-<p><strong>Process overview</strong></p>
+<p><strong>Types of die casting:</strong></p></div>
+<div class="study-card"><h4>Gravity die casting</h4></div>
+<div class="study-card"><h4>Pressure die casting (hot chamber)</h4>
+<p><strong>Pressure die casting (cold chamber)</strong></p></div>
+<div class="study-card"><h4>Gravity die casting</h4>
+<p><strong>Gravity die casting is a permanent mould casting process where molten metal fills the mould using gravity only.</strong></p></div>
+<div class="study-card"><h4>Process overview</h4>
 <p><strong>The metal mould (die) is preheated and coated to improve flow and release.</strong></p>
 <p><strong>Molten metal is poured slowly into the mould cavity using a ladle, with no external pressure applied.</strong></p>
 <p><strong>The metal is allowed to solidify before the mould is opened and the casting removed.</strong></p>
-<p><strong>The part is machined or finished as required.</strong></p>
-<p><strong>Key characteristics and applications</strong></p>
+<p><strong>The part is machined or finished as required.</strong></p></div>
+<div class="study-card"><h4>Key characteristics and applications</h4>
 <p><strong>Produces stronger and more consistent castings than sand casting due to controlled cooling.</strong></p>
 <p><strong>Initially used for simple shapes, but modern gravity casting can produce complex parts using sand cores.</strong></p>
 <p><strong>Typically used with low melting point metals such as aluminium and zinc.</strong></p>
 <p><strong>Moulds must be relatively thick to withstand repeated heating and cooling.</strong></p>
-<p><strong>Suitable for large-scale mass production.</strong></p>
-<p><strong>Pressure die casting (hot chamber)</strong></p>
-<p><strong>Hot chamber pressure die casting is used for low melting point metals where the injection system is submerged in molten metal.</strong></p>
-<p><strong>Process overview</strong></p>
+<p><strong>Suitable for large-scale mass production.</strong></p></div>
+<div class="study-card"><h4>Pressure die casting (hot chamber)</h4>
+<p><strong>Hot chamber pressure die casting is used for low melting point metals where the injection system is submerged in molten metal.</strong></p></div>
+<div class="study-card"><h4>Process overview</h4>
 <p><strong>Molten metal is stored in an integrated furnace.</strong></p>
 <p><strong>A plunger forces the molten metal through a gooseneck into the closed mould under high pressure.</strong></p>
-<p><strong>The metal cools rapidly, the mould opens, and the casting is ejected.</strong></p>
-<p><strong>Key characteristics and applications</strong></p>
+<p><strong>The metal cools rapidly, the mould opens, and the casting is ejected.</strong></p></div>
+<div class="study-card"><h4>Key characteristics and applications</h4>
 <p><strong>Very fast cycle times, making it ideal for mass production.</strong></p>
 <p><strong>Produces excellent surface finish and dimensional accuracy.</strong></p>
 <p><strong>Typically used for zinc and low-melting aluminium alloys.</strong></p>
-<p><strong>Not suitable for high-melting-point metals, as they would damage the injection system.</strong></p>
-<p><strong>Pressure die casting (cold chamber)</strong></p>
-<p><strong>Cold chamber die casting is used for higher melting point metals, where molten metal cannot be stored inside the machine.</strong></p>
-<p><strong>Process overview</strong></p>
+<p><strong>Not suitable for high-melting-point metals, as they would damage the injection system.</strong></p></div>
+<div class="study-card"><h4>Pressure die casting (cold chamber)</h4>
+<p><strong>Cold chamber die casting is used for higher melting point metals, where molten metal cannot be stored inside the machine.</strong></p></div>
+<div class="study-card"><h4>Process overview</h4>
 <p><strong>Molten metal is poured into a separate shot chamber.</strong></p>
 <p><strong>A hydraulic plunger forces the metal into the mould under high pressure.</strong></p>
-<p><strong>The metal solidifies, the mould opens, and the casting is removed.</strong></p>
-<p><strong>Key characteristics and applications</strong></p>
+<p><strong>The metal solidifies, the mould opens, and the casting is removed.</strong></p></div>
+<div class="study-card"><h4>Key characteristics and applications</h4>
 <p><strong>Suitable for metals such as aluminium alloys with higher melting points.</strong></p>
 <p><strong>Slower cycle times than hot chamber casting but still suitable for mass production.</strong></p>
-<p><strong>Produces strong, accurate components with good surface finish.</strong></p>
-<p><strong>Investment casting (lost wax casting)</strong></p>
-<p><strong>Investment casting is used to manufacture highly detailed and intricate metal components with excellent surface finish.</strong></p>
-<p><strong>Process overview</strong></p>
+<p><strong>Produces strong, accurate components with good surface finish.</strong></p></div>
+<div class="study-card"><h4>Investment casting (lost wax casting)</h4>
+<p><strong>Investment casting is used to manufacture highly detailed and intricate metal components with excellent surface finish.</strong></p></div>
+<div class="study-card"><h4>Process overview</h4>
 <p><strong>An exact wax replica of the product is produced.</strong></p>
 <p><strong>The wax pattern is coated in layers of ceramic slurry and fired in a kiln, causing the wax to melt away.</strong></p>
 <p><strong>Molten metal is poured into the ceramic mould and allowed to cool.</strong></p>
-<p><strong>The ceramic shell is broken away and the runner is machined off.</strong></p>
-<p><strong>Key characteristics and applications</strong></p>
+<p><strong>The ceramic shell is broken away and the runner is machined off.</strong></p></div>
+<div class="study-card"><h4>Key characteristics and applications</h4>
 <p><strong>Produces extremely accurate parts with minimal machining required.</strong></p>
 <p><strong>Ideal for complex or awkward shapes that cannot be machined easily.</strong></p>
-<p><strong>Used in aerospace, medical, and high-precision engineering components.</strong></p></div></section>
+<p><strong>Used in aerospace, medical, and high-precision engineering components.</strong></p></div></div></section>
 <section class="note-panel"><h2>Metal Forming processes</h2>
 <div class="note-intro"><p><strong>Forming processes</strong> shape metal by <strong>deforming it</strong>, often using heat and/or mechanical force, <strong>without removing material</strong>. These processes are chosen when strength, structural integrity, and efficient material use are required.</p></div></section>
 <section class="note-panel"><h2>Press forming</h2>

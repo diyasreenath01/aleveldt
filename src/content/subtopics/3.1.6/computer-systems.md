@@ -3,6 +3,8 @@
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel">
+<div class="note-intro"><p>Components sourced from specialist external suppliers.</p>
+<p><strong>Reasons for use:</strong></p></div>
 <div class="note-grid"><div class="study-card"><h3>Use of computer systems in manufacture</h3>
 <p>Planning and control software schedules production.</p>
 <p>Barcodes and RFID track stock and components.</p>
@@ -14,13 +16,11 @@
 <p>Manufactured to common, interchangeable standards.</p>
 <p>Ensure compatibility and ease of replacement.</p>
 <p><strong>Example:</strong> Standardised components include ISO-standard screws and bolts and light bulbs and fittings, which can be easily replaced or interchanged.</p></div>
-<div class="study-card"><h3>Bought-in components</h3>
-<p>Components sourced from specialist external suppliers.</p>
-<p><strong>Reasons for use:</strong></p>
-<p>lower unit cost</p>
-<p>access to specialist expertise</p>
-<p>consistent quality</p>
-<p>availability of supplier CAD models</p>
+<div class="note-group-title"><h3>Bought-in components</h3></div>
+<div class="study-card"><h4>lower unit cost</h4>
+<p>access to specialist expertise</p></div>
+<div class="study-card"><h4>consistent quality</h4></div>
+<div class="study-card"><h4>availability of supplier CAD models</h4>
 <p><strong>Example:</strong> Bought-in components commonly include electric motors, batteries, and audio connectors, which are integrated into products without being manufactured in-house.</p></div></div></section>
 <section class="note-panel"><h2>Exam practice from my notes</h2>
 <div class="note-intro"><p><strong>21 Explain how computer systems have assisted designers’ ability to develop products collaboratively. [6]</strong></p>

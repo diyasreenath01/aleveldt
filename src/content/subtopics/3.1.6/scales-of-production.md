@@ -4,6 +4,9 @@
 
 <section class="note-panel"><h2>Modern Industrial &amp; Commercial Practice</h2></section>
 <section class="note-panel"><h2>Modern Industrial &amp; Commercial Practice</h2>
+<div class="note-intro"><p>Manufacturing strategy focused on reducing lead times.</p>
+<p>A company owns and controls its own supply chain, producing parts and sub-assemblies internally.</p>
+<p>Reduces reliance on external suppliers.</p></div>
 <div class="note-grid"><div class="study-card"><h3>Scale of production</h3></div>
 <div class="study-card"><h3>One-off / bespoke (job production)</h3>
 <p>Products are individually designed and manufactured to meet specific customer requirements.</p>
@@ -34,12 +37,11 @@
 <p>Garments are suspended on computer-controlled overhead carriers.</p>
 <p>Reduces manual handling and improves workflow efficiency.</p>
 <p><strong>Example:</strong> Unit production systems are commonly used in clothing manufacture, where garments move automatically between sewing, finishing and inspection workstations.</p></div>
-<div class="study-card"><h3>Quick response manufacturing (QRM)</h3>
-<p>Manufacturing strategy focused on reducing lead times.</p>
-<p><strong>Uses:</strong></p>
-<p>CAD for rapid design changes</p>
-<p>rapid prototyping (including 3D printing)</p>
-<p>flexible manufacturing systems</p>
+<div class="note-group-title"><h3>Quick response manufacturing (QRM)</h3></div>
+<div class="study-card"><h4>Uses:</h4></div>
+<div class="study-card"><h4>CAD for rapid design changes</h4>
+<p>rapid prototyping (including 3D printing)</p></div>
+<div class="study-card"><h4>flexible manufacturing systems</h4>
 <p>Best suited to low-volume, customised products.</p>
 <p><strong>Example:</strong> Quick response manufacturing is often used for products such as specialist packaging machinery, where a machine must be designed and manufactured quickly to suit a specific food product.</p></div>
 <div class="study-card"><h3>Flexible manufacturing systems (FMS)</h3>
@@ -55,15 +57,13 @@
 <p>Uses quick-release fixings and interchangeable tooling.</p>
 <p>Minimises machine downtime.</p>
 <p><strong>Example:</strong> SMED is often applied in injection moulding, where moulds can be changed rapidly to allow different plastic components to be produced on the same machine.</p></div>
-<div class="study-card"><h3>Vertical in-house production (vertical integration)</h3>
-<p>A company owns and controls its own supply chain, producing parts and sub-assemblies internally.</p>
-<p>Reduces reliance on external suppliers.</p>
-<p><strong>Advantages:</strong></p>
-<p>improved quality control</p>
+<div class="note-group-title"><h3>Vertical in-house production (vertical integration)</h3></div>
+<div class="study-card"><h4>Advantages:</h4></div>
+<div class="study-card"><h4>improved quality control</h4>
 <p>better protection of intellectual property</p>
-<p>reduced risk of supplier failure</p>
-<p><strong>Disadvantages:</strong></p>
-<p>increased administration</p>
-<p>reduced flexibility</p>
-<p>possible loss of specialist expertise</p>
+<p>reduced risk of supplier failure</p></div>
+<div class="study-card"><h4>Disadvantages:</h4>
+<p>increased administration</p></div>
+<div class="study-card"><h4>reduced flexibility</h4></div>
+<div class="study-card"><h4>possible loss of specialist expertise</h4>
 <p><strong>Example:</strong> Vertical integration is commonly seen in manufacturers that produce their own components rather than outsourcing, allowing greater control over quality and supply.</p></div></div></section>
