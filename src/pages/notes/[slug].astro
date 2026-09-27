@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { notes } from '../../data/notes.js';
+
+export function getStaticPaths() { return notes.map(note => ({ params: { slug: note.slug }, props: { note } })); }
+const { note } = Astro.props;
+const modules = import.meta.glob('../../content/*.md', { eager: true });
+const content = modules[`../../content/${note.slug}.md`];
+if (!content) throw new Error(`Missing content for ${note.slug}`);
+const { Content } = content;
+const headings = content.getHeadings ? await content.getHeadings() : [];
+---
+<Base title={`${note.title} | A-level DT`} description={note.description}>
+  <article><header class="note-header"><span class="eyebrow">{note.type} / {note.category}</span><h1>{note.title}<span class="dot">.</span></h1><p>{note.description}</p><div class="meta"><span>◷ &nbsp; {note.reading} read</span><span>✳ &nbsp; A-level Design & Technology</span></div></header><div class="reading"><aside><span class="eyebrow">ON THIS PAGE</span><nav aria-label="On this page">{headings.filter(h => h.depth === 2).map(h => <a href={`#${h.slug}`}>{h.text}</a>)}</nav><a class="all-notes" href="/notes/">↖ &nbsp; All notes</a></aside><div class="prose"><Content /></div></div></article>
+</Base>
+<style>
+.note-header{background:#e6eddb;padding:85px clamp(24px,12vw,190px) 60px}.note-header h1{max-width:850px;margin:20px 0}.dot{color:#88aa65}.note-header p{max-width:620px;color:#697566;font-size:16px}.meta{display:flex;gap:25px;flex-wrap:wrap;margin-top:34px;font-size:11px;font-weight:700;color:#73836d}.reading{display:grid;grid-template-columns:205px minmax(0,760px);gap:70px;padding:70px clamp(24px,8.5vw,138px) 120px}.reading aside{align-self:start;position:sticky;top:25px}.reading nav{display:grid;gap:16px;margin-top:24px}.reading nav a{font-size:12px;color:#757d70;line-height:1.4}.reading nav a:hover{color:#739b4f}.all-notes{display:block;margin-top:45px;font-weight:800;font-size:12px}.prose{font-size:15px;color:#535b50;line-height:1.85}.prose :global(h2){font-size:30px;color:#252b24;margin:48px 0 17px;scroll-margin-top:30px}.prose :global(h2:first-child){margin-top:0}.prose :global(h3){font-size:19px;color:#30372d;margin:29px 0 10px;letter-spacing:-.03em}.prose :global(p),.prose :global(ul){margin-bottom:18px}.prose :global(li){margin:8px 0;padding-left:5px}.prose :global(strong){color:#303b2a}.prose :global(blockquote){border-left:3px solid #a5cb72;background:#eff4e8;padding:18px 24px;margin:30px 0;border-radius:0 6px 6px 0}.prose :global(blockquote p){margin:0}.prose :global(a){text-decoration:underline;text-underline-offset:3px}@media(max-width:750px){.note-header{padding:65px 24px 50px}.reading{display:block;padding:45px 24px 80px}.reading aside{position:static;margin-bottom:45px;padding-bottom:25px;border-bottom:1px solid #dfe4d9}.reading nav{display:flex;flex-wrap:wrap;gap:12px 20px}.all-notes{margin-top:24px}}
+</style>
