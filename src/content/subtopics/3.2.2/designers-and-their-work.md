@@ -10,21 +10,21 @@ As you revise each designer, connect their **context, philosophy, style and infl
 
 ---
 
-## Designers in chronological order
+## Designers in order of their work
 
-The designers below are ordered by birth year. Charles and Ray Eames are kept together as a design partnership.
+Ordered by the earliest example of each designer’s work covered in these notes. Dates mark the work or project, rather than when the designer was born.
 
-- [William Morris](#william-morris-arts-crafts)
-- [Eileen Gray](#eileen-gray-art-deco-modernism)
-- [Walter Gropius](#walter-gropius-bauhaus)
-- [Marianne Brandt](#marianne-brandt-bauhaus)
-- [Marcel Breuer](#marcel-breuer-bauhaus-modernism)
-- [Charles and Ray Eames](#charles-and-ray-eames)
-- [Ettore Sottsass](#ettore-sottsass-memphis-postmodernism)
-- [Dieter Rams](#dieter-rams-braun)
-- [Margaret Calvert](#margaret-calvert-graphic-information-design)
-- [James Dyson](#james-dyson)
-- [Philippe Starck](#philippe-starck-contemprary)
+- [William Morris — 1883 · Strawberry Thief](#william-morris-arts-crafts)
+- [Walter Gropius — 1911 · Fagus Factory](#walter-gropius-bauhaus)
+- [Marianne Brandt — 1924 · MT49 Tea Infuser](#marianne-brandt-bauhaus)
+- [Marcel Breuer — 1925 · Wassily Chair](#marcel-breuer-bauhaus-modernism)
+- [Eileen Gray — 1926 · Bibendum Chair](#eileen-gray-art-deco-modernism)
+- [Charles and Ray Eames — 1950 · DSR Chair](#charles-and-ray-eames)
+- [Dieter Rams — Braun — 1956 · Braun SK4](#dieter-rams-braun)
+- [Margaret Calvert — 1957–67 · British road signs](#margaret-calvert-graphic-information-design)
+- [Ettore Sottsass — 1969 · Valentine Typewriter](#ettore-sottsass-memphis-postmodernism)
+- [Philippe Starck — 1990 · Juicy Salif](#philippe-starck-contemprary)
+- [James Dyson — 1993 · DC01](#james-dyson)
 
 ---
 
@@ -60,36 +60,6 @@ Morris became one of the leading figures of the Arts and Crafts movement. His wo
 
 ---
 
-## Eileen Gray — Art Deco / Modernism
-
-### Background and context
-
-Eileen Gray worked mainly during the 1920s and 1930s, when designers were experimenting with new lifestyles, technologies, materials and manufacturing methods. Art Deco developed strongly after WWI during a period that celebrated technological progress, travel, economic growth and greater comfort.
-
-### Philosophy
-
-Gray believed that furniture should respond to how people actually live. Her designs therefore considered function, adaptability, comfort and ergonomics rather than concentrating only on appearance.
-
-### Style
-
-Gray's work combined luxurious Art Deco curves with increasingly Modernist simplicity. She used geometric forms and modern industrial materials such as chromed tubular steel and glass alongside soft upholstery.
-
-### Influences
-
-Gray was influenced by Art Deco, Modernism, Japanese lacquer techniques, modern industrial materials and the need to design around the user.
-
-### Why iconic
-
-Gray helped bridge Art Deco and Modernism by combining luxury and visual expression with functional, adaptable furniture. Her focus on user needs anticipated later user-centred and ergonomic design.
-
-### Specific work — Bibendum Chair, 1926
-
-The *Bibendum Chair* uses a chromed tubular-steel frame supporting large padded upholstered sections. Its rounded cushions were inspired by Bibendum, the Michelin Man. The soft curved cushions provide comfort while the simple metal structure uses a modern industrial material, combining Art Deco luxury with Modernist influence.
-
-### Specific work — E-1027 Adjustable Table, 1927
-
-The *E-1027 Adjustable Table* uses chrome-plated tubular steel and a circular glass top. Its height can be adjusted to suit the user, making it a strong example of functional and user-centred design. Its simple geometry and industrial materials demonstrate Gray's move towards Modernism.
-
 ---
 
 ## Walter Gropius — Bauhaus
@@ -121,6 +91,8 @@ The Bauhaus building at Dessau uses large areas of glass, steel and concrete wit
 ### Specific work — Fagus Factory, 1911–13
 
 Gropius designed the Fagus Factory with Adolf Meyer. The building uses extensive glass and a clean geometric structure with reduced traditional decoration. It was an important early example of the ideas that later developed into Modernist architecture.
+
+---
 
 ---
 
@@ -156,6 +128,8 @@ Brandt's Kandem lighting designs used metal and glass with simple geometric form
 
 ---
 
+---
+
 ## Marcel Breuer — Bauhaus / Modernism
 
 ### Background and context
@@ -185,6 +159,42 @@ The *Wassily Chair* uses bent tubular steel with stretched leather or fabric pan
 ### Specific work — Cesca Chair / B32, 1928
 
 The *Cesca Chair* combines tubular steel with cane and timber elements. Its cantilever structure removes the need for conventional rear legs. The chair demonstrates how the strength and flexibility of tubular steel allowed designers to create completely new furniture structures.
+
+---
+
+---
+
+## Eileen Gray — Art Deco / Modernism
+
+### Background and context
+
+Eileen Gray worked mainly during the 1920s and 1930s, when designers were experimenting with new lifestyles, technologies, materials and manufacturing methods. Art Deco developed strongly after WWI during a period that celebrated technological progress, travel, economic growth and greater comfort.
+
+### Philosophy
+
+Gray believed that furniture should respond to how people actually live. Her designs therefore considered function, adaptability, comfort and ergonomics rather than concentrating only on appearance.
+
+### Style
+
+Gray's work combined luxurious Art Deco curves with increasingly Modernist simplicity. She used geometric forms and modern industrial materials such as chromed tubular steel and glass alongside soft upholstery.
+
+### Influences
+
+Gray was influenced by Art Deco, Modernism, Japanese lacquer techniques, modern industrial materials and the need to design around the user.
+
+### Why iconic
+
+Gray helped bridge Art Deco and Modernism by combining luxury and visual expression with functional, adaptable furniture. Her focus on user needs anticipated later user-centred and ergonomic design.
+
+### Specific work — Bibendum Chair, 1926
+
+The *Bibendum Chair* uses a chromed tubular-steel frame supporting large padded upholstered sections. Its rounded cushions were inspired by Bibendum, the Michelin Man. The soft curved cushions provide comfort while the simple metal structure uses a modern industrial material, combining Art Deco luxury with Modernist influence.
+
+### Specific work — E-1027 Adjustable Table, 1927
+
+The *E-1027 Adjustable Table* uses chrome-plated tubular steel and a circular glass top. Its height can be adjusted to suit the user, making it a strong example of functional and user-centred design. Its simple geometry and industrial materials demonstrate Gray's move towards Modernism.
+
+---
 
 ---
 
@@ -220,36 +230,6 @@ The *DSR Chair* combines a moulded shell seat with a lightweight metal rod base.
 
 ---
 
-## Ettore Sottsass — Memphis / Postmodernism
-
-### Background and context
-
-Sottsass became a major figure in Postmodern and Memphis design. Postmodernism challenged conventional and Modernist ideas about how products should look. Your slides identify humour and personality, retro influences and deconstruction as important characteristics of Postmodern design.
-
-### Philosophy
-
-Sottsass rejected the idea that practical function should completely determine a product's appearance. He believed products could communicate emotion, personality, humour and cultural meaning and that decoration could have value.
-
-### Style
-
-Sottsass used bright and clashing colours, bold geometric shapes, asymmetry, decorative patterns, unusual proportions and plastic laminates. His work was deliberately expressive rather than restrained.
-
-### Influences
-
-Sottsass was influenced by reaction against Modernism, popular culture, historical design, Art Deco and the use of colour and pattern.
-
-### Why iconic
-
-Sottsass became a central figure in Memphis and helped challenge decades of Modernist functionalism. His work helped bring colour, pattern, humour and symbolism back into furniture and product design.
-
-### Specific work — Carlton Room Divider, 1981
-
-*Carlton* is a room divider/bookshelf made using engineered board with decorative laminate surfaces. It uses bright colours, geometric shapes, diagonal elements and an asymmetrical structure. Although it provides storage, it also resembles an abstract sculpture, making visual expression as important as practical function.
-
-### Specific work — Valentine Typewriter, 1969
-
-The *Valentine Typewriter*, designed with Perry King, is a bright-red portable typewriter with a bold and playful appearance. It transforms ordinary office equipment into an expressive consumer product and demonstrates Sottsass's interest in colour, emotion and personality.
-
 ---
 
 ## Dieter Rams — Braun
@@ -281,6 +261,8 @@ The *SK4* is a radio and record player with a simple geometric casing, transpare
 ### Specific work — Braun T3 Pocket Radio, 1958
 
 The *T3* has a simple rectangular body, regular speaker grid, large circular tuning control and very few unnecessary elements. Its clear visual hierarchy makes its operation easy to understand and demonstrates Rams's principle of “less, but better.”
+
+---
 
 ---
 
@@ -316,35 +298,39 @@ The sign uses simplified human figures with minimal unnecessary detail. The clea
 
 ---
 
-## James Dyson
+---
+
+## Ettore Sottsass — Memphis / Postmodernism
 
 ### Background and context
 
-Dyson developed products at a time when consumers increasingly expected domestic products to be convenient, efficient, technologically advanced and visually attractive. Technology was becoming an increasingly important part of everyday life, while advanced engineering and distinctive styling allowed products to be positioned as premium rather than basic appliances.
+Sottsass became a major figure in Postmodern and Memphis design. Postmodernism challenged conventional and Modernist ideas about how products should look. Your slides identify humour and personality, retro influences and deconstruction as important characteristics of Postmodern design.
 
 ### Philosophy
 
-Dyson's philosophy is described in your material as **“fixing problems that others ignore.”** His approach is strongly based on iterative engineering, where a problem is identified, prototypes are developed and tested, failures are analysed and the product is repeatedly improved.
+Sottsass rejected the idea that practical function should completely determine a product's appearance. He believed products could communicate emotion, personality, humour and cultural meaning and that decoration could have value.
 
 ### Style
 
-Dyson products often use futuristic forms, modern polymers, transparent components, distinctive colours and visible engineering. Rather than hiding the technology, the appearance often communicates how technologically advanced the product is.
+Sottsass used bright and clashing colours, bold geometric shapes, asymmetry, decorative patterns, unusual proportions and plastic laminates. His work was deliberately expressive rather than restrained.
 
 ### Influences
 
-Dyson is influenced by engineering, industrial machinery, technological experimentation, prototyping and problems found in existing products.
+Sottsass was influenced by reaction against Modernism, popular culture, historical design, Art Deco and the use of colour and pattern.
 
 ### Why iconic
 
-Dyson developed a distinctive brand identity by connecting engineering innovation with recognisable visual styling. Rather than simply changing the appearance of existing products, Dyson often attempts to redesign the technology used to perform the function.
+Sottsass became a central figure in Memphis and helped challenge decades of Modernist functionalism. His work helped bring colour, pattern, humour and symbolism back into furniture and product design.
 
-### Specific work — DC01 Vacuum Cleaner
+### Specific work — Carlton Room Divider, 1981
 
-The *DC01* uses patented cyclone technology rather than relying on a conventional vacuum bag. It uses a transparent polycarbonate dust container and injection-moulded ABS components, with visible technology and a distinctive grey/yellow machine-like appearance. The transparent container allows users to see the collected dirt and technology working, while also creating a recognisable technological identity.
+*Carlton* is a room divider/bookshelf made using engineered board with decorative laminate surfaces. It uses bright colours, geometric shapes, diagonal elements and an asymmetrical structure. Although it provides storage, it also resembles an abstract sculpture, making visual expression as important as practical function.
 
-### Specific work — Air Multiplier
+### Specific work — Valentine Typewriter, 1969
 
-The *Air Multiplier* has a distinctive circular form without conventional visible fan blades. Its unusual appearance immediately communicates technological innovation and makes it recognisable as a Dyson product.
+The *Valentine Typewriter*, designed with Perry King, is a bright-red portable typewriter with a bold and playful appearance. It transforms ordinary office equipment into an expressive consumer product and demonstrates Sottsass's interest in colour, emotion and personality.
+
+---
 
 ---
 
@@ -380,6 +366,42 @@ The *Ghost Chair* uses transparent plastic/polycarbonate to reinterpret a tradit
 
 ---
 
+---
+
+## James Dyson
+
+### Background and context
+
+Dyson developed products at a time when consumers increasingly expected domestic products to be convenient, efficient, technologically advanced and visually attractive. Technology was becoming an increasingly important part of everyday life, while advanced engineering and distinctive styling allowed products to be positioned as premium rather than basic appliances.
+
+### Philosophy
+
+Dyson's philosophy is described in your material as **“fixing problems that others ignore.”** His approach is strongly based on iterative engineering, where a problem is identified, prototypes are developed and tested, failures are analysed and the product is repeatedly improved.
+
+### Style
+
+Dyson products often use futuristic forms, modern polymers, transparent components, distinctive colours and visible engineering. Rather than hiding the technology, the appearance often communicates how technologically advanced the product is.
+
+### Influences
+
+Dyson is influenced by engineering, industrial machinery, technological experimentation, prototyping and problems found in existing products.
+
+### Why iconic
+
+Dyson developed a distinctive brand identity by connecting engineering innovation with recognisable visual styling. Rather than simply changing the appearance of existing products, Dyson often attempts to redesign the technology used to perform the function.
+
+### Specific work — DC01 Vacuum Cleaner
+
+The *DC01* uses patented cyclone technology rather than relying on a conventional vacuum bag. It uses a transparent polycarbonate dust container and injection-moulded ABS components, with visible technology and a distinctive grey/yellow machine-like appearance. The transparent container allows users to see the collected dirt and technology working, while also creating a recognisable technological identity.
+
+### Specific work — Air Multiplier
+
+The *Air Multiplier* has a distinctive circular form without conventional visible fan blades. Its unusual appearance immediately communicates technological innovation and makes it recognisable as a Dyson product.
+
+---
+
+---
+
 ## Braun — company profile
 
 ### Background and context
@@ -409,6 +431,8 @@ The *SK4* uses a simple geometric casing and transparent lid with clearly organi
 ### Specific work — Braun T3 Pocket Radio, 1958
 
 The *T3* uses a compact rectangular body, circular tuning control and regular speaker grid. Its simple visual organisation makes the product immediately understandable and represents Braun's restrained functional identity.
+
+---
 
 ---
 
