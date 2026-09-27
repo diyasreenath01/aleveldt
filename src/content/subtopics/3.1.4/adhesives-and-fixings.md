@@ -1,0 +1,9 @@
+# Adhesives And Fixings
+
+<!-- DESIGN NOTES DOCX IMPORT -->
+
+<h2>Exam practice from my notes</h2>
+<div class="study-card"><p><strong>07 Discuss the advantages and disadvantages of using contact adhesive to join a laminate to a large sheet of manufactured board. [6]</strong></p>
+<p>Contact adhesive is suitable for laminating large sheets because it can be easily applied over wide surface areas using a brush, roller or spray. It bonds quickly, reducing the need for clamps and allowing faster manufacture. It is also effective for joining dissimilar materials such as a plastic laminate to MDF or plywood. In addition, contact adhesive has good resistance to heat and moisture, making it appropriate for surfaces such as worktops.</p>
+<p>However, contact adhesive does not allow repositioning once the surfaces touch, so aligning a large laminate sheet accurately can be difficult. It can also be challenging to apply an even coating over a large area, which may lead to weak spots or bubbles in the laminate. The adhesive releases harmful fumes during application, meaning good ventilation is required. Although the initial bond is quick, the adhesive can still take time to fully cure.</p>
+<p>CONTACT ADHESIVE IS SUITABLET= TO JOIN AS IT CAN EASILY BE APPLIED OVER A WIDE SURFACE USING WITHER BRUSHES, ROLLERS OR SPRAY. MOREOVER, IT BONDS QUICKLY WHICH REDUCES THE NEED FOR CLAMPS AND ALLOWS FOR FASTER MANUFACTURE. ITS ALSO EFFECTIVE IN JOINING DISSIMILAR MATERIALS AND HAS A GOOD RESISTANCE TO HEA AND MOISTURE. HOWEVER, CONTACT ADHESIVE DOESNT ALLOW REPOSITIONING WHEN SURFACES TOUCH SO MISTAKES IN MANUFACTURE MAY INCREASE WASTAGE. FURTHERMORE, APPLYING AN EVEN COAT TO A WIDE SURFACE MAY BE DIFFICULT RESULTING IN WEAK SPOTS. THE ADHESIVE ALSO RELEASES TOXIC FUMES DURING APPLICATION, SO VENTILATION IS REQUIRED</p></div>

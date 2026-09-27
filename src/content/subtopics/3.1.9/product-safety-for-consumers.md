@@ -1,0 +1,29 @@
+# Product Safety For Consumers
+
+<!-- DESIGN NOTES DOCX IMPORT -->
+
+<h2>Safety in products and services to the customer (REVISED)</h2>
+<div class="study-card"><p>• Designers and manufacturers need to consider the safety of the potential user of their product, and should ensure that the product is safe to use.<br> • To help protect the user, many products have specific legislation and standards that specify certain requirements that the product must meet.<br> • These include suitable safety levels and the right for consumers to get their money back if goods are found to be faulty or do not perform as the manufacturer claims.</p></div>
+<h2>Legislation</h2>
+<div class="study-card"><h3>Consumer Rights Act 2015</h3>
+<p>Legislation designed to safeguard consumers from faulty products by giving them certain rights. The act includes rights on the purchase of digital content, combines legislation from other previous acts and replaces the Sale of Goods Act (1979).</p>
+<p>The act is split into three parts:</p>
+<p>• <strong>Part 1</strong> concerns consumer contracts for goods, digital content and services.<br> • <strong>Part 2</strong> concerns unfair terms.<br> • <strong>Part 3</strong> concerns other miscellaneous provisions such as letting agencies.</p>
+<p>Parts 1 and 2 cover areas such as:</p></div>
+<div class="study-card"><h3>Part 1 – Consumer contracts for goods, digital content and services</h3>
+<p>• Goods to be of satisfactory quality<br> • Goods to be fit for particular purpose<br> • Goods to be as described and to match a model seen or examined<br> • Right to reject goods and right to repair or replacement<br> • Digital content including paid and free software<br> • Digital content to be of satisfactory quality<br> • Digital content to be fit for particular purpose<br> • Digital content to be as described<br> • Compensation for damage to device or to other digital content<br> • Remedy for damage to device or to other digital content</p></div>
+<div class="study-card"><h3>Part 2 – Unfair terms</h3>
+<p>• Requirement for contract terms and notices to be fair for any goods or service<br> • Requirement for transparency of fees and services</p></div>
+<h2>The British Standards Institute (BSI)</h2>
+<div class="study-card"><p>• The BSI works with industry and government to produce a set of standards to assure consumers that products are well produced, safe and fit for purpose.<br> • A standard is a published document that shows an agreed way of doing something, and provides an assurance of consistently reliable and safe products.<br> • The BSI kitemark is a quality mark.<br> • It is used on hundreds of products from cycle helmets to children’s toys, manhole covers to electric plug casings.</p></div>
+<div class="study-card"><h3>Typical mistake</h3>
+<p>Don’t be too general when discussing standards or legislation. For example writing ‘safety standards help prevent people getting ill at work’ may be better written: ‘The Control of Substances Hazardous to Health regulations (2002) mean employers need to prevent, reduce or control their workers’ exposure, as well as that of any workers in the vicinity, to substances that may be hazardous or cause ill health.’</p>
+<p><strong>Figure 23.4</strong> The BSI kitemark</p></div>
+<h2>Safety of toys</h2>
+<div class="study-card"><p>Manufacturers of children’s toys must comply with the provisions of the <strong>Toys (Safety) Regulations 2011</strong>, which are part of the <strong>European Toy Safety Directive</strong> as well as <strong>British Standards BS EN 71</strong>.</p>
+<p>Toy manufacturers must:</p>
+<p>• make sure that the toy has been designed and manufactured to comply with the essential safety requirements during its normal period of use<br> • carry out a safety assessment of the toy<br> • demonstrate that an applicable conformity assessment procedure has been followed and affix the CE (Conformité Européenne) marking<br> • make sure that the toy is accompanied by instructions for safe use and safety information where appropriate<br> • carry out sample testing of toys and bring non-conforming toys into compliance<br> • investigate and record any complaint made in relation to the toy, and keep a register of complaints, non-compliant toys and recalled toys<br> • draw up the technical documentation and keep it for ten years<br> • identify the toy and manufacturer on the toy or packaging.</p></div>
+<h2>Lion Mark</h2>
+<div class="study-card"><p>• The British Toy and Hobby Association (BTHA) developed the <strong>Lion Mark</strong> in 1988 to show consumers that a toy had been made with quality and safety in mind.<br> • The Lion Mark indicates that the toy has been made by members of the BTHA, who adhere to a code of practice that includes rules covering the ethical and safe manufacture of toys, a ban on any counterfeit goods, a commitment to improving sustainability and a desire to promote the value of all play.</p></div>
+<h2>Advice to consumers</h2>
+<div class="study-card"><p>When buying products, consumers should ensure they are buying from a reputable trader, reading and following any specific safety advice contained in the product details or instruction manual. In the event of any fault consumers should contact the supplier.</p></div>
