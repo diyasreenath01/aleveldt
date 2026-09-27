@@ -1,5 +1,3 @@
-# Disassembly
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel"><h2>3. Disassembly</h2>
