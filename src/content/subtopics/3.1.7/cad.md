@@ -1,8 +1,5 @@
-# Cad
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<section class="note-panel"><h2>Digital design and manufacture</h2></section>
 <section class="note-panel"><h2>Digital design and manufacture</h2>
 <div class="note-intro"><p>Digital design and manufacture uses computer hardware and dedicated software to design products and transfer design data directly to manufacturing equipment.</p>
 <p>Simulation software is increasingly important as it allows manufacturers to plan, organise, predict, and optimise production processes before physical manufacture begins.</p>
