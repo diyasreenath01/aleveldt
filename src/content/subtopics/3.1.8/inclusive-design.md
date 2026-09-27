@@ -1,5 +1,3 @@
-# Inclusive Design
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel">
