@@ -1,5 +1,3 @@
-# Design styles and movements
-
 AQA section 3.2.2 covers the principles of Arts and Crafts, Art Deco, Modernism (including Bauhaus) and Postmodernism (including Memphis). The summaries below are from your supplied notes.
 
 [Read section 3.2.2 of the AQA specification ↗](https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/specification/subject-content/designing-and-making-principles)
