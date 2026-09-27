@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { syllabus, subtopicPath, subtopicSlug } from '../../../data/syllabus.js';
+import { notes } from '../../../data/notes.js';
+
+export function getStaticPaths() {
+  return syllabus.flatMap(group => group.topics.map(([code, title, subtopics]) => ({
+    params: { topic: code }, props: { group, code, title, subtopics }
+  })));
+}
+const { group, code, title, subtopics } = Astro.props;
+const modules = import.meta.glob('../../../content/subtopics/**/*.md', { eager: true });
+const sections = subtopics.map(name => ({
+  name,
+  path: subtopicPath(code, name),
+  Content: modules[`../../../content/subtopics/${code}/${subtopicSlug(name)}.md`]?.Content,
+  related: notes.filter(note => note.topic === code && note.subtopic === name)
+}));
+---
+<Base title={`${title} | A-level DT notes`} description={`AQA 7552 Product Design: ${title} revision notes.`}>
+  <main class="page"><a class="back" href={`/notes/#${group.id}`}>← All revision topics</a><header><span class="eyebrow">AQA 7552 / {code}</span><h1>{title}<b>.</b></h1><p>{group.title}</p></header><nav class="contents" aria-label="On this page"><span>IN THIS TOPIC</span>{sections.map((section, i) => <a href={`#section-${i}`}>{section.name} <span>↓</span></a>)}</nav><div class="sections">{sections.map((section, i) => <section id={`section-${i}`} class="section"><div class="section-top"><span>{code} / {String(i+1).padStart(2,'0')}</span><h2>{section.name}</h2></div>{section.Content ? <div class="prose"><section.Content /></div> : section.related.length ? <div class="related">{section.related.map(note => <a href={`/notes/${note.slug}/`}>{note.title} ↗</a>)}</div> : <p class="pending">Notes for this subtopic are being added.</p>}<a class="detail" href={section.path}>Open this subtopic ↗</a></section>)}</div><a class="spec" href={group.source} target="_blank" rel="noopener noreferrer">Check the AQA specification ↗</a></main>
+</Base>
+<style>
+.page{background:#fbf8f5;padding:30px clamp(24px,7vw,112px) 85px;color:#291743}.back{font-size:12px;color:#7750a0;font-weight:700}.page header{margin:45px 0 30px}.eyebrow,.contents>span,.section-top>span{font-size:11px;letter-spacing:.12em;font-weight:800;color:#8058a2}.page h1{font-size:clamp(40px,5vw,70px);letter-spacing:-.06em;margin:12px 0 4px}.page h1 b{color:#9d64bb}.page header p{color:#766982;margin:0}.contents{display:flex;flex-wrap:wrap;align-items:center;gap:9px;padding:20px 0 28px;border-top:1px solid #ded2e6;border-bottom:1px solid #ded2e6}.contents>span{width:100%;margin-bottom:5px}.contents a{font-size:13px;padding:9px 12px;background:#fff;border:1px solid #e6ddeb;border-radius:5px;color:#593879}.contents a:hover{background:#f3e8fa}.contents a span{color:#9e78b2}.sections{max-width:880px}.section{scroll-margin-top:22px;border-bottom:1px solid #ded2e6;padding:35px 0 45px}.section-top h2{font-size:clamp(26px,3vw,35px);letter-spacing:-.045em;margin:7px 0 20px}.prose{font-size:15px;line-height:1.75;color:#514a59;max-width:740px}.prose :global(h1){font-size:25px;margin:26px 0 10px}.prose :global(h2){font-size:22px;margin:32px 0 12px}.prose :global(h3){font-size:17px;margin:24px 0 8px}.prose :global(a){text-decoration:underline;color:#75469c}.prose :global(li){margin:7px 0}.prose :global(hr){border:0;border-top:1px solid #e8deea;margin:30px 0}.pending{color:#7a6d81;font-size:14px}.related a{display:block;color:#75469c;padding:10px 0;font-weight:700}.detail,.spec{display:inline-block;font-size:12px;color:#75469c;font-weight:750;margin-top:16px}.spec{margin-top:30px}@media(max-width:650px){.page header{margin-top:32px}.section{padding:27px 0 35px}}
+</style>
