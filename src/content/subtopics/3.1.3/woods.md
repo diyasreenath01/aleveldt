@@ -1,8 +1,5 @@
-# Woods
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<section class="note-panel"><h2>Wood enhancement</h2></section>
 <section class="note-panel"><h2>Wood enhancement</h2>
 <div class="note-intro"><p>Wood is enhanced to improve durability, stability, strength, appearance, and resistance to environmental damage, particularly for outdoor or structural use.</p></div>
 <div class="note-grid"><div class="note-group-title"><h3>Wood enhancement methods</h3></div>
