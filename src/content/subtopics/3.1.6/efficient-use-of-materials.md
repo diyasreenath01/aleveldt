@@ -1,5 +1,3 @@
-# Efficient Use Of Materials
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel">
