@@ -1,5 +1,3 @@
-# Designers and their work
-
 ## What you need to know
 
 For AQA Product Design (7552), you should be able to **discuss the work of influential designers and explain how it reflects the principles of different design movements**. AQA specifically names Philippe Starck, James Dyson, Margaret Calvert, Dieter Rams, Charles and Ray Eames, and Marianne Brandt. The other designers in these notes give useful context for the movements and the work covered in class.
