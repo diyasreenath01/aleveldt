@@ -1,5 +1,3 @@
-# Printing Processes
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel"><h2>Paper and Board Printing Processes</h2>
