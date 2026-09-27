@@ -1,5 +1,3 @@
-# Product Development And Improvement
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel"><h2>Requirements for product design</h2></section>
