@@ -1,8 +1,5 @@
-# Paper And Board Finishes
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<section class="note-panel"><h2>Paper and Board Finishing</h2></section>
 <section class="note-panel"><h2>Paper and Board Finishing</h2>
 <div class="note-intro"><p>Finishing processes are used to <strong>protect</strong> the material from spills and dirt while <strong>enhancing</strong> its tactile and visual appeal.</p></div>
 <div class="note-grid"><div class="study-card"><h3>Lamination</h3>
