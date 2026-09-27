@@ -1,5 +1,3 @@
-# Ease Of Manufacture
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel"><h2>2. Ease of manufacture</h2>
