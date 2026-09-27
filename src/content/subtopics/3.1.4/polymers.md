@@ -1,5 +1,3 @@
-# Polymers
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
 <section class="note-panel"><h2>Polymer Processes</h2>
