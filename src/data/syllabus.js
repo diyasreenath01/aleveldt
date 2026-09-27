@@ -30,3 +30,6 @@ export const syllabus = [
     ['3.2.10','National and international standards in product design',['BSI and ISO','Product directives','Eco labels and recycling codes']]
   ]}
 ];
+
+export const subtopicSlug = name => name.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+export const subtopicPath = (code, name) => `/notes/${code}/${subtopicSlug(name)}/`;

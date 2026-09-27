@@ -1,7 +1,7 @@
 export const notes = [
-  { slug: 'arts-and-crafts', title: 'Arts & Crafts movement', category: 'Design history', type: 'Designing & making', description: 'Craftsmanship, materials and the reaction against mass production.', reading: '6 min', number: '01' },
-  { slug: 'bauhaus', title: 'The Bauhaus', category: 'Design history', type: 'Designing & making', description: 'How form, function and industrial production shaped modern design.', reading: '7 min', number: '02' },
-  { slug: 'materials-and-properties', title: 'Materials & properties', category: 'Materials', type: 'Technical principles', description: 'Choosing materials through their physical and working properties.', reading: '8 min', number: '03' },
+  { slug: 'arts-and-crafts', title: 'Arts & Crafts movement', category: 'Design history', type: 'Designing & making', description: 'Craftsmanship, materials and the reaction against mass production.', reading: '6 min', number: '01', topic: '3.2.2', subtopic: 'Styles and movements' },
+  { slug: 'bauhaus', title: 'The Bauhaus', category: 'Design history', type: 'Designing & making', description: 'How form, function and industrial production shaped modern design.', reading: '7 min', number: '02', topic: '3.2.2', subtopic: 'Styles and movements' },
+  { slug: 'materials-and-properties', title: 'Materials & properties', category: 'Materials', type: 'Technical principles', description: 'Choosing materials through their physical and working properties.', reading: '8 min', number: '03', topic: '3.1.1', subtopic: 'Classification of materials' },
 ];
 
 export const categories = [

@@ -22,13 +22,21 @@ git push
 
 Before working on the other computer, run `git pull`. You can also edit Markdown files directly in GitHub's web editor.
 
-## Add a note
+## Add notes to a subtopic
 
-1. Create `src/content/my-new-topic.md` with Markdown headings (`## Heading`), paragraphs and lists.
-2. Add its title, category, description, reading time and slug `my-new-topic` to `src/data/notes.js`.
-3. Run `npm run build` to check the new page, then commit and push.
+Every subtopic in `src/data/syllabus.js` has its own page. For example, `3.2.2 → Styles and movements` lives at `/notes/3.2.2/styles-and-movements/`.
 
-The page appears at `/notes/my-new-topic/` and in the searchable note library. Do not put private student information in this public repository.
+To put your written notes directly on that page, create the matching Markdown file:
+
+```text
+src/content/subtopics/3.2.2/styles-and-movements.md
+```
+
+Write ordinary Markdown, starting with a `##` heading. The page builds automatically; you do not need to create a new Astro page or edit the navigation. The pattern is `src/content/subtopics/<topic-code>/<subtopic-slug>.md`. Open the subtopic page to copy its URL slug, or see the matching title in `src/data/syllabus.js`.
+
+The existing Arts & Crafts and Bauhaus articles appear as links under Styles and movements. Materials & properties appears under Classification of materials. If you want to add another standalone article, create `src/content/<slug>.md`, add an item to `src/data/notes.js`, and set its `topic` and `subtopic` to match the syllabus. The article will appear on its assigned subtopic page.
+
+Run `npm run build`, then commit and push. Cloudflare publishes the update automatically. You can also edit Markdown from GitHub on either computer. Do not include private student information in this public repository.
 
 ## Cloudflare Pages settings
 
