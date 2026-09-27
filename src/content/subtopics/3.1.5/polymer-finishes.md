@@ -1,8 +1,5 @@
-# Polymer Finishes
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<section class="note-panel"><h2>Polymer Finishing</h2></section>
 <section class="note-panel"><h2>Polymer Finishing</h2>
 <div class="note-intro"><p>Polymers are generally considered <strong>self-finishing</strong> materials. This means that once they are removed from the mould or manufacturing process, they require no additional surface treatments to be functional or aesthetically pleasing.</p></div>
 <div class="note-grid"><div class="study-card"><h3>Overmoulding</h3>
