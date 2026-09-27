@@ -1,8 +1,5 @@
-# Safe Working Practices
-
 <!-- DESIGN NOTES DOCX IMPORT -->
 
-<section class="note-panel"><h2>Health and safety</h2></section>
 <section class="note-panel"><h2>Health and safety</h2>
 <div class="note-intro"><p>Health and safety is everyone’s responsibility and employers have a duty of care to ensure that procedures are implemented to keep employees safe, and to prevent them from being harmed or becoming ill through work.</p></div></section>
 <section class="note-panel"><h2>Safe working practices</h2>
