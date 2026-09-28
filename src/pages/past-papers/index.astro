@@ -38,11 +38,11 @@ const years = [
 <main class="wrap">
   <div class="year-nav">{years.map(y => <a href={`#year-${y.year}`}>{y.year}</a>)}</div>
 
-  {years.map((year, yi) =>
+  {years.map((year, yi) => (
     <section class="year" id={`year-${year.year}`}>
       <div class="year-head"><div><span>{String(yi+1).padStart(2,'0')} / {year.series.toUpperCase()}</span><h2>{year.year}</h2></div><p>Question papers + official mark schemes</p></div>
       <div class="papers">
-        {year.papers.map(p =>
+        {year.papers.map((p) => (
           <article class="paper">
             <div class="paper-meta"><span>{p.paper}</span><small>{p.code}</small></div>
             <h3>{p.title}</h3>
@@ -51,10 +51,10 @@ const years = [
               <button class="view" data-url={p.ms} data-label={`${year.year} · ${p.paper} · Mark scheme`}>View mark scheme</button>
             </div>
           </article>
-        )}
+        ))}
       </div>
     </section>
-  )}
+  ))}
 
   <section class="viewer" id="viewer" hidden>
     <div class="viewer-head">
