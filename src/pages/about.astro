@@ -1,5 +1,60 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="About | A-level DT"><div class="about"><span class="eyebrow">THE IDEA BEHIND THE SITE</span><h1>A better way to<br /><em>think about design.</em></h1><p>A-level DT is a growing collection of clear, considered revision notes for Design & Technology students. The aim is simple: make complex ideas easier to understand and genuinely enjoyable to explore.</p><p>Start with the topics that interest you, connect ideas across materials and design history, and come back whenever you need a refresher.</p><a class="button" href="/notes/">Explore the notes <span>↗</span></a></div></Base>
-<style>.about{min-height:75vh;background:#eee6fa;padding:110px clamp(24px,12vw,190px)}.about h1{margin:20px 0 30px}.about em{font-style:normal;color:#8654c4}.about p{max-width:620px;color:#645675;font-size:16px}.about .button{margin-top:20px}@media(max-width:650px){.about{padding:80px 24px}}</style>
+<Base title="About A·DT | AQA A-Level Product Design" description="The story behind A·DT, a free AQA A-Level Product Design revision platform created by an A-Level DT student.">
+<main class="about">
+  <section class="hero">
+    <span class="eyebrow">THE STORY BEHIND A·DT</span>
+    <h1>I wanted the DT resource<br /><em>I couldn't find.</em></h1>
+    <p class="lead">A·DT started from my own A-Level Product Design notes and grew into a free study space for students working through the AQA 7552 specification.</p>
+  </section>
+
+  <section class="story">
+    <div class="story-label"><span>01</span><p>WHY I MADE IT</p></div>
+    <div class="story-copy">
+      <h2>Hi, I'm Diya.</h2>
+      <p>I'm an A-Level Product Design student with an interest in Design Engineering. While revising DT, I found that there wasn't really one place where I could learn the whole AQA specification properly. I was constantly jumping between class notes, textbooks, past papers and different websites, and a lot of topics still didn't have the depth I wanted.</p>
+      <p>So I started making my own notes for each part of the specification. A·DT grew from those notes into something I wanted other DT students to be able to use too: one place to learn a topic, revise it with flashcards, test yourself with questions and keep track of what you still need to cover.</p>
+      <p>I'm continuing to build the site as I work through the course myself, so it grows alongside my own A-Level studies.</p>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="process-head"><span class="eyebrow">HOW IT GREW</span><h2>From revision notes to a study platform.</h2></div>
+    <div class="steps">
+      <article><span>01</span><h3>The problem</h3><p>I wanted a comprehensive DT resource organised around the actual specification, not scattered information across different places.</p></article>
+      <article><span>02</span><h3>My notes</h3><p>I began writing my own notes topic by topic, breaking down what I needed to know for each part of AQA Product Design.</p></article>
+      <article><span>03</span><h3>A·DT</h3><p>I designed those notes into a study experience with topic navigation, flashcards, quizzes, progress tracking and past paper resources.</p></article>
+      <article><span>04</span><h3>For other students</h3><p>The goal is to make the resource useful beyond my own revision and give other DT students one clear place to study the course.</p></article>
+    </div>
+  </section>
+
+  <section class="closing">
+    <span>CREATED BY DIYA</span>
+    <h2>Made while learning the course myself.</h2>
+    <p>The content on A·DT comes from the notes and revision material I create as an A-Level Product Design student. I keep improving the site as I learn more, revise more and find better ways to make difficult topics easier to study.</p>
+    <a class="button" href="/notes/">Explore the notes <span>↗</span></a>
+  </section>
+</main>
+</Base>
+
+<style>
+.about{background:#fbf8f5;color:#301b40}
+.hero{padding:100px clamp(28px,9vw,145px) 90px;background:linear-gradient(125deg,#eee2f7 0%,#f8edf5 55%,#fff4e7 100%);border-bottom:1px solid #dfd4e2}
+.eyebrow{font-size:10px;letter-spacing:.16em;font-weight:800;color:#8551a1}
+.hero h1{font-size:clamp(48px,6.4vw,88px);line-height:.98;letter-spacing:-.055em;margin:18px 0 30px;max-width:1050px}
+.hero h1 em{font-style:normal;color:#8954a5}
+.lead{font-size:clamp(17px,1.6vw,21px);line-height:1.65;max-width:760px;color:#66566e}
+.story{display:grid;grid-template-columns:210px minmax(0,720px);gap:70px;padding:95px clamp(28px,9vw,145px);justify-content:center}
+.story-label{padding-top:7px}.story-label span{font-size:42px;font-weight:800;color:#e0cde8}.story-label p{font-size:9px;letter-spacing:.15em;font-weight:800;color:#80519a}
+.story-copy h2,.process h2,.closing h2{font-size:clamp(31px,3.4vw,48px);letter-spacing:-.045em;margin:0 0 24px}
+.story-copy p{font-size:16px;line-height:1.8;color:#5f5365;margin:0 0 20px}
+.process{padding:80px clamp(28px,7vw,110px) 95px;background:#fff;border-top:1px solid #e6dde8;border-bottom:1px solid #e6dde8}
+.process-head{max-width:680px;margin-bottom:42px}.process-head h2{margin-top:12px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.steps article{background:#faf5fc;border:1px solid #e4d8e8;border-radius:13px;padding:26px;min-height:220px}
+.steps article>span{font-size:10px;font-weight:800;color:#a075b3}.steps h3{font-size:20px;margin:30px 0 12px}.steps p{font-size:13px;line-height:1.65;color:#6b5c71}
+.closing{padding:95px clamp(28px,12vw,190px);max-width:1100px}.closing>span{font-size:10px;letter-spacing:.15em;font-weight:800;color:#8653a0}.closing h2{margin-top:12px}.closing p{max-width:700px;font-size:16px;line-height:1.75;color:#625469}.button{display:inline-flex;gap:10px;align-items:center;margin-top:18px;background:#482166;color:#fff;padding:13px 18px;border-radius:7px;font-size:12px;font-weight:800}
+@media(max-width:850px){.story{grid-template-columns:1fr;gap:20px}.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.hero{padding:70px 22px}.story,.process,.closing{padding:65px 22px}.steps{grid-template-columns:1fr}.steps article{min-height:0}}
+</style>
