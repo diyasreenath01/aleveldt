@@ -1,21 +1,21 @@
 ---
 import Base from '../layouts/Base.astro';import { syllabus, subtopicSlug } from '../data/syllabus.js';const noteFiles = import.meta.glob('../content/subtopics/**/*.md', { query: '?raw', import: 'default', eager: true });
-const clean = (s='') => s.replace(/<br\\s*\\/?>(?=.)/gi,' ').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&nbsp;/g,' ').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/\\s+/g,' ').trim();
+const clean = (s='') => s.replace(/<br\s*\/?>(?=.)/gi,' ').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&nbsp;/g,' ').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/\s+/g,' ').trim();
 const flashcards = [];
 for (const [path, raw] of Object.entries(noteFiles)) {
-  const match = path.match(/subtopics\\/([^/]+)\\/(.+)\\.md$/);
-  if (!match || !raw.replace(/<!--[\\s\\S]*?-->/g,'').trim()) continue;
+  const match = path.match(/subtopics\/([^/]+)\/(.+)\.md$/);
+  if (!match || !raw.replace(/<!--[\s\S]*?-->/g,'').trim()) continue;
   const [, code, slug] = match;
   const group = syllabus.flatMap(g=>g.topics).find(([c])=>c===code);
   const subtopic = group?.[2].find(s=>subtopicSlug(s)===slug);
   if (!subtopic) continue;
-  const sections = [...raw.matchAll(/<section class="note-panel"><h2>(.*?)<\\/h2>([\\s\\S]*?)<\\/section>/gi)];
+  const sections = [...raw.matchAll(/<section class="note-panel"><h2>(.*?)<\/h2>([\s\S]*?)<\/section>/gi)];
   for (const section of sections) {
     const heading = clean(section[1]);
     const body = section[2];
-    const intro = [...body.matchAll(/<div class="note-intro">([\\s\\S]*?)<\\/div>/gi)].map(m=>clean(m[1])).filter(Boolean).join(' ');
+    const intro = [...body.matchAll(/<div class="note-intro">([\s\S]*?)<\/div>/gi)].map(m=>clean(m[1])).filter(Boolean).join(' ');
     if (intro) flashcards.push({topic:code,subtopic,front:`Explain ${heading}.`,back:intro});
-    for (const block of body.matchAll(/<div class="study-card"><h[34]>(.*?)<\\/h[34]>([\\s\\S]*?)<\\/div>/gi)) {
+    for (const block of body.matchAll(/<div class="study-card"><h[34]>(.*?)<\/h[34]>([\s\S]*?)<\/div>/gi)) {
       const title=clean(block[1]), answer=clean(block[2]);
       if(answer) flashcards.push({topic:code,subtopic,front:`What do you need to know about ${title}?`,back:answer});
     }
