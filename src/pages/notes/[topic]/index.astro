@@ -3,7 +3,6 @@ import Base from '../../../layouts/Base.astro';
 import { syllabus, subtopicPath, subtopicSlug } from '../../../data/syllabus.js';
 import { notes } from '../../../data/notes.js';
 import { quizQuestions } from '../../../data/quizQuestions.js';
-import { flashcards } from '../../../data/flashcards.js';
 
 export function getStaticPaths() {
   return syllabus.flatMap(group => group.topics.map(([code, title, subtopics]) => ({
@@ -13,7 +12,7 @@ export function getStaticPaths() {
 const { group, code, title, subtopics } = Astro.props;
 const modules = import.meta.glob('../../../content/subtopics/**/*.md', { eager: true });
 const hasQuiz = (name) => quizQuestions.some(q => q.topic === code && q.subtopic === name);
-const hasCards = (name) => flashcards.some(card => card.topic === code && card.subtopic === name);
+const hasCards = (name) => Boolean(sections.find(s => s.name === name)?.Content);
 const sections = subtopics.map(name => ({
   name,
   path: subtopicPath(code, name),
