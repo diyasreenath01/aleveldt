@@ -2,27 +2,30 @@
 import Base from '../../layouts/Base.astro';
 
 const years = [
-  {
-    year: '2024',
-    papers: [
-      { paper:'Paper 1', code:'7552/1', title:'Technical Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75521-QP-JUN24.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75521-MS-JUN24.PDF' },
-      { paper:'Paper 2', code:'7552/2', title:'Designing and Making Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75522-QP-JUN24.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75522-MS-JUN24.PDF' }
-    ]
-  },
-  {
-    year: '2023',
-    papers: [
-      { paper:'Paper 1', code:'7552/1', title:'Technical Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75521-QP-JUN23-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75521-MS-JUN23.PDF' },
-      { paper:'Paper 2', code:'7552/2', title:'Designing and Making Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75522-QP-JUN23-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75522-MS-JUN23.PDF' }
-    ]
-  },
-  {
-    year: '2022',
-    papers: [
-      { paper:'Paper 1', code:'7552/1', title:'Technical Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75521-QP-JUN22-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75521-MS-JUN22.PDF' },
-      { paper:'Paper 2', code:'7552/2', title:'Designing and Making Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75522-QP-JUN22-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75522-MS-JUN22.PDF' }
-    ]
-  }
+  { year:'2025', series:'June', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2025/june/AQA-75521-QP-JUN25.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2025/june/AQA-75521-MS-JUN25.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2025/june/AQA-75522-QP-JUN25.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2025/june/AQA-75522-MS-JUN25.PDF'}]},
+  { year:'2024', series:'June', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75521-QP-JUN24.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75521-MS-JUN24.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75522-QP-JUN24.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75522-MS-JUN24.PDF'}]},
+  { year:'2023', series:'June', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75521-QP-JUN23-CR.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75521-MS-JUN23.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75522-QP-JUN23-CR.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75522-MS-JUN23.PDF'}]},
+  { year:'2022', series:'June', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75521-QP-JUN22-CR.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75521-MS-JUN22.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75522-QP-JUN22-CR.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75522-MS-JUN22.PDF'}]},
+  { year:'2021', series:'November', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75521-QP-NOV21.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75521-MS-NOV21.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75522-QP-NOV21.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75522-MS-NOV21.PDF'}]},
+  { year:'2020', series:'November', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75521-QP-NOV20.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75521-W-MS-NOV20.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75522-QP-NOV20.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75522-W-MS-NOV20.PDF'}]},
+  { year:'2019', series:'June', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2019/june/AQA-75521-QP-JUN19.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2019/june/AQA-75521-W-MS-JUN19.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2019/june/AQA-75522-QP-JUN19.PDF',ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2019/june/AQA-75522-W-MS-JUN19.PDF'}]},
+  { year:'Specimen', series:'Sample set', papers:[
+    {paper:'Paper 1',code:'7552/1',title:'Technical Principles',qp:'https://filestore.aqa.org.uk/resources/design-and-technology/AQA-75521-SQP.PDF',ms:'https://filestore.aqa.org.uk/resources/design-and-technology/AQA-75521-SMS.PDF'},
+    {paper:'Paper 2',code:'7552/2',title:'Designing and Making Principles',qp:'https://filestore.aqa.org.uk/resources/design-and-technology/AQA-75522-SQP.PDF',ms:'https://filestore.aqa.org.uk/resources/design-and-technology/AQA-75522-SMS.PDF'}]}
 ];
 ---
 <Base title="AQA A-Level Product Design Past Papers | 7552" description="AQA A-Level Product Design 7552 past papers and mark schemes organised by year, with question papers and mark schemes viewable from A-levelDT.">
@@ -37,7 +40,7 @@ const years = [
 
   {years.map((year, yi) =>
     <section class="year" id={`year-${year.year}`}>
-      <div class="year-head"><div><span>{String(yi+1).padStart(2,'0')} / JUNE SERIES</span><h2>{year.year}</h2></div><p>Question papers + official mark schemes</p></div>
+      <div class="year-head"><div><span>{String(yi+1).padStart(2,'0')} / {year.series.toUpperCase()}</span><h2>{year.year}</h2></div><p>Question papers + official mark schemes</p></div>
       <div class="papers">
         {year.papers.map(p =>
           <article class="paper">
