@@ -1,33 +1,52 @@
-// AQA A-level Design and Technology: Product Design (7552), sections 3.1 and 3.2.
-// Topic titles follow the specification. Subtopics are concise navigation labels.
+// AQA A-level Design and Technology: Product Design (7552).
+// Navigation follows the revision-planner structure in the user's AQA textbook.
 export const syllabus = [
-  { id:'technical', code:'3.1 / PAPER 1', title:'Technical principles', source:'https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/specification/subject-content/technical-principles', topics:[
-    ['3.1.1','Materials and their applications',['Classification of materials','Investigating and testing materials']],
-    ['3.1.2','Performance characteristics of materials',['Papers and boards','Polymer sheet and film','Woods','Metals','Polymers','Elastomers','Biodegradable polymers','Composites','Smart materials','Modern materials']],
-    ['3.1.3','Enhancement of materials',['Polymers','Woods','Metals']],
-    ['3.1.4','Forming, redistribution and addition processes',['Paper and board','Polymers','Metals','Woods','Adhesives and fixings','Jigs and fixtures']],
-    ['3.1.5','The use of finishes',['Paper and board finishes','Printing processes','Polymer finishes','Metal finishes','Wood finishes']],
-    ['3.1.6','Modern industrial and commercial practice',['Scales of production','Efficient use of materials','Computer systems','Sub-assembly']],
-    ['3.1.7','Digital design and manufacture',['CAD','CAM','Virtual modelling','Rapid prototyping','Electronic data interchange','Production planning and control']],
-    ['3.1.8','Requirements for product design and development',['Product development and improvement','Inclusive design']],
-    ['3.1.9','Health and safety',['Safe working practices','Product safety for consumers']],
-    ['3.1.10','Protecting designs and intellectual property',['Copyright and design rights','Patents and registered designs','Trademarks and open design']],
-    ['3.1.11','Design for manufacturing, maintenance, repair and disposal',['Manufacture, repair, maintenance and disposal','Ease of manufacture','Disassembly']],
-    ['3.1.12','Feasibility studies',['Practicality and prototype testing']],
-    ['3.1.13','Enterprise and marketing in the development of products',['Brand identity','Marketing and costing','Collaborative working']],
-    ['3.1.14','Design communication',['Drawing and presentation techniques']]
+  { id:'technical', code:'PART 1 / PAPER 1', title:'Technical principles', topics:[
+    ['1','Materials and their applications',['Mechanical properties of materials','Physical properties of materials']],
+    ['2','Classification of materials',['Classification of materials']],
+    ['3','Methods for investigating and testing materials',['Materials testing','Simple workshop tests','Industrial tests']],
+    ['4','Performance characteristics of paper and boards',['Types of paper and boards','Performance characteristics']],
+    ['5','Performance characteristics of polymer-based sheet and film',['Performance characteristics of polymer-based sheet and film']],
+    ['6','Performance characteristics of woods',['Different stock forms of timber','Characteristics of wood','Different woods, performance characteristics and applications']],
+    ['7','Performance characteristics of metals',['Stock forms','Characteristics of metals and applications']],
+    ['8','Performance characteristics of polymers',['Stock forms','Characteristics of polymers']],
+    ['9','Biodegradable polymers',['Characteristics of biodegradable polymers','Degradation']],
+    ['10','Composites',['Characteristics of composites']],
+    ['11','Smart materials',['Characteristics of smart materials']],
+    ['12','Modern materials',['Characteristics of modern materials']],
+    ['13','Enhancement of materials',['Polymer enhancement','Wood enhancement','Metal enhancement']],
+    ['14','Paper and board forming processes',['Die cutting and creasing','Bending','Laser cutting']],
+    ['15','Polymer processes',['Polymer processes']],
+    ['16','Metal processes',['Metal processes','Addition/fabrication processes','Temporary fasteners and joining methods','Wasting processes']],
+    ['17','Wood processes',['Addition/fabrication processes','Forming processes']],
+    ['18','Adhesives and fixings',['Polyvinyl acetate (PVA)','Contact adhesive','UV hardening adhesive','Solvent cement','Epoxy resin','Jigs and fixtures']],
+    ['19','The use of finishes',['Paper and board finishing','Paper and board printing processes','Polymer finishing','Metal finishing','Cathodic protection','Wood finishing']],
+    ['20','Modern industrial and commercial practice',['Scales of production','Efficient use of materials','The use of computer systems','Sub-assembly']],
+    ['21','Digital design and manufacture',['Computer aided design (CAD)','Computer aided manufacture (CAM)','Virtual modelling','Rapid prototyping processes','Electronic data interchange','Production, planning and control (PPC) networking']],
+    ['22','The requirements for product design and development',['Product development and improvement','Inclusive design']],
+    ['23','Health and safety',['Safe working practices','Safety in products and services to the customer']],
+    ['24','Protecting designs and intellectual property',['Intellectual property (IP)','Copyright and design rights','Patents','Registered designs','Trademarks and logos','Open design']],
+    ['25','Design for manufacturing, maintenance, repair and disposal',['Ease of manufacture','Disassembly']],
+    ['26','Feasibility studies',['Computer modelling in production planning','Feasibility studies and costings','Feasibility modelling in design','Testing prototypes']],
+    ['27','Enterprise and marketing in the development of products',['The importance of marketing and brand identity','Collaborative work']],
+    ['28','Design communication',['Report writing','The use of graphs, tables and charts','2D and 3D drawing','Dimensioning and details for manufacture']],
+    ['29','Modern manufacturing systems',['Modern manufacturing systems']]
   ]},
-  { id:'designing', code:'3.2 / PAPER 2', title:'Designing and making principles', source:'https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/specification/subject-content/designing-and-making-principles', topics:[
-    ['3.2.1','Design methods and processes',['Iterative design','User-centred research','Prototyping and evaluation']],
-    ['3.2.2','Design theory',['Design influences','Styles and movements','Designers and their work']],
-    ['3.2.3','How technology and cultural changes impact designers',['Socioeconomic influences','Technological developments','Social, moral and ethical issues','Product life cycle']],
-    ['3.2.4','Design processes',['Design process','Prototype development','Commercial iterative design']],
-    ['3.2.5','Critical analysis and evaluation',['Testing commercial products','Third-party feedback']],
-    ['3.2.6','Selecting appropriate tools, equipment and processes',['Tools and safe working','Choosing manufacturing processes']],
-    ['3.2.7','Accuracy in design and manufacture',['Measuring','Jigs, fixtures and tolerances']],
-    ['3.2.8','Responsible design',['Environmental issues','Conserving energy and resources']],
-    ['3.2.9','Design for manufacture and project management',['Planning for accuracy','Quality assurance','Quality control']],
-    ['3.2.10','National and international standards in product design',['BSI and ISO','Product directives','Eco labels and recycling codes']]
+  { id:'designing', code:'PART 2 / PAPER 2', title:'Designing and making principles', topics:[
+    ['1','Design methods and processes',['Iterative design process','User-centred design (UCD)']],
+    ['2','Design influences, styles and movements',['Design influences, styles and movements']],
+    ['3','Designers and their work',['Designers and their work']],
+    ['4','Socio-economic influences',['Post-First World War','The Second World War','Contemporary times']],
+    ['5','Major developments in technology',['Microelectronics','New materials','New methods of manufacture','Advancements in CAD/CAM']],
+    ['6','Social, moral and ethical issues',['Sustainable materials and ethical production','Cultural acceptability','Inclusive design','Social problems','Fairtrade','The six Rs of sustainability']],
+    ['7','Product life cycle',['The stages of the product life cycle (PLC)','Redefining and redeveloping products']],
+    ['8','Design processes',['The use of a design process']],
+    ['9','Critical analysis and evaluation',['How to critically analyse and evaluate','Testing and evaluating products in industrial or commercial contexts','Use of third-party feedback in the testing and evaluation process']],
+    ['10','Selecting appropriate tools, equipment and processes',['Using the correct tools and equipment for specific tasks','Ensuring your own safety and that of others','Development of designs','The manufacturing process','Selecting the most appropriate manufacturing process','The importance of health and safety']],
+    ['11','Accuracy in design and manufacture',['Measuring and marking out','The importance of accuracy','How testing can eliminate errors','Measuring aids']],
+    ['12','Responsible design',['Environmental issues','Conservation of energy and resources']],
+    ['13','Design for manufacture and project management',['Planning for accuracy and efficiency','Making recommendations for accuracy','Quality assurance (QA)','Quality control (QC)']],
+    ['14','National and international standards in product design',['British Standards Institution (BSI)','International Organization for Standardization (ISO)','Directives and labelling initiatives']]
   ]}
 ];
 
