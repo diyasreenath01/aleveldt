@@ -11,8 +11,6 @@ export function getStaticPaths() {
 }
 const { group, code, title, subtopics } = Astro.props;
 const modules = import.meta.glob('../../../content/subtopics/**/*.md', { eager: true });
-const hasQuiz = (name) => quizQuestions.some(q => q.topic === code && q.subtopic === name);
-const hasCards = (name) => Boolean(sections.find(s => s.name === name)?.Content);
 const sections = subtopics.map(name => ({
   name,
   path: subtopicPath(code, name),
