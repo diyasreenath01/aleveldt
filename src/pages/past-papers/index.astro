@@ -36,7 +36,7 @@ const years = [
 </header>
 
 <main class="wrap">
-  <div class="year-nav">{years.map(y => <a href={`#year-${y.year}`}>${y.year}</a>)}</div>
+  <div class="year-nav">{years.map(y => <a href={`#year-${y.year}`}>{y.year}</a>)}</div>
 
   {years.map((year, yi) =>
     <section class="year" id={`year-${year.year}`}>
