@@ -1,9 +1,83 @@
 ---
 import Base from '../../layouts/Base.astro';
+
+const years = [
+  {
+    year: '2024',
+    papers: [
+      { paper:'Paper 1', code:'7552/1', title:'Technical Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75521-QP-JUN24.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75521-MS-JUN24.PDF' },
+      { paper:'Paper 2', code:'7552/2', title:'Designing and Making Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75522-QP-JUN24.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2024/june/AQA-75522-MS-JUN24.PDF' }
+    ]
+  },
+  {
+    year: '2023',
+    papers: [
+      { paper:'Paper 1', code:'7552/1', title:'Technical Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75521-QP-JUN23-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75521-MS-JUN23.PDF' },
+      { paper:'Paper 2', code:'7552/2', title:'Designing and Making Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75522-QP-JUN23-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75522-MS-JUN23.PDF' }
+    ]
+  },
+  {
+    year: '2022',
+    papers: [
+      { paper:'Paper 1', code:'7552/1', title:'Technical Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75521-QP-JUN22-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75521-MS-JUN22.PDF' },
+      { paper:'Paper 2', code:'7552/2', title:'Designing and Making Principles', qp:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75522-QP-JUN22-CR.PDF', ms:'https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75522-MS-JUN22.PDF' }
+    ]
+  }
+];
 ---
-<Base title="Past papers | A-level DT" description="AQA 7552 Product Design past papers and mark schemes.">
-<header class="head"><span class="label">AQA 7552 / EXAM PRACTICE</span><h1>Past papers<br /><span>for AQA 7552.</span></h1><p>Use official AQA question papers and mark schemes. Select Product Design (7552), then filter by paper and year on AQA’s resource page.</p></header>
-<section class="content"><div class="paper"><span>01 / 7552/1</span><h2>Technical principles</h2><p>2 hours 30 minutes · 120 marks · 30% of the A-level.</p><a href="https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/assessment-resources" target="_blank" rel="noopener noreferrer">Find Paper 1 resources ↗</a></div><div class="paper"><span>02 / 7552/2</span><h2>Designing and making principles</h2><p>1 hour 30 minutes · 80 marks · 20% of the A-level.</p><a href="https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/assessment-resources" target="_blank" rel="noopener noreferrer">Find Paper 2 resources ↗</a></div><p class="source">Question papers, mark schemes and examiner reports are hosted by AQA. This page links to their current assessment resources so that you always see the available years.</p></section>
-</Base>
-<style>.head{background:linear-gradient(110deg,#f6eafb,#dfcbf6);color:#291743;padding:55px clamp(24px,7vw,112px) 58px}.label,.paper>span{font-size:11px;letter-spacing:.14em;font-weight:800;color:#7750a0}.head h1{font-size:clamp(44px,5.3vw,75px);margin:25px 0;letter-spacing:-.075em}.head h1 span{color:#8953bc}.head p{max-width:650px;color:#61506e;font-size:16px}.content{padding:55px clamp(24px,7vw,112px) 90px;background:#fffaf7;display:grid;grid-template-columns:1fr 1fr;gap:18px}.paper{background:white;border:1px solid #e5daef;border-radius:13px;padding:34px;box-shadow:0 9px 28px #42205b0b;min-height:255px;display:flex;align-items:start;flex-direction:column}.paper>span{color:#7955ac}.paper h2{font-size:clamp(29px,3vw,45px);margin:28px 0 12px}.paper p{font-size:13px;color:#71647d}.paper a{margin-top:auto;background:#321754;color:white;padding:14px 18px;font-size:12px;font-weight:800;transition:background .2s}.paper a:hover{background:#684099}.source{grid-column:1/-1;font-size:12px;color:#786c82;margin-top:15px}@media(max-width:700px){.content{grid-template-columns:1fr}.paper{min-height:275px}}
+<Base title="AQA A-Level Product Design Past Papers | 7552" description="AQA A-Level Product Design 7552 past papers and mark schemes organised by year, with question papers and mark schemes viewable from A-levelDT.">
+<header class="hero">
+  <span>AQA 7552 / PAST PAPERS</span>
+  <h1>Past papers,<br/><em>without the searching.</em></h1>
+  <p>Choose a year, then open the question paper or mark scheme. The original PDFs are served by AQA and can be viewed here while you revise.</p>
+</header>
+
+<main class="wrap">
+  <div class="year-nav">{years.map(y => <a href={`#year-${y.year}`}>${y.year}</a>)}</div>
+
+  {years.map((year, yi) =>
+    <section class="year" id={`year-${year.year}`}>
+      <div class="year-head"><div><span>{String(yi+1).padStart(2,'0')} / JUNE SERIES</span><h2>{year.year}</h2></div><p>Question papers + official mark schemes</p></div>
+      <div class="papers">
+        {year.papers.map(p =>
+          <article class="paper">
+            <div class="paper-meta"><span>{p.paper}</span><small>{p.code}</small></div>
+            <h3>{p.title}</h3>
+            <div class="actions">
+              <button class="view primary" data-url={p.qp} data-label={`${year.year} · ${p.paper} · Question paper`}>View question paper</button>
+              <button class="view" data-url={p.ms} data-label={`${year.year} · ${p.paper} · Mark scheme`}>View mark scheme</button>
+            </div>
+          </article>
+        )}
+      </div>
+    </section>
+  )}
+
+  <section class="viewer" id="viewer" hidden>
+    <div class="viewer-head">
+      <div><span>DOCUMENT VIEWER</span><h2 id="viewer-title">Past paper</h2></div>
+      <div class="viewer-actions"><a id="open-pdf" target="_blank" rel="noopener noreferrer">Open PDF ↗</a><button id="close-viewer">Close</button></div>
+    </div>
+    <iframe id="pdf-frame" title="AQA past paper PDF" loading="lazy"></iframe>
+    <p class="fallback">If your browser blocks AQA from displaying the PDF inside the page, use <strong>Open PDF</strong> above. You will still go straight to the correct document — no searching required.</p>
+  </section>
+
+  <p class="source">AQA owns and hosts the examination documents. A-levelDT provides a revision-friendly index and viewer; the PDFs are not copied into this website.</p>
+</main>
+
+<script>
+const viewer=document.querySelector('#viewer'),frame=document.querySelector('#pdf-frame'),title=document.querySelector('#viewer-title'),open=document.querySelector('#open-pdf');
+document.querySelectorAll('.view').forEach(button=>button.addEventListener('click',()=>{
+  const url=button.dataset.url;
+  frame.src=url+'#view=FitH';
+  open.href=url;
+  title.textContent=button.dataset.label;
+  viewer.hidden=false;
+  viewer.scrollIntoView({behavior:'smooth',block:'start'});
+}));
+document.querySelector('#close-viewer').addEventListener('click',()=>{viewer.hidden=true;frame.src='';});
+</script>
+
+<style>
+.hero{background:linear-gradient(115deg,#f4e7fa,#e4d1f5 58%,#f8eee6);padding:58px clamp(24px,7vw,112px) 62px;color:#2d1742}.hero>span,.year-head span,.viewer-head span{font-size:10px;letter-spacing:.15em;font-weight:800;color:#8054a0}.hero h1{font-size:clamp(46px,5.8vw,78px);line-height:.98;letter-spacing:-.065em;margin:20px 0}.hero h1 em{font-style:normal;color:#925ab2}.hero p{font-size:16px;line-height:1.65;color:#66556f;max-width:690px}.wrap{padding:36px clamp(24px,7vw,112px) 90px;background:#fffaf7}.year-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:42px}.year-nav a{padding:10px 17px;border:1px solid #dfd2e5;border-radius:999px;background:#fff;color:#5b386f;font-size:12px;font-weight:800}.year-nav a:hover{background:#f1e5f6}.year{margin:0 0 52px;scroll-margin-top:20px}.year-head{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #e7dde8;padding-bottom:15px;margin-bottom:16px}.year-head h2{font-size:42px;margin:4px 0 0;letter-spacing:-.04em}.year-head p{font-size:12px;color:#877a8d;margin:0 0 7px}.papers{display:grid;grid-template-columns:1fr 1fr;gap:13px}.paper{background:#fff;border:1px solid #e5dbe8;border-radius:13px;padding:25px;box-shadow:0 7px 22px #44225208}.paper-meta{display:flex;justify-content:space-between;align-items:center}.paper-meta span{font-size:11px;font-weight:800;color:#8555a2;text-transform:uppercase;letter-spacing:.08em}.paper-meta small{font-size:10px;color:#95899a}.paper h3{font-size:24px;margin:16px 0 25px}.actions{display:flex;gap:8px;flex-wrap:wrap}.actions button,.viewer-actions button,.viewer-actions a{border:1px solid #ded1e4;border-radius:7px;padding:11px 14px;background:#f8f3fa;color:#553567;font:800 11px 'DM Sans',sans-serif;cursor:pointer}.actions .primary{background:#482166;color:#fff;border-color:#482166}.viewer{margin:15px 0 40px;border:1px solid #dfd3e3;border-radius:15px;background:#fff;overflow:hidden;scroll-margin-top:15px}.viewer[hidden]{display:none}.viewer-head{display:flex;justify-content:space-between;align-items:center;padding:20px 22px;border-bottom:1px solid #e8dfe9;background:#faf6fb}.viewer-head h2{font-size:19px;margin:5px 0 0}.viewer-actions{display:flex;gap:7px}.viewer-actions a{background:#482166;color:#fff;border-color:#482166}.viewer iframe{display:block;width:100%;height:78vh;min-height:650px;border:0;background:#f3f0f3}.fallback{font-size:11px;color:#817484;margin:0;padding:12px 20px;border-top:1px solid #eee6ef}.source{font-size:11px;color:#8b7e90;max-width:760px}@media(max-width:750px){.papers{grid-template-columns:1fr}.year-head{align-items:start;flex-direction:column;gap:5px}.year-head p{margin:0}.viewer-head{align-items:start;flex-direction:column;gap:13px}.viewer iframe{height:70vh;min-height:500px}.actions{display:grid}.actions button{width:100%}}
 </style>
