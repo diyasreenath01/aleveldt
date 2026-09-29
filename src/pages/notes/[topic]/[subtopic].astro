@@ -11,6 +11,7 @@ export function getStaticPaths() {
   }))));
 }
 const { group, code, title, subtopic, index, subtopics } = Astro.props;
+const seoTitle = `${subtopic} | AQA A-Level DT Notes`;
 const related = notes.filter(note => note.topic === code && note.subtopic === subtopic);
 const modules = import.meta.glob('../../../content/subtopics/**/*.md', { eager: true });
 const content = modules[`../../../content/subtopics/${code}/${subtopicSlug(subtopic)}.md`];
@@ -18,7 +19,7 @@ const Content = content?.Content;
 const hasQuiz = quizQuestions.some(q => q.topic === code && q.subtopic === subtopic);
 const hasCards = Boolean(Content);
 ---
-<Base title={`${subtopic} Revision Notes | AQA A-Level Product Design`} description={`Free AQA A-Level Product Design 7552 revision notes for ${subtopic} (${code}), covering key knowledge for the specification.`}>
+<Base title={seoTitle} description={`AQA A-Level Product Design 7552 revision notes for ${subtopic} (${code}), with specification-focused knowledge and active recall.`}>
 <div class="subpage"><div class="crumb"><a href="/notes/">Revision notes</a> <span>/</span> <a href={`/notes/#${group.id}`}>{group.title}</a> <span>/</span> {code}</div><div class="subhead"><span>AQA 7552 &nbsp; / &nbsp; {code}</span><h1>{subtopic}<b>.</b></h1><p>{title} · {group.title}</p></div><div class="subgrid"><section class="material"><h2>Revision notes</h2>{Content ? <div class="prose"><Content /></div> : related.length ? <div class="related">{related.map(note => <a href={`/notes/${note.slug}/`}><div><small>{note.category} · {note.reading}</small><strong>{note.title}</strong><p>{note.description}</p></div><span>↗</span></a>)}</div> : <p class="pending">Notes for this subtopic are being added. Use the AQA specification link below to see the required content.</p>}<div class="test-box"><span>ACTIVE RECALL</span><h3>Think you have got this topic?</h3><p>Test yourself before moving on, or use flashcards for a quick recall session.</p><div>{hasQuiz && <a href={`/quiz/?topic=${encodeURIComponent(`${code}::${subtopic}`)}`}>Start a quiz →</a>}{hasCards && <a href={`/flashcards/?topic=${encodeURIComponent(`${code}::${subtopic}`)}`}>Open flashcards →</a>}{!hasQuiz && !hasCards && <a href="/quiz/">Browse quiz mode →</a>}</div></div><a class="spec" href={group.source} target="_blank" rel="noopener noreferrer">Check this topic in the AQA specification ↗</a></section></div></div>
 </Base>
 <style>
