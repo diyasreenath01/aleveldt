@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { notes } from '../../data/notes.js';
 
-export function getStaticPaths() { return notes.map(note => ({ params: { slug: note.slug }, props: { note } })); }
+export function getStaticPaths() { return notes.filter(note => note.slug !== 'materials-and-properties').map(note => ({ params: { slug: note.slug }, props: { note } })); }
 const { note } = Astro.props;
 const modules = import.meta.glob('../../content/*.md', { eager: true });
 const content = modules[`../../content/${note.slug}.md`];

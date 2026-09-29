@@ -3,24 +3,31 @@ import Base from '../../../layouts/Base.astro';
 import { syllabus, subtopicSlug } from '../../../data/syllabus.js';
 import { notes } from '../../../data/notes.js';
 import { quizQuestions } from '../../../data/quizQuestions.js';
+import { hasSubtopicNotes, paperPath, paperName } from '../../../data/contentStatus.js';
 
 export function getStaticPaths() {
-  return syllabus.flatMap(group => group.topics.flatMap(([code, title, subtopics]) => subtopics.map((subtopic, index) => ({
-    params: { topic: code, subtopic: subtopicSlug(subtopic) },
-    props: { group: { id: group.id, title: group.title, source: group.source }, code, title, subtopic, index, subtopics }
-  }))));
+  return syllabus.flatMap(group => group.topics.flatMap(([code, title, subtopics]) => subtopics
+    .filter(subtopic => hasSubtopicNotes(code, subtopic))
+    .map((subtopic, index) => ({
+      params: { topic: code, subtopic: subtopicSlug(subtopic) },
+      props: { group: { id: group.id, title: group.title, source: group.source }, code, title, subtopic, index, subtopics }
+    }))));
 }
 const { group, code, title, subtopic, index, subtopics } = Astro.props;
-const seoTitle = `${subtopic} | AQA A-Level DT Notes`;
-const related = notes.filter(note => note.topic === code && note.subtopic === subtopic);
+const seoTitle = `${subtopic} | AQA A-Level Product Design 7552 Notes`;
+const related = notes.filter(note => note.topic === code && note.subtopic === subtopic && note.slug !== 'materials-and-properties');
 const modules = import.meta.glob('../../../content/subtopics/**/*.md', { eager: true });
 const content = modules[`../../../content/subtopics/${code}/${subtopicSlug(subtopic)}.md`];
 const Content = content?.Content;
 const hasQuiz = quizQuestions.some(q => q.topic === code && q.subtopic === subtopic);
 const hasCards = Boolean(Content);
+const paper = paperName(group);
+const paperURL = paperPath(group);
+const siblings = subtopics.filter(name => name !== subtopic && hasSubtopicNotes(code, name));
+const breadcrumbs = [{name:'A-levelDT',path:'/'},{name:'Revision notes',path:'/notes/'},{name:paper,path:paperURL},{name:title,path:`/notes/${code}/`},{name:subtopic,path:`/notes/${code}/${subtopicSlug(subtopic)}/`}];
 ---
-<Base title={seoTitle} description={`AQA A-Level Product Design 7552 revision notes for ${subtopic} (${code}), with specification-focused knowledge and active recall.`}>
-<div class="subpage"><div class="crumb"><a href="/notes/">Revision notes</a> <span>/</span> <a href={`/notes/#${group.id}`}>{group.title}</a> <span>/</span> {code}</div><div class="subhead"><span>AQA 7552 &nbsp; / &nbsp; {code}</span><h1>{subtopic}<b>.</b></h1><p>{title} · {group.title}</p></div><div class="subgrid"><section class="material"><h2>Revision notes</h2>{Content ? <div class="prose"><Content /></div> : related.length ? <div class="related">{related.map(note => <a href={`/notes/${note.slug}/`}><div><small>{note.category} · {note.reading}</small><strong>{note.title}</strong><p>{note.description}</p></div><span>↗</span></a>)}</div> : <p class="pending">Notes for this subtopic are being added. Use the AQA specification link below to see the required content.</p>}<div class="test-box"><span>ACTIVE RECALL</span><h3>Think you have got this topic?</h3><p>Test yourself before moving on, or use flashcards for a quick recall session.</p><div>{hasQuiz && <a href={`/quiz/?topic=${encodeURIComponent(`${code}::${subtopic}`)}`}>Start a quiz →</a>}{hasCards && <a href={`/flashcards/?topic=${encodeURIComponent(`${code}::${subtopic}`)}`}>Open flashcards →</a>}{!hasQuiz && !hasCards && <a href="/quiz/">Browse quiz mode →</a>}</div></div><a class="spec" href={group.source} target="_blank" rel="noopener noreferrer">Check this topic in the AQA specification ↗</a></section></div></div>
+<Base title={seoTitle} description={`Study ${subtopic} in AQA A-Level Product Design 7552 (${code}). Read the revision notes, then test your knowledge with topic flashcards and quizzes.`} breadcrumbs={breadcrumbs}>
+<div class="subpage"><nav class="crumb" aria-label="Breadcrumb"><a href="/">A-levelDT</a> <span>›</span> <a href="/notes/">Revision notes</a> <span>›</span> <a href={paperURL}>{paper}</a> <span>›</span> <a href={`/notes/${code}/`}>{title}</a> <span>›</span> <span aria-current="page">{subtopic}</span></nav><div class="subhead"><span>AQA 7552 &nbsp; / &nbsp; {code}</span><h1>{subtopic}<b>.</b></h1><p>{title} · {group.title}</p></div><div class="subgrid"><section class="material"><h2>Revision notes</h2>{Content && <div class="prose"><Content /></div>}{related.length > 0 && <div class="related"><h3>Related reading</h3>{related.map(note => <a href={`/notes/${note.slug}/`}><div><small>{note.category} · {note.reading}</small><strong>{note.title}</strong><p>{note.description}</p></div><span>↗</span></a>)}</div>}<div class="test-box"><span>ACTIVE RECALL</span><h3>Think you have got this topic?</h3><p>Test yourself before moving on, or use flashcards for a quick recall session.</p><div>{hasQuiz && <a href={`/quiz/?topic=${encodeURIComponent(`${code}::${subtopic}`)}`}>Start a quiz →</a>}{hasCards && <a href={`/flashcards/?topic=${encodeURIComponent(`${code}::${subtopic}`)}`}>Open flashcards →</a>}</div></div>{siblings.length > 0 && <nav class="related" aria-label="More notes in this topic"><h3>More in {title}</h3>{siblings.map(name => <a href={`/notes/${code}/${subtopicSlug(name)}/`}><strong>{name}</strong><span>→</span></a>)}</nav>}<a class="spec" href={group.source} target="_blank" rel="noopener noreferrer">Check this topic in the AQA specification ↗</a></section></div></div>
 </Base>
 <style>
 .subpage{padding:28px clamp(22px,4vw,62px) 75px;background:#fbf8f5;min-height:80vh}.crumb{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:#786887;margin-bottom:23px}.crumb a:hover{color:#8451a9}.crumb span{color:#b4a2bd}.subhead{padding:32px 38px;background:linear-gradient(110deg,#f3e6fb,#f9edf4 68%,#fbeedd);border:1px solid #e9d9eb;border-radius:14px}.subhead>span{font-size:10px;font-weight:800;letter-spacing:.13em;color:#824c9f}.subhead h1{font-size:clamp(37px,4.6vw,65px);margin:13px 0 7px}.subhead h1 b{color:#a568bb}.subhead p{font-size:13px;color:#74627d;margin:0}.subgrid{display:block;margin-top:22px}.material{background:white;border:1px solid #e9dfe8;border-radius:13px;padding:clamp(30px,3.2vw,48px)}.material h2{font-size:30px;margin:0 0 16px}.pending{background:#f9f4fb;border-left:3px solid #c6a3d8;padding:20px;color:#6c5976;font-size:18px}.related{border-top:1px solid #eee5ee}.related>a{padding:16px 0;border-bottom:1px solid #eee5ee;display:flex;justify-content:space-between;align-items:center;gap:20px}.related strong,.related small{display:block}.related small{color:#8a62a3;font-size:10px}.related strong{font-size:18px;margin:5px 0}.related p{color:#776d7c;font-size:12px;margin:0}.related>a>span{color:#7d4ca3}.spec{display:inline-block;font-size:12px;font-weight:800;color:#75469c;margin-top:20px}.prose{font-size:22px;color:#514a59;line-height:1.78}.prose :global(h2){font-size:34px;margin:34px 0 14px}.prose :global(h3){font-size:27px;margin:28px 0 10px}.prose :global(a){text-decoration:underline}.prose :global(li){margin:8px 0}aside>span{font-size:9px;letter-spacing:.13em;font-weight:800;color:#875ba6}aside h3{font-size:16px;margin:12px 0 19px}aside nav{display:grid;gap:3px}aside nav a{font-size:11px;color:#65586e;padding:10px;border-radius:6px}aside nav a:hover,aside nav a.current{background:#f3e8fa;color:#58277a}aside .back{display:block;border-top:1px solid #eee5ee;margin-top:20px;padding-top:19px;color:#71499b;font-size:11px;font-weight:800}@media(max-width:760px){.subhead{padding:24px}.material{padding:24px}}

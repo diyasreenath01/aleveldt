@@ -1,4 +1,0 @@
-export function GET({ site }) {
- const base=site ?? new URL('https://aleveldt.com');
- return new Response('User-agent: *\nAllow: /\nSitemap: '+new URL('/sitemap.xml',base).href+'\n',{headers:{'Content-Type':'text/plain'}});
-}
