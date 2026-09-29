@@ -9,15 +9,30 @@ for (const [path, raw] of Object.entries(noteFiles)) {
   const group = syllabus.flatMap(g=>g.topics).find(([c])=>c===code);
   const subtopic = group?.[2].find(s=>subtopicSlug(s)===slug);
   if (!subtopic) continue;
-  const sections = [...raw.matchAll(/<section class="note-panel"><h2>(.*?)<\/h2>([\s\S]*?)<\/section>/gi)];
-  for (const section of sections) {
-    const heading = clean(section[1]);
-    const body = section[2];
-    const intro = [...body.matchAll(/<div class="note-intro">([\s\S]*?)<\/div>/gi)].map(m=>clean(m[1])).filter(Boolean).join(' ');
-    if (intro) flashcards.push({topic:code,subtopic,front:`Explain ${heading}.`,back:intro});
-    for (const block of body.matchAll(/<div class="study-card"><h[34]>(.*?)<\/h[34]>([\s\S]*?)<\/div>/gi)) {
-      const title=clean(block[1]), answer=clean(block[2]);
-      if(answer) flashcards.push({topic:code,subtopic,front:`What do you need to know about ${title}?`,back:answer});
+  const addCard=(front,back)=>{front=clean(front);back=clean(back);if(front&&back&&!flashcards.some(x=>x.topic===code&&x.subtopic===subtopic&&x.front===front&&x.back===back))flashcards.push({topic:code,subtopic,front,back})};
+  const htmlSections = [...raw.matchAll(/<section class="note-panel"><h2>(.*?)<\/h2>([\s\S]*?)<\/section>/gi)];
+  if(htmlSections.length){
+    for (const section of htmlSections) {
+      const heading=clean(section[1]),body=section[2];
+      for(const p of body.matchAll(/<div class="note-intro">([\s\S]*?)<\/div>/gi)){
+        const paras=[...p[1].matchAll(/<p>([\s\S]*?)<\/p>/gi)].map(x=>clean(x[1])).filter(Boolean);
+        (paras.length?paras:[clean(p[1])]).forEach((answer,n)=>addCard(n?`What else is important about ${heading}?`:`Explain ${heading}.`,answer));
+      }
+      for(const block of body.matchAll(/<div class="study-card"><h[34]>(.*?)<\/h[34]>([\s\S]*?)<\/div>/gi)){
+        const title=clean(block[1]),b=block[2];
+        const points=[...b.matchAll(/<li>([\s\S]*?)<\/li>/gi)].map(x=>clean(x[1])).filter(Boolean);
+        const paras=[...b.matchAll(/<p>([\s\S]*?)<\/p>/gi)].map(x=>clean(x[1])).filter(Boolean);
+        if(points.length) points.forEach((answer,n)=>addCard(n?`Give another key point about ${title}.`:`What is a key point about ${title}?`,answer));
+        else if(paras.length) paras.forEach((answer,n)=>addCard(n?`What else should you know about ${title}?`:`What do you need to know about ${title}?`,answer));
+        else addCard(`What do you need to know about ${title}?`,clean(b));
+      }
+    }
+  } else {
+    const textRaw=raw.replace(/<!--([\s\S]*?)-->/g,'').trim();
+    const chunks=[...textRaw.matchAll(/^(#{2,4})\s+(.+)$([\s\S]*?)(?=^#{2,4}\s+|\s*$)/gm)];
+    for(const [,marks,title,body] of chunks){
+      const paras=body.split(/\n\s*\n/).map(x=>clean(x.replace(/^[-*]\s+/gm,''))).filter(Boolean);
+      paras.forEach((answer,n)=>addCard(n?`What else should you know about ${title}?`:`What do you need to know about ${title}?`,answer));
     }
   }
 }const available=[...new Set(flashcards.map(x=>x.topic+'::'+x.subtopic))];
