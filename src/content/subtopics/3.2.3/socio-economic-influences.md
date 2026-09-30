@@ -88,7 +88,19 @@ As society moved from wartime austerity towards greater prosperity, design incre
 
 The **Lövet table (1956)** demonstrated the economic advantages of knock-down furniture. Detachable legs allowed the table to be packed flat, reducing transport and storage volume and allowing customers to take furniture home more easily. This supported economical large-scale distribution.
 
-The **Billy bookcase (1979)** illustrates the development of affordable, standardised modular furniture. Consumers could add storage relatively cheaply as their needs changed. Flat-pack and modular furniture therefore responded to mobility, smaller homes, affordability and demand for mass-produced furniture.
+**3 important points — Lövet table:**
+1. **Knock-down design:** Gillis Lundgren used removable legs so the table could be transported flat and fit into a car boot.
+2. **Cheaper logistics:** Flat packing reduced transport and storage volume, supporting economical large-scale distribution.
+3. **Changing lifestyles:** The design suited a more mobile society that wanted affordable furniture that could be transported easily.
+
+#### Case study: IKEA Billy Bookcase (1979)
+
+The **Billy Bookcase (1979)** is an example of affordable, standardised modular furniture. Its standardised shelving allowed consumers to expand their domestic storage affordably as their needs changed. It reflects the growth of mass-produced flat-pack furniture and a consumer culture increasingly based on inexpensive products and frequent purchasing. Flat-pack and modular furniture therefore responded to mobility, smaller homes, affordability and demand for mass-produced furniture, while also connecting to the growing trend of throwaway culture and buying cheaply.
+
+**3 important points — Billy Bookcase:**
+1. **Standardised and modular:** Standardised shelving provided a practical storage system that consumers could expand as their needs changed.
+2. **Affordable mass-produced furniture:** Efficient production and flat-pack distribution helped make domestic storage more affordable to a mass market.
+3. **Consumer and throwaway culture:** The Billy Bookcase reflects the growing demand for inexpensive, readily available furniture and the wider trend towards buying cheaply and replacing products more frequently.
 
 ### The development of polymers and consumer products
 
