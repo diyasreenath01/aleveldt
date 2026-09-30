@@ -86,7 +86,7 @@ As society moved from wartime austerity towards greater prosperity, design incre
 
 ### Flat-pack furniture and changing lifestyles
 
-The **Lövet table (1956)** demonstrated the economic advantages of knock-down furniture. Detachable legs allowed the table to be packed flat, reducing transport and storage volume and allowing customers to take furniture home more easily. This supported economical large-scale distribution.
+#### Case study: Lövet Table (1956)
 
 **3 important points — Lövet table:**
 1. **Knock-down design:** Gillis Lundgren used removable legs so the table could be transported flat and fit into a car boot.
