@@ -1,0 +1,42 @@
+---
+const { code, slug } = Astro.props;
+const key = `${code}/${slug}`;
+const pageMedia = {
+'3.1.1/methods-for-investigating-and-testing-materials': {src:'https://courses.ems.psu.edu/matse81/sites/matse81/files/images/lesson04/stress_strain_testing.jpg',alt:'Tensile testing machine and standard test specimen',caption:'Tensile testing: a controlled load is applied to a standard specimen so strength and deformation can be measured.'},
+'3.1.2/woods': {src:'https://www.wonkeedonkeetrend.co.uk/media/wysiwyg/Trend-router-cutters/IMG_2_8.jpg',alt:'Hardwood, softwood, MDF, plywood and chipboard samples',caption:'Natural and manufactured timbers: compare the visible structure of solid woods with MDF, plywood and chipboard.'},
+'3.1.2/metals': {src:'https://cf3.ppt-online.org/files3/slide/4/4xTRfj7DnKMkJFE2QqIYti8CmgdVGAlvuywLr5/slide-5.jpg',alt:'Labelled samples of steel, cast iron, copper, brass and bronze',caption:'Common engineering metals and alloys. Visual identification should always be supported by knowledge of properties and applications.'},
+'3.1.2/polymers': {src:'https://www.researchgate.net/publication/367211404/figure/fig1/AS%3A11431281113643605%401674002000935/Plastic-types-thermoplastics-vs-thermosetting-plastics.ppm',alt:'Comparison of thermoplastics and thermosetting plastics',caption:'Thermoplastics and thermosets differ in molecular structure, behaviour when heated and suitable applications.'},
+'3.1.2/composites': {src:'https://images.squarespace-cdn.com/content/v1/673760fb69e08770836ac3fc/57d15dcd-5def-4e7b-bce2-c8e3060052e8/iStock-622210996-low.jpg',alt:'Woven carbon fibre and glass fibre reinforcement fabrics',caption:'Composite reinforcement fabrics: carbon fibre and glass fibre are combined with a matrix such as resin to produce a composite.'},
+'3.1.2/smart-materials': {src:'https://image1.slideserve.com/2406727/s-m-a-r-t-m-a-t-e-r-i-a-l-s-l.jpg',alt:'Examples of smart materials including shape-memory, photochromic and thermochromic materials',caption:'Examples of smart materials and the useful responses they produce when exposed to a stimulus.'},
+'3.1.4/metal-processes': {src:'https://images.prismic.io/contrarycap-com/9f184d35-5dd8-4993-99ac-930a09f21ed2_Forging.png?auto=compress%2Cformat',alt:'Labelled diagrams of forging, extrusion and machining',caption:'Common metal-forming and machining processes. Pay attention to the direction of force and how the material is reshaped or removed.'},
+'3.1.4/wood-processes': {src:'https://img.museoinclusivo.com/images/2026/02/An-illustration-comparing-kerf-bending-steam-bending-and-lamination-for-custom-van-framing.jpg',alt:'Comparison of kerf bending, steam bending and wood lamination',caption:'Three ways of producing curved timber forms: kerf bending, steam bending and lamination.'},
+'3.1.5/paper-and-board-printing-processes': {src:'https://www.heraeus-electronics.com/.imaging/focalarea/Landscape_3_2/1200/dam/jcr%3A454cf15b-58a8-4ad3-8d4d-eb1852adf5d5/Heraeus-Electronics-Screen-printing-vs-Flexo.png',alt:'Labelled diagrams comparing screen printing and flexography',caption:'Screen printing and flexography use different methods to transfer ink onto a substrate.'},
+'3.1.7/computer-aided-manufacture-cam': {src:'https://cdn.shopify.com/s/files/1/0915/0434/5380/files/CAD_CAM_to_CNC_Machining_workflow.webp?v=1738897001',alt:'CAD CAM to CNC machining workflow',caption:'Digital manufacture workflow: CAD geometry is converted into CAM toolpaths and machine instructions before CNC manufacture.'},
+'3.1.7/rapid-prototyping-processes': {src:'https://additivemanufacturingresources.com/input_file_2.png',alt:'Labelled FDM 3D printer showing filament, extruder, nozzle and build platform',caption:'FDM additive manufacture: thermoplastic filament is melted and deposited through a nozzle layer by layer.'},
+'3.1.8/inclusive-design': {src:'https://cdn.sanity.io/images/w7j7fz60/production/8e511f5b68ca45d1a599bf26e2dd4a973e9dbf47-2364x1512.png',alt:'Anthropometric workstation dimensions for different percentile users',caption:'Anthropometric data helps designers accommodate a range of users rather than designing around an average person.'},
+'3.2.2/design-influences-styles-and-movements': {src:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bauhaus_3_Chair.jpg/960px-Bauhaus_3_Chair.jpg',alt:'Marcel Breuer Wassily chair designed at the Bauhaus',caption:'Marcel Breuer’s Wassily chair is a useful Bauhaus reference: tubular steel, reduced form and suitability for industrial manufacture.'},
+'3.2.2/designers-and-their-work': {src:'https://www.moma.org/media/W1siZiIsIjIxMDc4MyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=55c484d9075a5929',alt:'Marcel Breuer Model B3 Wassily chair',caption:'When revising designers, connect the designer’s philosophy to recognisable products, materials and manufacturing methods.'}
+};
+const headingMedia = {
+'Vacuum forming':{src:'https://dn9dnaqrosn79.cloudfront.net/eyJidWNrZXQiOiJtYXlrdS1idWNrZXQiLCJrZXkiOiJpbWFnZXMvV2hhdC1pcy12YWN1dW0tZm9ybWluZy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI4ODAsImZpdCI6ImNvdmVyIn0sIndpdGhNZXRhZGF0YSI6dHJ1ZSwidG9Gb3JtYXQiOiJwbmciLCJwbmciOnsiY29tcHJlc3Npb25MZXZlbCI6MiwicHJvZ3Jlc3NpdmUiOmZhbHNlfX19',alt:'Labelled vacuum forming process',caption:'Vacuum forming: the sheet is heated, drawn over a former by atmospheric pressure and allowed to cool.'},
+'Injection moulding':{src:'https://commons.wikimedia.org/wiki/Special:FilePath/Injection%20molding%20diagram.svg',alt:'Labelled injection moulding machine diagram',caption:'Injection moulding: granules are melted and driven by a screw through the nozzle into a closed mould.'},
+'Extrusion':{src:'https://commons.wikimedia.org/wiki/Special:FilePath/Schematic%20of%20metal%20extrusion%20process.jpg',alt:'Labelled extrusion process diagram',caption:'Extrusion forces material through a shaped die to produce a continuous constant cross-section.'},
+'Blow moulding':{src:'https://karbonseo-media.sgp1.cdn.digitaloceanspaces.com/images/diagram-of-the-extrusion-blow--468b89fd-51d3-44fb-8c8d-e97cf337a57b.png',alt:'Blow moulding stages showing parison, blowing, cooling and ejection',caption:'Blow moulding forms hollow products by inflating a hot polymer parison against the mould walls.'},
+'Rotational moulding':{src:'https://cmf.designdb.com/upload/tech/20220224170622362115.jpg',alt:'Four-stage rotational moulding process',caption:'Rotational moulding: polymer powder coats the inside of a heated rotating mould before cooling and demoulding.'}
+};
+const media = pageMedia[key];
+---
+{media && <template id="note-page-media" data-key={key}><figure class="note-figure sourced-visual"><img src={media.src} alt={media.alt} loading="lazy" referrerpolicy="no-referrer"/><figcaption>{media.caption}</figcaption></figure></template>}
+{Object.entries(headingMedia).map(([heading,m]) => <template class="note-heading-media" data-heading={heading}><figure class="note-figure sourced-visual"><img src={m.src} alt={m.alt} loading="lazy" referrerpolicy="no-referrer"/><figcaption>{m.caption}</figcaption></figure></template>)}
+<script>
+  const prose=document.querySelector('.prose');
+  if(prose){
+    const page=document.querySelector('#note-page-media');
+    if(page){const first=prose.querySelector('.note-panel h2, h2'); const node=page.content.cloneNode(true); first?.closest('.note-panel')?.insertAdjacentElement('afterend',node.firstElementChild) || prose.prepend(node);}
+    document.querySelectorAll('template.note-heading-media').forEach(t=>{
+      const wanted=(t.dataset.heading||'').toLowerCase();
+      const h=[...prose.querySelectorAll('h2,h3')].find(x=>x.textContent.trim().toLowerCase()===wanted);
+      if(h){const panel=h.closest('.note-panel'); const fig=t.content.cloneNode(true).firstElementChild; if(panel) panel.insertBefore(fig,h.nextElementSibling); else h.insertAdjacentElement('afterend',fig);}
+    });
+  }
+</script>
