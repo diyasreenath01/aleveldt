@@ -1,0 +1,49 @@
+---
+const { code, slug } = Astro.props;
+const key = `${code}/${slug}`;
+const diagrams = {
+'3.1.1/methods-for-investigating-and-testing-materials':['Fair material test',['Prepare equal specimens','Control test conditions','Apply measured load','Record result','Compare samples']],
+'3.1.3/polymer-enhancement':['Polymer enhancement',['Base polymer','Add plasticiser / stabiliser / pigment','Mix uniformly','Process material','Improved property']],
+'3.1.3/wood-enhancement':['Wood enhancement',['Select timber / veneers','Treat / laminate','Apply pressure or preservative','Cure / dry','Improved durability']],
+'3.1.3/metal-enhancement':['Metal heat treatment',['Heat metal','Hold at temperature','Cool / quench as required','Temper if needed','Changed properties']],
+'3.1.4/paper-and-board-processes':['Paper & board forming',['Mark / CAD pattern','Cut / crease','Fold / form','Join','Finish']],
+'3.1.4/polymer-processes':['Polymer moulding',['Granules / sheet','Heat until formable','Shape in mould / die','Cool','Trim / eject']],
+'3.1.4/metal-processes':['Metal forming',['Billet / sheet / molten metal','Heat if required','Cast / press / forge / machine','Cool / inspect','Finish']],
+'3.1.4/wood-processes':['Wood forming',['Prepare timber / veneers','Cut / steam / laminate','Form / machine','Clamp / dry','Finish']],
+'3.1.4/adhesives-and-fixings':['Adhesive joint',['Prepare surfaces','Apply correct adhesive','Assemble accurately','Clamp / hold','Allow to cure']],
+'3.1.4/jigs-and-fixtures':['Jig vs fixture',['JIG','locates work','guides tool','FIXTURE','locates + holds work']],
+'3.1.5/paper-and-board-printing-processes':['Printing workflow',['Artwork / digital file','Prepare screen / plate / printer','Transfer ink / toner','Substrate','Dry / finish']],
+'3.1.5/metal-finishing':['Metal finishing',['Prepare surface','Clean / abrade','Apply finish or coating','Cure / plate','Inspect']],
+'3.1.5/wood-finishing':['Wood finishing',['Sand with grain','Remove dust','Apply stain / oil / varnish','Dry','De-nib / recoat']],
+'3.1.7/computer-aided-design-cad':['CAD development',['Create geometry','Dimension / constrain','Assemble / model','Test digitally','Export for manufacture']],
+'3.1.7/computer-aided-manufacture-cam':['CAD → CAM → CNC',['CAD model','Generate toolpath','Set machine parameters','CNC manufacture','Quality check']],
+'3.1.7/virtual-modelling':['Virtual testing',['3D CAD model','Apply loads / flow / motion','Run FEA / CFD / simulation','Read results','Refine design']],
+'3.1.7/rapid-prototyping-processes':['FDM / 3D printing',['3D CAD model','Slice into layers','Heat filament','Deposit layer by layer','Remove supports']],
+'3.1.7/electronic-data-interchange':['Electronic data interchange',['Design / order data','Secure digital transfer','Supplier / manufacturer','Automatic processing','Faster response']],
+'3.1.7/production-planning-and-control-ppc-networking':['Production planning & control',['Demand / orders','Plan materials + labour','Schedule machines','Monitor production','Update plan']],
+'3.1.8/inclusive-design':['Inclusive design',['Identify diverse users','Use anthropometric / ergonomic data','Prototype','Test with users','Refine access + usability']],
+'3.1.11/disassembly':['Design for disassembly',['Accessible fixings','Separate components','Sort materials','Repair / reuse parts','Recycle materials']],
+'3.1.12/feasibility-studies':['Feasibility study',['Identify proposal','Technical + economic checks','Prototype / research','Assess risks','Go / modify / stop']],
+'3.1.12/testing-prototypes':['Prototype testing',['Build prototype','Set test criteria','Test with users / rig','Record evidence','Modify design']],
+'3.2.1/iterative-design-process':['Iterative design cycle',['Investigate','Design','Prototype','Test + evaluate','Refine ↺']],
+'3.2.1/user-centred-design-ucd':['User-centred design',['Understand users','Define needs','Develop ideas','Test with users','Iterate ↺']],
+'3.2.3/product-life-cycle':['Product life cycle',['Introduction','Growth','Maturity','Decline','Extend / redevelop']],
+'3.2.4/the-use-of-a-design-process':['Design process',['Brief + research','Specification','Ideas','Prototype','Test + evaluate','Manufacture']],
+'3.2.4/prototype-development':['Prototype development',['Concept model','Test principle','Develop form + function','User testing','Pre-production prototype']],
+'3.2.5/testing-and-evaluating-products-in-industrial-or-commercial-contexts':['Testing & evaluation',['Set measurable criteria','Test product','Collect data','Compare to specification','Improve']],
+'3.2.5/use-of-third-party-feedback-in-the-testing-and-evaluation-process':['Third-party feedback',['Select representative users','Give prototype / task','Observe + question','Record feedback','Refine design']],
+'3.2.7/measuring-and-marking-out':['Accurate marking out',['Choose datum','Measure once accurately','Mark with suitable tool','Check dimensions','Cut / machine']],
+'3.2.7/the-importance-of-accuracy':['Tolerance',['49.5 mm','← acceptable →','50.0 mm target','← acceptable →','50.5 mm']],
+'3.2.7/how-testing-can-eliminate-errors':['Error reduction',['Make / sample','Measure','Compare specification','Identify cause','Correct process']],
+'3.2.7/measuring-aids':['Jig, fixture & template',['Template → repeat shape','Jig → hold + guide tool','Fixture → hold only','Gauge → pass / fail']],
+'3.2.8/environmental-issues':['Circular design',['Design durable','Use','Maintain / repair','Reuse / remanufacture','Recycle ↺']],
+'3.2.8/conservation-of-energy-and-resources':['Resource conservation',['Reduce material + energy','Efficient manufacture','Long product life','Recover components','Recycle']],
+'3.2.9/planning-for-accuracy-and-efficiency':['Efficient manufacture',['Plan sequence','Choose tools + datum','Use jigs / CNC','Check quality','Reduce waste + rework']],
+'3.2.9/quality-assurance-qa':['Quality assurance',['Set standards','Plan process','Train / maintain','Prevent defects','Review system']],
+'3.2.9/quality-control-qc':['Quality control',['Make component','Measure / inspect','Compare tolerance','Pass / reject','Correct process']],
+'3.2.10/directives-and-labelling-initiatives':['Product labelling',['Identify applicable requirement','Test / verify product','Prepare compliance info','Apply correct mark / label','Maintain records']]
+};
+const d=diagrams[key];
+---
+{d && <figure class="topic-visual"><figcaption>{d[0]}</figcaption><div class="flow">{d[1].map((s,i)=><><span>{s}</span>{i<d[1].length-1&&<b aria-hidden="true">→</b>}</>)}</div></figure>}
+<style>.topic-visual{max-width:720px;margin:24px auto 30px;padding:18px 20px;background:#fbf7fd;border:1px solid #e6d9ea;border-radius:14px}.topic-visual figcaption{font-size:16px;font-weight:800;color:#4b2862;margin-bottom:13px}.flow{display:flex;align-items:center;justify-content:center;gap:7px;flex-wrap:wrap}.flow span{font-size:12px;line-height:1.35;text-align:center;padding:9px 11px;border-radius:8px;background:#f0e6f5;border:1px solid #e0d0e7;color:#4d4054}.flow b{font-size:13px;color:#9b73ae}@media(max-width:650px){.topic-visual{padding:14px}.flow{justify-content:flex-start}.flow span{font-size:11px;padding:7px 8px}}</style>
