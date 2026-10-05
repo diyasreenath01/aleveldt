@@ -2,74 +2,108 @@
 const { code, slug } = Astro.props;
 const key = `${code}/${slug}`;
 const C='https://commons.wikimedia.org/wiki/Special:FilePath/';
-const pageMedia = {
-'3.1.1/mechanical-and-physical-properties':{src:C+'Stress_strain_ductile.svg',alt:'Stress strain curve for a ductile material',caption:'Stress–strain behaviour helps compare stiffness, strength and ductility.'},
-'3.1.1/classification-of-materials':{src:C+'Materials_science_tetrahedron%3Bstructure%2C_processing%2C_performance%2C_and_proprerties.JPG',alt:'Materials science relationship diagram',caption:'Material selection links structure, properties, processing and performance.'},
-'3.1.1/methods-for-investigating-and-testing-materials': {src:'https://courses.ems.psu.edu/matse81/sites/matse81/files/images/lesson04/stress_strain_testing.jpg',alt:'Tensile testing machine and standard test specimen',caption:'Tensile testing: a controlled load is applied to a standard specimen so strength and deformation can be measured.'},
-'3.1.2/woods': {src:'https://www.wonkeedonkeetrend.co.uk/media/wysiwyg/Trend-router-cutters/IMG_2_8.jpg',alt:'Hardwood softwood and manufactured board samples',caption:'Compare natural timbers with manufactured boards such as MDF, plywood and chipboard.'},
-'3.1.2/metals': {src:C+'Metallic_bonding.svg',alt:'Metallic bonding diagram',caption:'Metallic bonding helps explain properties such as electrical conductivity and malleability.'},
-'3.1.2/polymers': {src:'https://www.researchgate.net/publication/367211404/figure/fig1/AS%3A11431281113643605%401674002000935/Plastic-types-thermoplastics-vs-thermosetting-plastics.ppm',alt:'Thermoplastics and thermosetting plastics comparison',caption:'Thermoplastics and thermosets differ in structure, behaviour when heated and applications.'},
-'3.1.2/biodegradable-polymers':{src:C+'Biodegradable_plastic_utensils.jpg',alt:'Biodegradable polymer utensils',caption:'Biodegradable polymers are increasingly used for short-life products such as disposable foodware.'},
-'3.1.2/composites': {src:'https://images.squarespace-cdn.com/content/v1/673760fb69e08770836ac3fc/57d15dcd-5def-4e7b-bce2-c8e3060052e8/iStock-622210996-low.jpg',alt:'Carbon fibre and glass fibre reinforcement',caption:'Composite reinforcement fabrics are combined with a matrix such as resin.'},
-'3.1.2/smart-materials': {src:'https://image1.slideserve.com/2406727/s-m-a-r-t-m-a-t-e-r-i-a-l-s-l.jpg',alt:'Examples of smart materials',caption:'Examples of smart materials and the responses they produce when exposed to a stimulus.'},
-'3.1.3/metal-enhancement':{src:C+'Iron-carbon-phase-diagram.svg',alt:'Iron carbon phase diagram',caption:'Heat treatment changes the structure and therefore the properties of steels.'},
-'3.1.4/paper-and-board-processes':{src:C+'Die_cutting_machine.jpg',alt:'Industrial die cutting machine',caption:'Die cutting is widely used to cut and crease repeatable packaging nets.'},
-'3.1.4/polymer-processes': {src:C+'Injection%20moulding%20process.png',alt:'Injection moulding process stages',caption:'Injection moulding: polymer is heated, injected, cooled and removed from the mould.'},
-'3.1.4/metal-processes': {src:C+'Casting-process.png',alt:'Schematic casting process',caption:'Casting: molten material fills a mould, solidifies and is removed for finishing.'},
-'3.1.4/wood-processes': {src:'https://img.museoinclusivo.com/images/2026/02/An-illustration-comparing-kerf-bending-steam-bending-and-lamination-for-custom-van-framing.jpg',alt:'Kerf bending steam bending and lamination',caption:'Comparison of methods for producing curved timber forms.'},
-'3.1.4/jigs-and-fixtures':{src:C+'Drill_jig.jpg',alt:'Drilling jig used to locate and guide a drill',caption:'A jig locates the work and guides the cutting tool so repeated components can be produced accurately.'},
-'3.1.5/paper-and-board-printing-processes': {src:C+'Flexographic%20printing%20diagram.svg',alt:'Flexographic printing diagram',caption:'Flexographic printing: note the ink, anilox, plate and impression rollers.'},
-'3.1.5/cathodic-protection':{src:C+'Cathodic_protection_diagram.svg',alt:'Cathodic protection diagram',caption:'Cathodic protection uses a more reactive sacrificial metal or an impressed current to protect the main structure.'},
-'3.1.6/scales-of-production':{src:C+'Assembly_line.jpg',alt:'Industrial assembly line',caption:'Assembly lines are associated with high-volume mass production and repeated standardised operations.'},
-'3.1.6/the-use-of-computer-systems':{src:C+'Flexible_manufacturing_system.jpg',alt:'Flexible manufacturing system',caption:'Computer-controlled manufacturing systems coordinate machines, material handling and production data.'},
-'3.1.7/computer-aided-design-cad':{src:C+'CAD_model_and_CNC_machined_part.jpg',alt:'CAD model alongside manufactured component',caption:'CAD allows geometry to be developed, modified, visualised and passed into digital manufacture.'},
-'3.1.7/computer-aided-manufacture-cam': {src:'https://cdn.shopify.com/s/files/1/0915/0434/5380/files/CAD_CAM_to_CNC_Machining_workflow.webp?v=1738897001',alt:'CAD CAM to CNC machining workflow',caption:'CAD/CAM to CNC manufacture: digital geometry is converted into toolpaths and machine instructions.'},
-'3.1.7/virtual-modelling':{src:C+'CFD_around_airfoil.png',alt:'Computational fluid dynamics around an aerofoil',caption:'CFD visualises fluid flow and pressure so designers can evaluate aerodynamic performance before manufacture.'},
-'3.1.7/rapid-prototyping-processes': {src:'https://additivemanufacturingresources.com/input_file_2.png',alt:'Labelled FDM 3D printer',caption:'FDM additive manufacture: filament is melted and deposited through a nozzle layer by layer.'},
-'3.1.7/electronic-data-interchange':{src:C+'Barcode-scanner.jpg',alt:'Barcode scanner at point of sale',caption:'EPOS systems capture transaction and stock data electronically and can feed it into wider business systems.'},
-'3.1.8/inclusive-design': {src:'https://cdn.sanity.io/images/w7j7fz60/production/8e511f5b68ca45d1a599bf26e2dd4a973e9dbf47-2364x1512.png',alt:'Anthropometric workstation dimensions',caption:'Anthropometric data helps designers accommodate a range of users.'},
-'3.1.10/patents':{src:C+'US_patent_cover.jpg',alt:'Example patent document',caption:'Patents formally document and protect qualifying inventions for a limited period.'},
-'3.1.11/disassembly':{src:C+'Exploded_view_of_a_ballpoint_pen.jpg',alt:'Exploded view showing separate product components',caption:'Exploded views make component relationships and disassembly sequences easier to understand.'},
-'3.1.12/testing-prototypes':{src:C+'Crash_test_dummy.jpg',alt:'Crash test dummy during product testing',caption:'Prototype testing can reveal performance and safety issues before a design reaches production.'},
-'3.2.1/user-centred-design-ucd':{src:C+'User-centered_design_process.svg',alt:'User centred design process',caption:'User-centred design keeps users, their context and evaluation involved throughout development.'},
-'3.2.2/design-influences-styles-and-movements': {src:C+'Bauhaus%203%20Chair.jpg',alt:'Bauhaus chair',caption:'A Bauhaus furniture reference showing reduced form, tubular steel and suitability for industrial manufacture.'},
-'3.2.2/designers-and-their-work': {src:'https://www.moma.org/media/W1siZiIsIjIxMDc4MyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=55c484d9075a5929',alt:'Marcel Breuer Model B3 chair',caption:'Connect a designer’s philosophy to recognisable products, materials and manufacturing methods.'},
-'3.2.3/product-life-cycle':{src:C+'Product_life-cycle_curve.svg',alt:'Product life cycle curve',caption:'The product life cycle shows how sales typically change through introduction, growth, maturity and decline.'},
-'3.2.4/prototype-development':{src:C+'Rapid_prototyping.jpg',alt:'Physical prototype being produced',caption:'Prototypes allow form, function, manufacture and user response to be tested before final production.'},
-'3.2.7/measuring-and-marking-out':{src:C+'Vernier_caliper.svg',alt:'Labelled vernier caliper',caption:'Vernier callipers provide more precise dimensional measurement than a standard ruler.'},
-'3.2.7/measuring-aids':{src:C+'Micrometer_caliper_parts_0001.png',alt:'Labelled micrometer',caption:'Precision measuring aids reduce uncertainty when checking manufactured dimensions.'},
-'3.2.8/environmental-issues':{src:C+'Waste_hierarchy.svg',alt:'Waste hierarchy diagram',caption:'Responsible design prioritises prevention and reuse before recycling, recovery and disposal.'},
-'3.2.9/quality-control-qc':{src:C+'Go_no_go_gauge.png',alt:'Go no-go gauge',caption:'Go/no-go gauges provide a fast production check that a component remains within specified limits.'},
-'3.2.10/directives-and-labelling-initiatives':{src:C+'Recycling-Code-01.svg',alt:'Polymer recycling identification symbol',caption:'Identification and environmental labels communicate material, recycling and compliance information.'}
+
+// Every syllabus note gets a relevant real/reference visual. More specific pages override the topic image.
+const topicMedia = {
+'3.1.1':{src:C+'Stress_strain_ductile.svg',alt:'Stress strain graph used in materials testing',caption:'Material testing links measurable behaviour to material selection and product performance.'},
+'3.1.2':{src:C+'Material_science_tetrahedron.svg',alt:'Materials science relationship diagram',caption:'Material choice depends on structure, properties, processing and required performance.'},
+'3.1.3':{src:C+'Iron-carbon-phase-diagram.svg',alt:'Iron carbon phase diagram used when studying heat treatment',caption:'Enhancement processes deliberately alter material structure, surface or composition to improve performance.'},
+'3.1.4':{src:C+'Injection%20molding%20diagram.svg',alt:'Labelled injection moulding process diagram',caption:'Manufacturing processes transform stock material into useful forms by forming, redistribution or addition.'},
+'3.1.5':{src:C+'Powder_coating.jpg',alt:'Powder coating being applied to a metal component',caption:'Finishes can improve appearance, durability, corrosion resistance and surface performance.'},
+'3.1.6':{src:C+'Assembly_line.jpg',alt:'Industrial assembly line',caption:'Modern commercial manufacture coordinates people, machines, materials and information at an appropriate scale of production.'},
+'3.1.7':{src:C+'3D_printer2.jpg',alt:'3D printer producing a component from digital data',caption:'Digital design and manufacture connects CAD data, computer-controlled equipment and production systems.'},
+'3.1.8':{src:C+'Anthropometry1.jpg',alt:'Anthropometric measurement of a user',caption:'Successful product development considers function, users, ergonomics, anthropometrics and inclusive access.'},
+'3.1.9':{src:C+'Mandatory_safety_signs.svg',alt:'Examples of standard mandatory safety signs',caption:'Health and safety combines safe systems of work, risk reduction, protective equipment and safe product design.'},
+'3.1.10':{src:C+'US_patent_cover.jpg',alt:'Example patent document',caption:'Intellectual-property protection helps designers and organisations control how original ideas, inventions and identities are used.'},
+'3.1.11':{src:C+'Exploded_view_of_a_ballpoint_pen.jpg',alt:'Exploded product view showing separate components',caption:'Designing for manufacture and disassembly can simplify assembly, repair, maintenance, upgrading and end-of-life recovery.'},
+'3.1.12':{src:C+'Crash_test_dummy.jpg',alt:'Crash test dummy used during prototype testing',caption:'Feasibility and prototype testing provide evidence before committing a design to full production.'},
+'3.1.13':{src:C+'Marketing_Mix.svg',alt:'Marketing mix diagram',caption:'Enterprise and marketing connect product development to customers, brand identity, cost, promotion and commercial opportunity.'},
+'3.1.14':{src:C+'Technical_drawing.svg',alt:'Technical drawing used to communicate manufacture',caption:'Design communication must convey ideas and manufacturing information accurately to different audiences.'},
+'3.2.1':{src:C+'User-centered_design_process.svg',alt:'User centred iterative design process',caption:'User-centred and iterative methods use research, development, prototyping and evaluation to improve a solution.'},
+'3.2.2':{src:C+'Bauhaus%203%20Chair.jpg',alt:'Bauhaus chair illustrating modernist design',caption:'Design theory links products to movements, designers, historical context, materials and manufacturing ideas.'},
+'3.2.3':{src:C+'Product_life-cycle_curve.svg',alt:'Product life cycle curve',caption:'Technology, society, economics and culture continually change products and the work of designers.'},
+'3.2.4':{src:C+'Rapid_prototyping.jpg',alt:'Prototype being developed',caption:'Design processes develop ideas through modelling, prototyping, testing, feedback and iteration.'},
+'3.2.5':{src:C+'Usability_testing.jpg',alt:'User testing a product',caption:'Critical analysis uses evidence from users, testing and product performance to judge strengths and identify improvements.'},
+'3.2.6':{src:C+'Workshop_safety.jpg',alt:'Safe working in a workshop',caption:'Tool, equipment and process selection must match the material, operation, required accuracy and safety risk.'},
+'3.2.7':{src:C+'Vernier_caliper.svg',alt:'Labelled vernier calliper',caption:'Accurate measuring, marking, manufacture and checking reduce error and help components meet tolerances.'},
+'3.2.8':{src:C+'Waste_hierarchy.svg',alt:'Waste hierarchy diagram',caption:'Responsible design reduces environmental impact by considering materials, energy, manufacture, use and end of life.'},
+'3.2.9':{src:C+'Go_no_go_gauge.png',alt:'Go no-go gauge used in quality control',caption:'Planning, quality assurance and quality control help production remain accurate, efficient and consistent.'},
+'3.2.10':{src:C+'Recycling-Code-01.svg',alt:'Polymer recycling identification symbol',caption:'Standards, directives and recognised labels communicate compliance, safety, environmental and material information.'}
 };
+
+const pageMedia = {
+'3.1.1/methods-for-investigating-and-testing-materials':{src:'https://courses.ems.psu.edu/matse81/sites/matse81/files/images/lesson04/stress_strain_testing.jpg',alt:'Tensile testing machine and standard test specimen',caption:'Tensile testing applies a controlled load to a standard specimen so strength and deformation can be measured.'},
+'3.1.2/paper-and-boards':{src:C+'Corrugated_Cardboard.JPG',alt:'Corrugated board showing fluted construction',caption:'Corrugated board combines liner sheets with a fluted core to provide stiffness and impact protection at low mass.'},
+'3.1.2/woods':{src:C+'Plywood.jpg',alt:'Layers visible at the edge of plywood',caption:'Plywood uses veneers with alternating grain directions, improving dimensional stability and strength.'},
+'3.1.2/metals':{src:C+'Metallic_bonding.svg',alt:'Metallic bonding diagram',caption:'Metallic bonding helps explain conductivity, ductility and malleability in metals.'},
+'3.1.2/biodegradable-polymers':{src:C+'Biodegradable_plastic_utensils.jpg',alt:'Biodegradable polymer utensils',caption:'Biodegradable polymers can be suitable for short-life products when disposal conditions are considered.'},
+'3.1.2/composites':{src:C+'Carbon_fiber.jpg',alt:'Carbon fibre reinforcement fabric',caption:'Composite materials combine reinforcement and matrix materials to achieve a useful balance of properties.'},
+'3.1.3/wood-enhancement':{src:C+'Wood_veneer.jpg',alt:'Thin sheets of wood veneer',caption:'Veneering can improve appearance and make efficient use of valuable decorative timber.'},
+'3.1.4/paper-and-board-processes':{src:C+'Die_cutting_machine.jpg',alt:'Industrial die cutting machine',caption:'Die cutting and creasing allow repeatable packaging nets to be produced accurately.'},
+'3.1.4/polymer-processes':{src:C+'Injection%20molding%20diagram.svg',alt:'Labelled injection moulding machine',caption:'Injection moulding is one of several polymer processes; the correct process depends on material, form, quantity and cost.'},
+'3.1.4/metal-processes':{src:C+'Sand_casting.svg',alt:'Sand casting process diagram',caption:'Casting forms metal by pouring molten material into a mould cavity and allowing it to solidify.'},
+'3.1.4/jigs-and-fixtures':{src:C+'Drill_jig.jpg',alt:'Drilling jig used to guide a drill',caption:'A jig locates the work and guides the tool so repeated components can be produced accurately.'},
+'3.1.5/paper-and-board-printing-processes':{src:C+'Flexographic%20printing%20diagram.svg',alt:'Flexographic printing diagram',caption:'Flexography uses a relief plate and a controlled roller system to transfer ink to the substrate.'},
+'3.1.5/cathodic-protection':{src:C+'Cathodic_protection_diagram.svg',alt:'Cathodic protection diagram',caption:'Cathodic protection makes the protected metal the cathode, reducing corrosion.'},
+'3.1.6/scales-of-production':{src:C+'Assembly_line.jpg',alt:'Industrial assembly line',caption:'High-volume production uses repeatable operations, specialist equipment and organised material flow.'},
+'3.1.7/computer-aided-design-cad':{src:C+'CAD_model_and_CNC_machined_part.jpg',alt:'CAD model alongside manufactured component',caption:'CAD geometry can be edited, analysed, communicated and transferred into digital manufacture.'},
+'3.1.7/virtual-modelling':{src:C+'CFD_around_airfoil.png',alt:'Computational fluid dynamics around an aerofoil',caption:'CFD visualises fluid behaviour so designers can evaluate performance before physical manufacture.'},
+'3.1.7/rapid-prototyping-processes':{src:C+'3DBenchy-3D-printed.jpeg',alt:'FDM 3D printed prototype',caption:'Additive manufacture builds physical models layer by layer directly from digital geometry.'},
+'3.1.8/inclusive-design':{src:C+'Universal_design7principles.svg',alt:'Principles associated with universal and inclusive design',caption:'Inclusive design aims to make products usable by the widest practical range of people.'},
+'3.1.10/patents':{src:C+'US_patent_cover.jpg',alt:'Example patent document',caption:'A patent can protect a qualifying invention for a limited period in exchange for public disclosure.'},
+'3.1.11/disassembly':{src:C+'Exploded_view_of_a_ballpoint_pen.jpg',alt:'Exploded view of a product',caption:'Exploded views reveal component relationships and help designers consider assembly and disassembly.'},
+'3.1.12/testing-prototypes':{src:C+'Crash_test_dummy.jpg',alt:'Crash test dummy during product testing',caption:'Prototype testing can expose performance and safety problems before production.'},
+'3.2.1/user-centred-design-ucd':{src:C+'User-centered_design_process.svg',alt:'User centred design process',caption:'Users and their context remain central through research, development and evaluation.'},
+'3.2.2/design-influences-styles-and-movements':{src:C+'Bauhaus%203%20Chair.jpg',alt:'Bauhaus furniture example',caption:'Recognising characteristic products helps connect design movements to their principles and historical context.'},
+'3.2.2/designers-and-their-work':{src:'https://www.moma.org/media/W1siZiIsIjIxMDc4MyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=55c484d9075a5929',alt:'Marcel Breuer Model B3 chair',caption:'When studying designers, connect recognisable products to philosophy, materials, processes and the wider design movement.'},
+'3.2.3/product-life-cycle':{src:C+'Product_life-cycle_curve.svg',alt:'Product life cycle curve',caption:'Sales and design decisions change as products move through introduction, growth, maturity, decline and replacement.'},
+'3.2.4/prototype-development':{src:C+'Rapid_prototyping.jpg',alt:'Physical prototype under development',caption:'Prototypes allow designers to test form, function, manufacture and user response before final production.'},
+'3.2.7/measuring-and-marking-out':{src:C+'Vernier_caliper.svg',alt:'Labelled vernier calliper',caption:'Vernier callipers measure external, internal and depth dimensions more precisely than a standard ruler.'},
+'3.2.7/measuring-aids':{src:C+'Micrometer_caliper_parts_0001.png',alt:'Labelled micrometer',caption:'A micrometer uses a precision screw mechanism to measure small dimensions accurately.'},
+'3.2.8/environmental-issues':{src:C+'Waste_hierarchy.svg',alt:'Waste hierarchy',caption:'Responsible design prioritises prevention and reuse before recycling, recovery and disposal.'},
+'3.2.9/quality-control-qc':{src:C+'Go_no_go_gauge.png',alt:'Go no-go gauge',caption:'Go/no-go gauges give a fast production check that a feature remains within specified limits.'}
+};
+
+// These visuals are inserted immediately after matching headings inside the notes, so process diagrams sit beside the process being taught.
 const headingMedia = {
-'Vacuum forming':{src:C+'VacuformVisualization.gif',alt:'Animated vacuum forming process',caption:'Vacuum forming: a heated sheet is drawn over a former and held while it cools.'},
+'Vacuum forming':{src:C+'VacuformVisualization.gif',alt:'Animated vacuum forming process',caption:'Vacuum forming: a heated thermoplastic sheet is drawn over a former and held while it cools.'},
 'Injection moulding':{src:C+'Injection%20molding%20diagram.svg',alt:'Labelled injection moulding machine diagram',caption:'Injection moulding: granules are melted and driven by a screw through a nozzle into a closed mould.'},
-'Extrusion':{src:C+'Schematic%20of%20metal%20extrusion%20process.jpg',alt:'Extrusion process diagram',caption:'Extrusion forces material through a shaped die to create a continuous cross-section.'},
-'Blow moulding':{src:C+'Blow%20molding.png',alt:'Labelled blow moulding process',caption:'Blow moulding: air inflates a hot polymer parison against the walls of a mould.'},
-'Rotational moulding':{src:'https://cmf.designdb.com/upload/tech/20220224170622362115.jpg',alt:'Rotational moulding stages',caption:'Rotational moulding: polymer coats the inside of a heated rotating mould before cooling.'},
-'Compression moulding':{src:C+'Compression_molding.svg',alt:'Compression moulding diagram',caption:'Compression moulding uses heat and pressure to force a charge into the mould cavity.'},
-'Sand casting':{src:C+'Sand_casting.svg',alt:'Sand casting process diagram',caption:'Sand casting uses a pattern to create a mould cavity before molten metal is poured and allowed to solidify.'},
+'Extrusion':{src:C+'Extrusion_process.svg',alt:'Extrusion process diagram',caption:'Extrusion forces softened material through a shaped die to produce a continuous cross-section.'},
+'Blow moulding':{src:C+'Blow%20molding.png',alt:'Blow moulding process',caption:'Blow moulding: air expands a hot polymer parison against the inside of a mould.'},
+'Rotational moulding':{src:C+'Rotational_molding.svg',alt:'Rotational moulding process',caption:'Rotational moulding coats the inside of a heated rotating mould before the hollow product cools.'},
+'Compression moulding':{src:C+'Compression_molding.svg',alt:'Compression moulding diagram',caption:'Compression moulding uses heat and pressure to form a measured charge inside a mould.'},
+'Sand casting':{src:C+'Sand_casting.svg',alt:'Sand casting process diagram',caption:'A pattern forms a cavity in sand before molten metal is poured, cooled and removed.'},
 'Die casting':{src:C+'Cold_chamber_die_casting.svg',alt:'Die casting process diagram',caption:'Die casting injects molten metal into a reusable metal die under pressure.'},
-'Investment casting':{src:C+'Investment_casting_process.svg',alt:'Investment casting stages',caption:'Investment casting forms a ceramic mould around a sacrificial pattern to create detailed metal components.'},
-'MIG welding':{src:C+'GMAW_weld_area.svg',alt:'MIG welding process diagram',caption:'MIG welding feeds a consumable wire electrode into a shielded weld pool.'},
-'TIG welding':{src:C+'GTAW.svg',alt:'TIG welding process diagram',caption:'TIG welding uses a non-consumable tungsten electrode and separate filler where required.'},
-'Spot welding':{src:C+'Spot_welding.svg',alt:'Resistance spot welding diagram',caption:'Spot welding clamps sheet between electrodes and creates localised heat by electrical resistance.'},
+'Investment casting':{src:C+'Investment_casting_process.svg',alt:'Investment casting stages',caption:'Investment casting forms a ceramic mould around a sacrificial pattern for detailed components.'},
+'MIG welding':{src:C+'GMAW_weld_area.svg',alt:'MIG welding diagram',caption:'MIG welding feeds a consumable wire electrode into a gas-shielded weld pool.'},
+'TIG welding':{src:C+'GTAW.svg',alt:'TIG welding diagram',caption:'TIG welding uses a non-consumable tungsten electrode and separate filler where required.'},
+'Spot welding':{src:C+'Spot_welding.svg',alt:'Resistance spot welding diagram',caption:'Spot welding clamps sheet between electrodes and creates localised heat through electrical resistance.'},
 'Steam bending':{src:C+'Steam_bending_wood.jpg',alt:'Timber being steam bent around a former',caption:'Steam softens lignin so timber can be bent around a former and held until dry.'},
-'Laminating':{src:C+'Bent_lamination.jpg',alt:'Bent wood lamination clamped around a former',caption:'Thin veneers are glued and clamped around a former to create strong curved laminated components.'},
+'Laminating':{src:C+'Bent_lamination.jpg',alt:'Bent wood lamination clamped around a former',caption:'Thin veneers are glued and clamped around a former to create strong curved components.'},
 'Flexography':{src:C+'Flexographic%20printing%20diagram.svg',alt:'Flexographic printing press diagram',caption:'Flexography uses a relief plate and rollers to transfer ink to the substrate.'},
-'Offset lithography':{src:C+'Offset-diagram.svg',alt:'Offset lithography process diagram',caption:'Offset lithography transfers the image from plate to blanket cylinder and then to the substrate.'},
+'Offset lithography':{src:C+'Offset-diagram.svg',alt:'Offset lithography diagram',caption:'Offset lithography transfers the image from plate to blanket cylinder and then to the substrate.'},
 'Screen printing':{src:C+'Screen_printing_process.svg',alt:'Screen printing process',caption:'Screen printing pushes ink through open areas of a mesh stencil onto the substrate.'},
-'Laser cutting':{src:C+'Laser_cutting_process.svg',alt:'Laser cutting process diagram',caption:'A focused laser beam follows a programmed path while assist gas helps clear the cut.'},
+'Laser cutting':{src:C+'Laser_cutting_process.svg',alt:'Laser cutting diagram',caption:'A focused laser follows a programmed path while assist gas helps clear the cut.'},
 'Milling':{src:C+'Milling_machine_diagram.svg',alt:'Milling machine diagram',caption:'Milling removes material with a rotating multi-point cutter while the work is accurately positioned.'},
-'Turning':{src:C+'Lathe-machine.jpg',alt:'Centre lathe showing turning operation',caption:'In turning, the workpiece rotates while a cutting tool removes material to create cylindrical forms.'},
-'Finite element analysis (FEA)':{src:C+'Finite_element_method_1D_illustration1.svg',alt:'Finite element mesh illustration',caption:'FEA divides a model into a mesh so stresses and deformation can be calculated.'},
+'Turning':{src:C+'Lathe-machine.jpg',alt:'Centre lathe performing a turning operation',caption:'In turning, the workpiece rotates while a cutting tool removes material to create cylindrical forms.'},
+'Finite element analysis (FEA)':{src:C+'Finite_element_method_1D_illustration1.svg',alt:'Finite element mesh illustration',caption:'FEA divides a model into elements so stresses and deformation can be calculated.'},
 'Computational fluid dynamics (CFD)':{src:C+'CFD_around_airfoil.png',alt:'CFD airflow simulation',caption:'CFD predicts how fluids move around or through a product.'},
 'Go/no-go gauges':{src:C+'Go_no_go_gauge.png',alt:'Go no-go gauge',caption:'A go/no-go gauge quickly checks whether a feature lies within its permitted tolerance.'},
-'Vernier callipers':{src:C+'Vernier_caliper.svg',alt:'Vernier calliper diagram',caption:'Vernier callipers can measure external, internal and depth dimensions accurately.'},
-'Micrometers':{src:C+'Micrometer_caliper_parts_0001.png',alt:'Micrometer diagram',caption:'A micrometer uses a precision screw to measure small dimensions accurately.'}
+'Vernier callipers':{src:C+'Vernier_caliper.svg',alt:'Vernier calliper diagram',caption:'Vernier callipers measure external, internal and depth dimensions accurately.'},
+'Micrometers':{src:C+'Micrometer_caliper_parts_0001.png',alt:'Micrometer diagram',caption:'A micrometer uses a precision screw to measure small dimensions accurately.'},
+'Tensile testing':{src:C+'Tensile_test.svg',alt:'Tensile test diagram',caption:'A tensile test records how a standard specimen responds as an increasing axial load is applied.'},
+'Hardness testing':{src:C+'Vickers-test.svg',alt:'Vickers hardness test diagram',caption:'Hardness tests compare resistance to permanent indentation under controlled conditions.'},
+'Anthropometrics':{src:C+'Anthropometry1.jpg',alt:'Anthropometric body measurement',caption:'Anthropometric data provides measured human dimensions for designing appropriate product sizes and clearances.'},
+'Ergonomics':{src:C+'Ergonomics.jpg',alt:'Ergonomic workstation arrangement',caption:'Ergonomics applies knowledge of people to improve comfort, safety, usability and performance.'},
+'Bauhaus':{src:C+'Bauhaus_Dessau.jpg',alt:'Bauhaus building in Dessau',caption:'Bauhaus design favoured functional forms, modern materials and design suited to industrial production.'},
+'Art Deco':{src:C+'Chrysler_Building_1.jpg',alt:'Art Deco Chrysler Building',caption:'Art Deco is recognisable through geometric decoration, symmetry, luxury materials and machine-age influence.'},
+'Memphis':{src:C+'Carlton_Room_Divider.jpg',alt:'Memphis Carlton room divider by Ettore Sottsass',caption:'Memphis challenged restrained modernism with bold colour, pattern, geometry and playful forms.'},
+'Arts and Crafts':{src:C+'William_Morris_design_for_Trellis_wallpaper_1862.jpg',alt:'William Morris Arts and Crafts pattern',caption:'Arts and Crafts valued skilled making, natural inspiration, material honesty and resistance to poor-quality mass production.'},
+'Product life cycle':{src:C+'Product_life-cycle_curve.svg',alt:'Product life cycle graph',caption:'The life-cycle model helps explain how sales, competition and redesign priorities change over time.'},
+'The six Rs':{src:C+'Waste_hierarchy.svg',alt:'Waste hierarchy diagram',caption:'Sustainable design decisions should reduce resource use and keep products and materials useful for longer.'}
 };
-const media = pageMedia[key];
+
+const media = pageMedia[key] || topicMedia[code];
 ---
 {media && <template id="note-page-media" data-key={key}><figure class="note-figure sourced-visual"><img src={media.src} alt={media.alt} loading="lazy" referrerpolicy="no-referrer"/><figcaption>{media.caption}</figcaption></figure></template>}
 {Object.entries(headingMedia).map(([heading,m]) => <template class="note-heading-media" data-heading={heading}><figure class="note-figure sourced-visual"><img src={m.src} alt={m.alt} loading="lazy" referrerpolicy="no-referrer"/><figcaption>{m.caption}</figcaption></figure></template>)}
@@ -78,6 +112,6 @@ const media = pageMedia[key];
  if(prose){
   const page=document.querySelector('#note-page-media');
   if(page){const node=page.content.cloneNode(true); const panel=prose.querySelector('.note-panel'); panel?.insertAdjacentElement('afterend',node.firstElementChild) || prose.prepend(node);}
-  document.querySelectorAll('template.note-heading-media').forEach(t=>{const wanted=(t.dataset.heading||'').toLowerCase();const h=[...prose.querySelectorAll('h2,h3,h4')].find(x=>x.textContent.trim().toLowerCase()===wanted);if(h){const fig=t.content.cloneNode(true).firstElementChild;h.insertAdjacentElement('afterend',fig);}});
+  document.querySelectorAll('template.note-heading-media').forEach(t=>{const wanted=(t.dataset.heading||'').toLowerCase();const h=[...prose.querySelectorAll('h2,h3,h4')].find(x=>x.textContent.trim().toLowerCase()===wanted || x.textContent.trim().toLowerCase().includes(wanted));if(h && !h.nextElementSibling?.classList.contains('sourced-visual')){const fig=t.content.cloneNode(true).firstElementChild;h.insertAdjacentElement('afterend',fig);}});
  }
 </script>
