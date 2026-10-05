@@ -1,0 +1,53 @@
+---
+const { code, slug } = Astro.props;
+---
+<div class="context-visual-hook" data-note={`${code}/${slug}`}></div>
+<script is:inline>
+const commons=(f)=>`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}`;
+const source=(f)=>`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(f).replaceAll('%2F','/')}`;
+const V=[
+ [/injection mould/i,'Injection molding diagram.svg','Labelled injection-moulding machine: hopper, screw/barrel, heaters and mould.'],
+ [/blow mould/i,'Blow molding.png','Blow moulding: parison, split mould and compressed air forming a hollow product.'],
+ [/rotational mould/i,'Rotational Molding Process.svg','Rotational moulding cycle: charging, heating/rotation, cooling and removal.'],
+ [/extrusion/i,'Extrusion2.svg','Extrusion: material is forced continuously through a shaped die to create a constant cross-section.'],
+ [/vacuum form/i,'Vacuum forming.svg','Vacuum forming: a heated thermoplastic sheet is drawn over a mould by atmospheric pressure.'],
+ [/tensile|tension test/i,'Tensile test.svg','Tensile testing: a specimen is pulled in tension so strength and extension can be measured.'],
+ [/hardness.*test|brinell/i,'BrinellHardnessTest.svg','Brinell hardness test: an indenter produces an impression that is measured.'],
+ [/plywood/i,'Plywood.jpg','Plywood is made from veneers laminated with alternating grain directions.'],
+ [/mdf|medium density fibre/i,'MDF Sample.jpg','MDF: a manufactured board made from wood fibres bonded under heat and pressure.'],
+ [/laminat|grp|cfrp|composite/i,'Carbon fiber.jpg','Carbon-fibre reinforcement: fibres provide high tensile strength within a composite matrix.'],
+ [/3d print|rapid prototyp|additive/i,'3DBenchy.png','FDM/additive manufacture builds a physical component layer by layer from digital geometry.'],
+ [/cnc|computer aided manufacture|cam\b/i,'CNC milling machine.jpg','CNC manufacture uses computer-controlled machine movement for accurate, repeatable production.'],
+ [/laser cut/i,'Laser cutting.jpg','Laser cutting uses a focused beam to cut sheet material accurately from CAD/CAM data.'],
+ [/bauhaus|marcel breuer/i,'Bauhaus 3 Chair.jpg','Marcel Breuer’s Wassily Chair: a recognisable Bauhaus example using tubular steel and simple geometric form.'],
+ [/arts and crafts|william morris/i,'William Morris age 53.jpg','William Morris, a central figure in the Arts and Crafts movement.'],
+ [/art deco/i,'Chrysler Building 1.jpg','The Chrysler Building demonstrates the geometric ornament and streamlined visual language associated with Art Deco.'],
+ [/memphis/i,'Carlton bookcase.jpg','The Carlton room divider/bookcase by Ettore Sottsass is an iconic Memphis design.'],
+ [/anthropometr|ergonomic/i,'Anthropometry.png','Anthropometric measurements help designers size products around the human body.'],
+ [/caliper|vernier/i,'Vernier caliper.svg','A vernier caliper is used for accurate internal, external and depth measurements.'],
+ [/micrometer/i,'Micrometer caliper parts 0001.png','A micrometer provides precise measurement of small dimensions.'],
+ [/recycl|circular|environmental/i,'Waste hierarchy.svg','The waste hierarchy prioritises prevention, reuse and recycling over disposal.'],
+ [/product life cycle/i,'Product life-cycle curve.svg','Typical product life-cycle stages from introduction through growth, maturity and decline.'],
+ [/galvani|zinc coat/i,'Hot-dip galvanizing.jpg','Hot-dip galvanising protects steel with a zinc coating.'],
+ [/anod/i,'Anodized aluminium.jpg','Anodised aluminium has a controlled oxide layer that improves corrosion resistance and can accept colour.'],
+ [/lathe|turning/i,'Lathe.png','A centre lathe rotates the workpiece while a cutting tool removes material.'],
+ [/milling/i,'Milling machine diagram.svg','Milling removes material with a rotating multi-point cutter.'],
+ [/sand cast|casting/i,'Sand casting.svg','Sand casting uses a mould cavity formed around a pattern before molten metal is poured.'],
+ [/forg/i,'Forging.jpg','Forging shapes metal through compressive force, often while the material is hot.'],
+ [/weld/i,'Gas metal arc welding.svg','Arc welding joins metals by locally melting material at the joint.'],
+ [/screen print/i,'Screen printing process.svg','Screen printing transfers ink through open areas of a stencil on a mesh screen.'],
+ [/offset lith|lithograph/i,'Offset lithography diagram.svg','Offset lithography transfers an inked image from plate to blanket and then to the substrate.'],
+ [/die cut/i,'Die cutting.svg','Die cutting uses a shaped cutting tool to produce repeated profiles accurately.'],
+ [/corrugated/i,'Corrugated fiberboard.jpg','Corrugated board combines liner sheets with a fluted core for stiffness and cushioning.'],
+ [/trademark/i,'Registered trademark symbol.svg','The registered-trademark symbol identifies a formally registered trade mark.'],
+ [/patent/i,'US patent cover.jpg','Patents protect qualifying inventions through a formal application and examination process.'],
+ [/quality control|\bqc\b/i,'Quality control.jpg','Quality control checks manufactured output against specified requirements.'],
+ [/solar|photovoltaic/i,'Solar panels on roof.jpg','Photovoltaic panels convert solar energy into electrical energy.']
+];
+function figure(file,caption){const fig=document.createElement('figure');fig.className='note-figure contextual-reference';const img=document.createElement('img');img.loading='lazy';img.decoding='async';img.src=commons(file);img.alt=caption;img.onerror=()=>fig.remove();const cap=document.createElement('figcaption');cap.textContent=caption+' · Wikimedia Commons';const a=document.createElement('a');a.href=source(file);a.target='_blank';a.rel='noopener noreferrer';a.append(img);fig.append(a,cap);return fig}
+function addVisuals(){const prose=document.querySelector('.prose');if(!prose)return;const headings=[...prose.querySelectorAll('h2,h3')];const used=new Set();for(const h of headings){const text=(h.textContent||'').trim();for(const [rx,file,cap] of V){if(rx.test(text)&&!used.has(file)){const panel=h.closest('.note-panel');const target=panel?.querySelector('.note-intro')||h;target.insertAdjacentElement('afterend',figure(file,cap));used.add(file);break}}}}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',addVisuals);else addVisuals();
+</script>
+<style>
+:global(.contextual-reference){max-width:680px!important}:global(.contextual-reference a){display:block;text-decoration:none!important}:global(.contextual-reference img){max-height:400px!important;background:#fff}:global(.contextual-reference figcaption){font-size:12px!important;color:#75687b!important;text-align:center!important}
+</style>
