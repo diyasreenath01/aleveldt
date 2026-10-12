@@ -1,1 +1,28 @@
-<section class="note-panel"><h2>Eco Labels and Recycling Codes</h2><div class="note-intro"><p>A label communicates a <strong>particular claim</strong>. Designers should know what it actually certifies rather than assume a symbol proves that the whole product is sustainable.</p></div><div class="study-card"><h3>FSC Certification</h3><p><strong>FSC certification</strong> concerns timber and paper connected to a certified forest management and supply chain system.</p></div><div class="study-card"><h3>Energy Labels</h3><p><strong>Energy labels</strong> allow consumers to compare the energy performance of relevant appliances.</p></div><div class="study-card"><h3>Material Identification Symbols</h3><p><strong>Material identification symbols</strong> help identify and separate materials for recycling.</p></div><div class="study-card"><h3>WEEE Symbol</h3><p>The <strong>crossed-out wheeled bin</strong> used with WEEE means electrical or electronic equipment should not be placed in ordinary household waste.</p></div></section>
+## International Organization for Standardization (ISO)
+
+The **International Organization for Standardization (ISO)** develops internationally agreed standards. These help products, services and manufacturing systems achieve consistent levels of **quality, safety, efficiency and compatibility** across different countries.
+
+### Why ISO matters in product design
+
+International standards are especially useful when products, components or materials are designed in one country and manufactured or sold in another. They can:
+- create common requirements and terminology
+- improve consistency between suppliers and manufacturers
+- support quality and environmental management
+- make components and systems more compatible
+- give customers and businesses greater confidence in processes and products.
+
+### Useful examples
+
+**ISO 9001** concerns quality management systems. It focuses on having controlled, documented processes and continually improving them so organisations can provide consistent products and services.
+
+**ISO 14001** concerns environmental management systems. It helps organisations manage environmental impacts such as waste, resource use and pollution.
+
+You do not need to memorise large numbers of ISO standards. For an exam answer, the important point is to explain **why a recognised international standard is useful** to a designer, manufacturer or consumer.
+
+### Exam application
+
+A strong chain is:
+
+**international standard → common requirements → more consistent manufacture/quality → easier global supply and greater customer confidence**.
+
+Do not confuse **ISO** with an eco-label. ISO develops standards; environmental labels and directives such as FSC, WEEE and energy labels are covered separately.
