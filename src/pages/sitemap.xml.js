@@ -3,7 +3,7 @@ import { hasSubtopicNotes, hasTopicNotes } from '../data/contentStatus.js';
 
 export function GET({ site }) {
   const base = site ?? new URL('https://aleveldt.com/');
-  const paths = ['/', '/notes/', '/notes/paper-1/', '/notes/paper-2/', '/past-papers/', '/quiz/', '/flashcards/', '/about/',
+  const paths = ['/', '/notes/', '/notes/paper-1/', '/notes/paper-2/', '/specification/', '/past-papers/', '/quiz/', '/flashcards/', '/about/',
     '/notes/arts-and-crafts/', '/notes/bauhaus/'];
   for (const group of syllabus) for (const [code, , subtopics] of group.topics) {
     if (hasTopicNotes(code)) paths.push(`/notes/${code}/`);
