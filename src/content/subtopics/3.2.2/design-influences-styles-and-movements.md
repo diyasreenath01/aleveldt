@@ -1,4 +1,4 @@
-AQA section 3.2.2 covers the principles of Arts and Crafts, Art Deco, Modernism (including Bauhaus) and Postmodernism (including Memphis). The summaries below are from your supplied notes.
+AQA section 3.2.2 covers the principles of Arts and Crafts, Art Deco, Modernism (including Bauhaus) and Postmodernism (including Memphis). The aim is not just to recognise a style: you should be able to connect its historical context and principles to actual design decisions.
 
 [Read section 3.2.2 of the AQA specification ↗](https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/specification/subject-content/designing-and-making-principles)
 
@@ -8,15 +8,23 @@ AQA section 3.2.2 covers the principles of Arts and Crafts, Art Deco, Modernism 
 
 ### Context
 
-Arts & Crafts developed during the Industrial Revolution as a reaction against factory mass production. Designers such as William Morris believed industrial production often resulted in products that lacked quality and individuality.
+Arts & Crafts developed in Britain in the late nineteenth century during rapid industrialisation. It was partly a reaction against the poor quality, loss of individuality and working conditions associated with some factory mass production. Designers such as William Morris wanted everyday products to be useful, beautiful and well made.
 
 ### Philosophy
 
-The movement valued skilled craftsmanship, traditional manufacturing, quality materials and well-made everyday products.
+The movement valued <strong>skilled craftsmanship, quality materials, useful products and honesty to materials and construction</strong>. Rather than disguising how an object was made, construction and natural material qualities could become part of the design.
+
+Arts & Crafts designers also questioned the separation of the designer from the maker. Traditional craft gave the maker greater involvement in the complete object rather than reducing work to a single repetitive factory task.
 
 ### Style
 
-Arts & Crafts designs commonly used natural and organic forms, plants and wildlife, repeating patterns, rich decoration and a handcrafted appearance.
+Arts & Crafts designs commonly used natural and organic forms, British flora and fauna, repeating patterns, handcrafted details and visible material qualities. Furniture and products often used relatively simple functional forms with construction or joinery treated honestly rather than hidden beneath unnecessary ornament.
+
+### Materials and manufacture
+
+Natural materials such as timber, metal, textiles and ceramics suited the movement's emphasis on material quality and skilled making. Traditional techniques and hand processes were valued over anonymous low-quality mass production.
+
+This created an important trade-off: skilled craft can produce individual, durable and carefully made products, but it is generally slower and more expensive than high-volume industrial manufacture. That tension between quality craftsmanship and affordable production is useful when evaluating Arts & Crafts ideas.
 
 ### Key designer
 
@@ -24,7 +32,7 @@ William Morris.
 
 ### Specific examples
 
-*Strawberry Thief, 1883* and *Willow Bough, 1887*.
+*Strawberry Thief, 1883* and *Willow Bough, 1887* use detailed repeating natural imagery and show Morris's strong influence from plants, birds and the natural world.
 
 ---
 
@@ -69,6 +77,8 @@ Modernism developed alongside industrialisation, technological development and m
 ### Philosophy
 
 Modernist design prioritised function, simplicity and modern production. Bauhaus aimed to connect art, craft, technology and industry. Unnecessary decoration was removed and materials were used in ways appropriate to their properties and manufacturing processes.
+
+A key connection for AQA is the development of <strong>furniture suitable for mass production</strong>. Simple forms, standardisation and industrial materials could make repeatable manufacture more practical than highly decorative craft production.
 
 ### Style
 
