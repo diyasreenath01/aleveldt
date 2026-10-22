@@ -1,0 +1,7 @@
+<!-- DESIGN NOTES DOCX IMPORT -->
+
+<section class="note-panel"><h2>Trademarks and logos</h2>
+<div class="note-intro"><p>• <strong>Trademarks</strong> give legal protection for brand identity and facilitate marketing. A recognisable combination of words, sounds, colours and logos is important for companies.<br> • A <strong>logo</strong> is a graphical symbol; it needs to be instantly identifiable and unique in order to stand out.<br> • A trademark may incorporate graphics, but can be a word or phrase such as ‘dual cyclone’.<br> • Trademarks are registered by making an application and paying a fee to the IPO.<br> • Trademarks need to be renewed every ten years.<br> • The ® symbol is used to warn others that it is a protected trademark.</p></div>
+<div class="note-grid"><div class="study-card"><h3>Exam tip</h3>
+<p>Many products encompass all the four main types of IPR, so use a specific product example that you are familiar with, such as the Bic® Atlantis® pens in Figure 24.4 to illustrate how designers can protect their work from being copied.</p>
+<p>• <strong>Patent:</strong> incorporates licensed Laszlo Biro ball ink delivery system.<br> • <strong>Registered design:</strong> the ‘S’ curve, barrel shape and other aesthetic features.<br> • <strong>Trademark:</strong> the Bic® and Atlantis® names are both registered.<br> • <strong>Copyright:</strong> all text on the packaging, such as safety instructions.</p></div></div></section>
