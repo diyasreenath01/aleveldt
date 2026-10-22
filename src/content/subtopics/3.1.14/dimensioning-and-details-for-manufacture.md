@@ -1,33 +1,30 @@
 ## Dimensioning and details for manufacture
 
-Manufacturing drawings must communicate enough information for a product or component to be made **accurately and consistently**.
+Manufacturing drawings must communicate enough information for a component to be made **accurately, consistently and without ambiguity**.
 
 Important information can include:
 - overall and component dimensions
-- units
 - hole diameters and positions
 - radii and angles
 - material and thickness
 - tolerances where variation matters
 - surface finish or treatment
-- assembly or fixing details.
+- assembly and fixing details.
 
-### Dimensioning
+### Dimensioning and datums
 
-Dimensions should be clear and unambiguous. Avoid forcing the manufacturer to calculate an important dimension from several others when it can be stated directly.
-
-A **datum** provides a common reference point or surface from which measurements can be taken. Using a consistent datum reduces cumulative marking-out errors.
+Dimensions should be stated clearly rather than forcing a manufacturer to calculate important values from several other measurements. A **datum** is a common reference edge, point or surface from which related dimensions are taken, reducing the build-up of marking-out errors.
 
 ### Tolerances
 
-A tolerance states the permitted variation from a nominal dimension. Very tight tolerances can improve fit or performance where necessary, but they can also increase manufacturing time, inspection requirements and cost.
+A **tolerance** states the permitted variation from a nominal dimension. Tight tolerances are important where parts must fit, align or move precisely, but unnecessary precision increases machining and inspection cost. The tolerance should therefore match the function of the feature.
 
-The tolerance should therefore suit the function. A precision bearing fit requires much tighter control than the overall length of a simple storage box.
+### Geometric dimensioning and tolerancing (GD&T)
 
-### Details for manufacture
+**GD&T** is a standardised system of engineering drawing symbols used to communicate allowable variation in the geometry and position of features. It can specify requirements such as the permitted position, orientation or form of a feature in relation to a datum.
 
-Manufacturers may also need sectional views, exploded views, notes, material specifications, quantities and information about processes or finishes.
+GD&T is useful when simple linear dimensions do not fully describe how accurately parts must relate to one another, particularly for interchangeable components and precision assemblies.
 
-A useful exam chain is:
+### Other manufacturing information
 
-**clear dimensions + suitable tolerances + common datum → fewer interpretation/measurement errors → more consistent components → easier assembly and less waste/rework**.
+Sectional views, exploded views, material specifications, quantities, process notes and finishes may also be needed. Clear manufacturing information reduces interpretation errors and makes consistent production and assembly more likely.
