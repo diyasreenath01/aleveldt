@@ -1,25 +1,33 @@
-<section class="note-panel"><h2>Prototype development</h2>
-<div class="note-intro"><p>Modelling design ideas and concepts is an essential element of the design process. Selecting the correct modelling method and material is crucial and depends on the specific function of the model. Models can help to make decisions or prove/disprove predictions.</p></div>
-<div class="study-card"><h3>Initial concept generation</h3><p>Initial 2D or 3D sketch modelling facilitates early client feedback, mainly on aesthetics.</p></div>
-<div class="study-card"><h3>Block modelling</h3><ul>
-<li>Block modelling facilitates testing of aspects such as mechanisms and the intended form of a product.</li>
-<li>Compliant materials such as styrofoam and clay allow simple, hand tool shaping of 3D forms.</li>
-<li>Mechanical elements require more resistant material to test reactions to forces.</li>
-</ul></div>
-<div class="study-card"><h3>Visual appearance models</h3><ul>
-<li>These demonstrate the aesthetic form of the design concept.</li>
-<li>They are usually made from different materials to the final product due to the expense of producing moulds and formers suitable for the actual materials.</li>
-</ul></div>
-<div class="study-card"><h3>Working prototypes</h3><ul>
-<li>These are particularly intended for testing mechanisms and technical principles.</li>
-<li>Appearance is not a high priority as various materials, components and temporary fixings are required to carry out the necessary adjustments to achieve optimum performance.</li>
-</ul></div>
-<div class="study-card"><h3>Rapid prototyping</h3><ul>
-<li>Block models can be 3D ‘printed’ from CAD model files thanks to this technological development.</li>
-<li>Thermosetting polymers and resins are examples of the materials that can be used.</li>
-<li>CAD models and subsequent rapid prototypes facilitate the short timescale testing of a series of design iterations that can also be used to obtain focus group feedback.</li>
-</ul></div>
-<div class="study-card"><h3>Additional points</h3><ul>
-<li>Time constraints and access to potentially expensive software and rapid prototyping facilities can govern the choice of modelling methods to be used.</li>
-<li>Virtual modelling, such as FEA and CFD, facilitates tooling simulations and prediction of production problems, to make savings in the longer term.</li>
-</ul></div></section>
+## Prototype development
+
+Prototypes and models are used to answer specific questions during development. The model should therefore be chosen for what needs to be tested rather than simply made as realistic as possible.
+
+### Early and visual models
+
+Initial 2D/3D sketches and simple block models help explore form, proportions and ergonomics quickly. A **visual prototype** shows the intended appearance, size and shape but does not need to function. Cheap, easily shaped materials are often suitable because realistic production materials would add cost without improving an appearance test.
+
+### Functional and proof-of-concept models
+
+A **proof-of-concept prototype** tests whether a mechanism or technical principle works. Appearance is secondary, so temporary fixings or substitute materials may be appropriate if they reproduce the behaviour being tested.
+
+Where forces, movement or performance are being assessed, the prototype must reproduce the relevant properties closely enough for the result to be meaningful.
+
+### Production prototypes
+
+A **production prototype** is close to the intended manufactured product in appearance and function. It is used for final testing, user trials and identifying changes needed before full production. It may still use prototype tooling or processes if full production tooling would be too expensive at this stage.
+
+### Planning prototype manufacture
+
+Before making a prototype, decide:
+- the purpose of the prototype and what must be tested
+- suitable materials and components
+- tools, equipment and processes required
+- the level of accuracy needed
+- quality-control checks during manufacture
+- whether rapid prototyping or other specialist facilities are appropriate.
+
+The prototype should then be tested against its purpose. Results should lead to changes where necessary, followed by further modelling or testing. This iterative process is useful only when each version answers a design question or improves the product.
+
+### Digital and rapid prototyping
+
+CAD models can be used for rapid prototyping and repeated design iterations. Virtual modelling such as FEA and CFD can predict behaviour before physical manufacture, but the result depends on suitable engineering assumptions and input data. Physical testing may still be needed to validate the design.
