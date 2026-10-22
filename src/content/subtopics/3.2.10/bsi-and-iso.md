@@ -1,1 +1,17 @@
-<section class="note-panel"><h2>National and International Standards</h2><div class="note-intro"><p><strong>Standards</strong> set agreed requirements or methods for products and processes. They support safety, consistent quality and compatibility.</p></div><div class="study-card"><h3>BSI and ISO</h3><p>The <strong>British Standards Institution (BSI)</strong> develops British Standards. The <strong>International Organization for Standardization (ISO)</strong> develops international standards. <strong>ISO 9001</strong> relates to quality management systems and <strong>ISO 14001</strong> to environmental management systems.</p><p>Designers must identify the requirements relevant to their <strong>specific product and market</strong>. Meeting one standard does not prove that a product meets every safety or environmental requirement.</p></div></section>
+## National and international standards
+
+Standards provide agreed requirements, test methods or procedures for products and processes. They help improve **safety, quality, reliability and compatibility** and make it easier for designers and manufacturers to work to recognised requirements.
+
+### British Standards Institution (BSI)
+
+The **BSI** develops British Standards and represents UK standardisation. A product may be tested or assessed against the requirements of a relevant British Standard. Designers should identify the standard that applies to the particular product rather than assuming one approval covers every requirement.
+
+### International Organization for Standardization (ISO)
+
+The **ISO** develops internationally recognised standards, helping organisations use common requirements across different countries and supply chains.
+
+Two important examples are:
+- **ISO 9001** – quality management systems
+- **ISO 14001** – environmental management systems.
+
+Standards can increase confidence in product quality and make international manufacture or sale easier, but compliance may require testing, documentation and process control. Meeting a management-system standard also does not mean that every individual product automatically satisfies all safety or environmental legislation.
