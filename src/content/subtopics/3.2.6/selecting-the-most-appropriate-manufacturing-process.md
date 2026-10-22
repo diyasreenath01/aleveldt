@@ -1,1 +1,21 @@
-<section class="note-panel"><h2>Choosing Manufacturing Processes</h2><div class="note-intro"><p>The process must suit the <strong>material, shape, accuracy, quantity, available equipment and cost</strong>.</p></div><div class="study-card"><h3>One-off Production</h3><p>One product is made, often for a specific client. Skilled workers use adaptable tools and may adjust parts individually.</p></div><div class="study-card"><h3>Batch Production</h3><p>A set number of identical products is made. Jigs, fixtures and templates improve speed and consistency.</p></div><div class="study-card"><h3>Mass Production</h3><p>Very large numbers of standardised products are made using dedicated equipment and automation. Setup is expensive, but the cost per item can fall at high volumes.</p></div><div class="study-card"><h3>Matching Process to Quantity</h3><p>A maker may mark and drill each component of a one-off chair separately. A batch manufacturer can use a <strong>drilling jig</strong> to locate the same holes repeatedly.</p></div></section>
+## Selecting the most appropriate manufacturing process
+
+The best manufacturing process depends on the **material, form, required accuracy, surface finish, production quantity, available equipment and cost**. A process is appropriate only if it can produce the required product efficiently and to the required quality.
+
+### Material and form
+
+Processes are limited by the materials they can shape and the forms they can create. For example, **injection moulding** can produce complex thermoplastic parts with repeated detail, while **vacuum forming** is better suited to relatively thin sheet forms. CNC machining can produce accurate features in many materials but removes material and may create more waste.
+
+### Accuracy and finish
+
+Products with close-fitting or moving parts may require processes capable of maintaining tighter **tolerances**. The required surface finish also matters: a process that produces a rough surface may need additional finishing, increasing time and cost.
+
+### Quantity and cost
+
+For **one-off production**, flexible tools and processes with low setup costs are usually appropriate, even if each item takes longer to make. For **batch production**, jigs, fixtures and CNC equipment can improve repeatability and speed. For **mass production**, dedicated tooling and automation can be justified because high setup costs are spread across many products, reducing unit cost.
+
+### Choosing between realistic alternatives
+
+The decision should consider the whole manufacturing situation rather than one advantage. **Injection moulding**, for example, can be fast and economical for very large quantities but requires expensive tooling, so it would usually be unsuitable for a single prototype. **3D printing** requires little dedicated tooling and can make complex one-off forms, but may be slower per component and less economical for large production runs.
+
+Other factors such as **labour and skill, production speed, material waste, tooling requirements and available machinery** can change which process is most appropriate. The cheapest process is not necessarily the best if it cannot achieve the required accuracy, finish or production rate.
