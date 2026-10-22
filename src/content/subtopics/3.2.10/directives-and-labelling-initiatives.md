@@ -1,1 +1,35 @@
-<section class="note-panel"><h2>Product Directives and Environmental Requirements</h2><div class="note-intro"><p>AQA expects students to understand the importance of national and international standards, directives, material identification and environmental labelling. For revision, focus on <strong>what each requirement or label is for and how it can affect a design or consumer decision</strong>, rather than memorising legal clause numbers.</p></div><div class="study-card"><h3>RoHS</h3><p><strong>RoHS — Restriction of Hazardous Substances</strong> restricts specified hazardous substances in electrical and electronic equipment. It affects the selection of materials, finishes and electronic components so manufacturers reduce the use of restricted hazardous substances.</p></div><div class="study-card"><h3>WEEE</h3><p><strong>WEEE</strong> concerns the collection and treatment of waste electrical and electronic equipment. The <strong>crossed-out wheeled bin</strong> indicates that the item should be collected separately rather than disposed of with ordinary household waste.</p><p>For designers this reinforces the need to consider end-of-life, material separation, recovery and recycling when developing electrical products.</p></div><div class="study-card"><h3>Battery Directive / battery requirements</h3><p>The AQA specification names the <strong>Battery Directive</strong>. At the level needed for this course, understand that battery requirements aim to reduce environmental harm from batteries and support appropriate <strong>collection, treatment and recycling</strong>, while controlling hazardous substances.</p><p>This can influence product design by encouraging designers to consider how batteries are identified, collected and dealt with at end-of-life. A permanently enclosed battery may help achieve a compact or sealed product, but can make repair, replacement and material recovery more difficult.</p><p><strong>Revision note:</strong> the specification uses the term “Battery Directive”, so use that wording in an AQA answer. You do not need detailed battery chemistry for this point.</p></div><div class="study-card"><h3>Packaging directives</h3><p>Packaging requirements encourage the reduction of unnecessary packaging and improved recovery and recycling. Designers should consider the amount of material used, packaging volume, material identification and whether materials can be reused or recycled.</p></div><div class="study-card"><h3>Polymer identification codes</h3><p>Polymer identification codes identify the type of plastic used. They can help with material identification and sorting for recycling. A code identifies the polymer; it does not by itself guarantee that the item will be recycled in every local waste system.</p></div><div class="study-card"><h3>Energy ratings</h3><p>Energy labels communicate the energy performance of products and help consumers compare alternatives. They also create an incentive for designers and manufacturers to reduce energy consumption during the use stage of a product's life cycle.</p></div><div class="study-card"><h3>Eco-labelling named by AQA</h3><ul><li><strong>Mobius Loop:</strong> a widely recognised recycling symbol. Its precise meaning depends on how it is presented, so do not simply assume that every product displaying it is made entirely from recycled material.</li><li><strong>European Ecolabel:</strong> identifies products that meet the scheme's environmental criteria.</li><li><strong>NAPM recycled mark:</strong> associated with recycled paper products; it provides information about recycled fibre content.</li><li><strong>EC energy label:</strong> allows consumers to compare the energy performance of relevant products.</li><li><strong>Energy Efficient label and logo:</strong> communicates improved energy efficiency to consumers.</li><li><strong>FSC — Forest Stewardship Council:</strong> certification used for forest-based materials and products from certified responsible sources and supply chains.</li><li><strong>EPA ENERGY STAR:</strong> identifies products that meet the programme's energy-efficiency criteria.</li></ul></div><div class="study-card"><h3>How to use these in an answer</h3><p>Do more than name a logo. Explain the consequence: <strong>requirement or label → design/manufacturing decision → environmental or consumer benefit</strong>. For example, identifying a polymer can make separation at end-of-life easier, while an energy label can encourage the selection of more efficient components because consumers can compare energy performance.</p></div></section>
+## Product directives and environmental labelling
+
+Standards, directives and labels can affect material selection, product construction, disposal and the information given to consumers. The important point is what each requirement is intended to achieve and how it can influence design decisions.
+
+### RoHS
+
+**RoHS — Restriction of Hazardous Substances** restricts specified hazardous substances in electrical and electronic equipment. It affects the selection of materials, finishes and electronic components.
+
+### WEEE
+
+**WEEE** concerns the collection and treatment of waste electrical and electronic equipment. The **crossed-out wheeled bin** indicates that an item should be collected separately rather than placed in ordinary household waste. Designers should therefore consider disassembly, material separation and recovery at end-of-life.
+
+### Battery requirements
+
+The AQA specification uses the term **Battery Directive**. Its purpose is to reduce environmental harm from batteries and support appropriate collection, treatment and recycling. Product design can affect how easily a battery can be identified, removed, replaced and recovered at end-of-life.
+
+### Packaging requirements
+
+Packaging requirements encourage reduced material use and improved recovery and recycling. Designers should consider packaging volume, material choice, material identification and whether packaging can be reused or recycled.
+
+### Polymer identification codes
+
+Polymer codes identify the type of plastic used, helping sorting and material recovery. The code identifies the polymer; it does not guarantee that local recycling facilities will accept the product.
+
+### Energy and environmental labels
+
+- **Mobius Loop** – widely recognised recycling symbol; its exact meaning depends on how it is used.
+- **European Ecolabel** – identifies products meeting the scheme's environmental criteria.
+- **NAPM recycled mark** – associated with recycled paper products and recycled fibre content.
+- **EC energy label** – allows consumers to compare energy performance.
+- **Energy Efficient label/logo** – communicates energy efficiency.
+- **FSC** – certification for forest-based materials and products from certified responsible sources and supply chains.
+- **EPA ENERGY STAR** – identifies products meeting the programme's energy-efficiency criteria.
+
+Labels can influence both design and purchasing decisions, but a single label normally addresses a particular issue rather than proving that a product is environmentally preferable in every part of its life cycle.
