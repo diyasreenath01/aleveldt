@@ -1,4 +1,4 @@
-AQA section 3.2.2 covers the principles of Arts and Crafts, Art Deco, Modernism (including Bauhaus) and Postmodernism (including Memphis). The aim is not just to recognise a style: you should be able to connect its historical context and principles to actual design decisions.
+AQA section 3.2.2 covers the principles of Arts and Crafts, Art Deco, Modernism (including Bauhaus) and Postmodernism (including Memphis). Understanding a movement means connecting its historical context and principles to the design decisions that resulted.
 
 [Read section 3.2.2 of the AQA specification ↗](https://www.aqa.org.uk/subjects/design-and-technology/a-level/design-and-technology-7552/specification/subject-content/designing-and-making-principles)
 
@@ -24,7 +24,7 @@ Arts & Crafts designs commonly used natural and organic forms, British flora and
 
 Natural materials such as timber, metal, textiles and ceramics suited the movement's emphasis on material quality and skilled making. Traditional techniques and hand processes were valued over anonymous low-quality mass production.
 
-This created an important trade-off: skilled craft can produce individual, durable and carefully made products, but it is generally slower and more expensive than high-volume industrial manufacture. That tension between quality craftsmanship and affordable production is useful when evaluating Arts & Crafts ideas.
+This created an important trade-off: skilled craft can produce individual, durable and carefully made products, but it is generally slower and more expensive than high-volume industrial manufacture. Arts & Crafts principles can therefore be highly suitable where longevity, material quality and individuality are priorities, but less suitable where the main requirement is inexpensive production for a large market.
 
 ### Key designer
 
@@ -54,6 +54,8 @@ Art Deco used bold geometric shapes, symmetry, ornamentation, streamlined forms,
 
 Cars, aircraft, skyscrapers and other symbols of technological progress encouraged streamlined and futuristic forms. Consumer culture also increased demand for products that communicated wealth and success.
 
+The highly finished materials and decorative detailing could make a product visually distinctive and communicate quality or status, but these features could also increase material, manufacturing and labour costs. Art Deco styling is therefore particularly effective when appearance and perceived value are important rather than when minimum cost or material efficiency is the main requirement.
+
 ### Common imagery
 
 Art Deco used motifs such as the rising sun, shells, half moons, American skylines, Egyptian themes and mother-of-pearl imagery.
@@ -79,6 +81,8 @@ Modernism developed alongside industrialisation, technological development and m
 Modernist design prioritised function, simplicity and modern production. Bauhaus aimed to connect art, craft, technology and industry. Unnecessary decoration was removed and materials were used in ways appropriate to their properties and manufacturing processes.
 
 A key connection for AQA is the development of <strong>furniture suitable for mass production</strong>. Simple forms, standardisation and industrial materials could make repeatable manufacture more practical than highly decorative craft production.
+
+This approach can reduce unnecessary parts and make products easier to reproduce consistently, but functional simplicity is not automatically the best response to every user or market. Products intended to express identity, luxury, tradition or emotional value may deliberately use decoration or more individual forms. The suitability of Modernist principles therefore depends on the design brief rather than simplicity being inherently superior.
 
 ### Style
 
@@ -115,6 +119,8 @@ Postmodernism used humour and personality, retro references, deconstruction, unu
 ### Memphis
 
 Memphis was a particularly expressive form of Postmodern design associated with Ettore Sottsass. It used bright and clashing colours, geometric shapes, patterns, asymmetry, unusual proportions and plastic laminates.
+
+These choices can give a product a strong identity and make it memorable in a crowded market, but an unusual form or deliberately provocative appearance may reduce practical efficiency or appeal to a narrower group of users. In a product whose purpose includes self-expression this can be an advantage; in a safety-critical or highly functional product it may be less appropriate.
 
 ### Key designers
 
