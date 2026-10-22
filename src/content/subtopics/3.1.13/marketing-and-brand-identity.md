@@ -1,37 +1,25 @@
 ## Marketing and brand identity
 
-Marketing helps a business identify **who the customer is**, understand what they want and communicate why a product should appeal to them. Brand identity is the recognisable image and personality associated with a company or product range.
-
-### Customer identification
-
-Designers need a clear target market. Useful information includes age, lifestyle, income, needs, preferences and buying behaviour. Market research helps designers make decisions about function, aesthetics, materials, price and promotion.
+Marketing helps a business identify **who the customer is**, understand what they need or value and communicate why a product should appeal to them. Market research can investigate age, lifestyle, income, preferences, buying behaviour and competing products, helping designers make better decisions about function, aesthetics, materials and price.
 
 ### Brand and corporate identity
 
-A consistent identity can be created through **logos, colour, typography, packaging, product styling, advertising and tone of communication**. Consistency helps customers recognise a brand and can create trust or perceived value.
+A recognisable identity can be created through **logos, colour, typography, packaging, product styling and advertising**. Consistency helps customers recognise a company or product range and can build trust and loyalty.
 
-### Packaging and labelling
+Packaging is part of the product's identity as well as a way of protecting and communicating information. Distinctive shapes, colours and graphics can make a product recognisable, but packaging must still meet practical, environmental and legal requirements.
 
-Packaging can protect a product, communicate information, attract attention and reinforce brand identity. Labels may communicate instructions, ingredients/materials, safety information, environmental information or legal requirements.
+### Promotion
 
-### Promotion and global marketing
+Products may be promoted through advertising, social media, online video, influencers, pop-ups and viral or referral marketing. Digital promotion can reach large audiences quickly and can be targeted, but a campaign is only effective if it reaches the intended market and communicates a convincing benefit.
 
-Products can be promoted using advertising, social media, influencers, online video and viral marketing. Digital marketing can reach large audiences quickly and can be targeted using customer data.
+### Global marketing
 
-Global marketing can increase the potential market, but designers may need to consider language, culture, symbolism, local regulations and whether a product or campaign is appropriate in different countries.
+Global markets can increase potential sales, but the same product or campaign may not work everywhere. Designers and marketers may need to consider **language, culture, symbolism, local preferences, regulations and purchasing power**. A globally consistent brand may therefore still need local adaptation.
 
 ### Product costing and profit
 
-A commercially successful product must normally sell for more than the total cost of producing and bringing it to market. Designers therefore balance desirable features and materials against manufacturing cost and the price the target market will accept.
-
-**Profit = selling price − total cost** (for the relevant unit or quantity).
+Commercial decisions must consider both **direct costs** such as materials, labour and production consumables, and **indirect costs** such as administration, maintenance, equipment depreciation, security and power. A product must normally generate enough revenue to cover these costs and provide an acceptable return.
 
 ### Entrepreneurs
 
-Entrepreneurs identify opportunities, take financial risk and organise resources to bring new products or services to market. Successful entrepreneurship often combines a genuine user need with a viable product, suitable pricing and effective marketing.
-
-### Exam application
-
-Avoid simply saying that branding 'makes a product look good'. Link it to an outcome:
-
-**consistent visual identity → easier recognition → stronger brand association → increased customer trust/loyalty → potential increase in sales**.
+Entrepreneurs identify opportunities, take financial risk and organise resources to bring products or services to market. Technical creativity alone is not enough: the idea also needs a genuine customer need, workable production, suitable pricing and effective marketing.
