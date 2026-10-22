@@ -1,27 +1,3 @@
-## Paper and board processes
-
-Paper and board are commonly converted into packaging and other products by **cutting, creasing, bending and folding**. The process chosen depends on the shape, quantity, accuracy and material thickness.
-
-### Die cutting
-
-A shaped cutting tool is pressed through sheet material to cut a repeated profile. Creasing rules can be included in the same die, allowing a packaging net to be cut and creased in one operation.
-
-**Useful for:** cartons, labels and packaging produced in large quantities.
-
-**Why chosen:** fast and repeatable once tooling exists, but the cutting die adds setup cost, so it is less attractive for very small quantities.
-
-### Laser cutting
-
-A CNC-controlled laser can cut complex profiles directly from digital data. No physical cutting die is required, making it useful for prototypes, short runs and customised designs.
-
-It offers high accuracy and quick design changes, although machine time can be slower or more expensive than dedicated tooling for very high volumes.
-
-### Creasing and bending
-
-A crease compresses or locally weakens the material so it folds accurately along a controlled line. This reduces cracking and helps packaging form consistently.
-
-### Exam application
-
-Always link the process to the scale of production:
-
-**high volume + repeated carton shape → die cutting → high tooling cost spread across many units → fast, consistent production and lower unit cost**.
+<section class="note-panel"><h2>Paper and Board Processes</h2><div class="note-intro"><p>Paper and board are commonly converted by <strong>cutting, creasing, folding and forming</strong>. Process choice depends on thickness, shape, accuracy and production quantity.</p></div></section>
+<section class="note-panel"><h2>Cutting and forming</h2><div class="note-grid"><div class="study-card"><h3>Die cutting</h3><p>A shaped steel cutting rule is pressed through sheet material to produce the same profile repeatedly. Creasing rules can be included in the same die.</p><ul><li><strong>Suitable for:</strong> cartons, labels and packaging nets in large quantities.</li><li><strong>Advantages:</strong> fast and repeatable; cutting and creasing can occur in one operation.</li><li><strong>Limitation:</strong> tooling cost makes it less economical for very small quantities.</li></ul></div><div class="study-card"><h3>Laser cutting</h3><p>A CNC-controlled laser cuts directly from digital data without a physical cutting die.</p><ul><li><strong>Suitable for:</strong> prototypes, short runs and customised profiles.</li><li><strong>Advantages:</strong> accurate; complex shapes and design changes are easy.</li><li><strong>Limitation:</strong> dedicated die cutting is generally faster for very high repeated volumes.</li></ul></div><div class="study-card"><h3>Creasing and folding</h3><p>A crease compresses or locally weakens the material so it folds accurately along a controlled line.</p><ul><li><strong>Why used:</strong> improves consistency and reduces uncontrolled cracking.</li><li><strong>Applications:</strong> packaging nets, cartons and folded display products.</li></ul></div></div></section>
+<section class="note-panel"><h2>Choosing the process</h2><div class="note-intro"><p>For a repeated high-volume carton, a cutting-and-creasing die has a higher initial cost but produces each net quickly and consistently. For a prototype or frequently changing design, digital laser cutting avoids dedicated tooling and allows faster modification.</p></div></section>
