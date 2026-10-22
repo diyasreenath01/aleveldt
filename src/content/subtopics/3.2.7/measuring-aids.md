@@ -1,1 +1,25 @@
-<section class="note-panel"><h2>Measuring Aids and Accuracy</h2><div class="note-intro"><p>Accuracy can be improved by using repeatable reference points, guides, workholding and controlled manufacturing equipment. AQA specifically expects students to understand the value of <strong>templates, jigs and fixtures</strong> in improving consistency and reducing human error.</p></div><div class="study-card"><h3>Datum</h3><p>A <strong>datum</strong> is a reference edge, point or surface from which dimensions are taken. Measuring from the same datum reduces the build-up of errors.</p></div><div class="study-card"><h3>Templates, jigs and fixtures</h3><ul><li>A <strong>template</strong> provides a repeatable shape, position or marking pattern so the same information does not have to be measured and marked out from scratch each time.</li><li>A <strong>jig</strong> holds or locates the work and also <strong>guides the tool</strong>, for example a drilling jig that positions repeated holes.</li><li>A <strong>fixture</strong> holds and locates a workpiece securely during a process but does not guide the cutting tool, for example a welding or assembly fixture.</li></ul><p>These are particularly useful in batch and mass production because repeated components need to be interchangeable and consistent.</p></div><div class="study-card"><h3>Related aids: formers and patterns</h3><p>A <strong>former</strong> provides a controlled shape around or over which a material is formed. Examples include laminated timber or steam-bent timber being held around a former while the required curve is produced. Using the same former helps repeated components achieve a consistent profile.</p><p>A <strong>pattern</strong> is a master shape used to reproduce a form or component. Its exact use depends on the manufacturing process. Like a template, it can reduce repeated setting-out and improve consistency.</p><p>Formers and patterns are useful related examples, but the AQA 3.2.7 specification specifically names <strong>templates, jigs and fixtures</strong> as measuring aids.</p></div><div class="study-card"><h3>CAD/CAM and CNC accuracy</h3><p><strong>CAD</strong> allows dimensions, geometry and features to be defined precisely in a digital model. When CAD data is used with <strong>CAM/CNC</strong>, programmed tool movements can reproduce the same geometry accurately and repeatedly.</p><p>CNC does not automatically guarantee a correct product: an incorrect drawing, toolpath, datum, tool setting or program can reproduce the same error across an entire batch. Setup and QC checks are therefore still required.</p></div><div class="study-card"><h3>Tolerances</h3><p>A <strong>tolerance</strong> is the permitted variation from a specified dimension. Tight tolerances are important where parts must fit or move together, but tighter tolerances can increase manufacturing and inspection costs.</p></div></section>
+## Measuring aids
+
+Measuring and manufacturing accuracy can be improved by using consistent reference points and devices that reduce repeated marking out and human error.
+
+### Datum
+
+A **datum** is a reference edge, point or surface from which measurements are taken. Measuring related features from the same datum reduces cumulative error.
+
+### Templates, jigs and fixtures
+
+- A **template** provides a repeatable shape or marking profile so identical parts can be produced consistently.
+- A **jig** locates the workpiece and **guides the tool**, for example guiding a drill to produce repeated holes in the same position.
+- A **fixture** securely holds and locates work during a process but does not guide the cutting tool. Welding fixtures are a common example.
+
+Jigs and fixtures allow repetitive operations to be carried out faster and with less dependence on individual marking-out skill. They are particularly useful in batch and mass production, where consistent parts and interchangeability matter.
+
+A well-designed jig or fixture can also prevent a component being fitted in the wrong orientation, reducing rejects. However, making dedicated tooling takes time and money, so it may not be worthwhile for a one-off product.
+
+### Tolerances
+
+A **tolerance** is the permitted variation from a specified dimension. Tight tolerances are needed where parts must fit, align or move accurately, but unnecessary precision increases manufacturing and inspection cost.
+
+### CAD/CAM and CNC
+
+CAD allows geometry and dimensions to be defined precisely, while CAM/CNC can reproduce programmed operations consistently. This does not remove the need for checking: an incorrect datum, tool setting, drawing or program can reproduce the same error across a whole batch.
