@@ -1,22 +1,13 @@
 ## Report writing
 
-Design reports communicate research, proposals, decisions and outcomes clearly to clients, users or manufacturers. The style should suit the audience and purpose.
+Design reports communicate **research, proposals, decisions and outcomes** clearly to clients, users or manufacturers. The language, level of technical detail and presentation should suit the audience and purpose.
 
-A useful report normally has a clear structure, such as **title, introduction, findings, analysis, conclusions and recommendations**. Headings make information easier to locate.
+A report should have a logical structure, using headings such as **introduction, findings, analysis, conclusions and recommendations** where appropriate. Information should be concise, relevant and supported by evidence.
 
-Good technical writing should be:
-- concise and relevant
-- objective where appropriate
-- supported by evidence
-- clear about units, dimensions and terminology
-- accompanied by labelled images, drawings, graphs or tables where these communicate information more effectively than text.
+Technical reports may combine written information with **labelled images, drawings, graphs and tables** when these communicate information more clearly than text. Units, dimensions and technical terminology should be used consistently.
 
-### Using evidence
+### Interpreting evidence
 
-A strong report does more than present data. It explains what the evidence means for the design. For example:
+Evidence should lead to a useful conclusion or design decision rather than simply being presented. For example, if user testing shows that most users struggle to operate a control, the designer can use that evidence to justify changing its size or position and then test the revised design.
 
-**User testing showed that 8/10 users struggled with the control → the control should be enlarged and repositioned → the revised prototype should then be retested.**
-
-### Exam and NEA use
-
-The key skill is communicating a justified design decision. Avoid filling a report with description that does not influence the design.
+A good report therefore makes it clear **what was found, why it matters and what should happen as a result**.
