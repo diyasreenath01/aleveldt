@@ -1,24 +1,37 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
+## Ease of manufacture
 
-<section class="note-panel"><h2>2. Ease of manufacture</h2>
-<div class="note-grid"><div class="study-card"><h3>Ease of manufacture</h3>
-<p>Efficient manufacture is essential to <strong>reduce unit cost, improve consistency, and maximise product quality</strong>. Poor manufacturability increases labour time, error rates, and waste.</p>
-<p>Ease of manufacture is achieved by:</p>
-<p>Using <strong>modular designs</strong> with clearly defined sub-systems, allowing parallel manufacture, easier quality control, and fault isolation<br> </p>
-<p>Using <strong>standardised parts and sizes</strong> across product ranges to reduce tooling costs, simplify supply chains, and improve interchangeability<br> </p>
-<p>Using <strong>automated manufacturing processes</strong> (e.g. wave or reflow soldering) to improve speed, repeatability, and reliability compared with manual methods<br> </p>
-<p>Optimising factory layout using <strong>simulation software</strong> to reduce material handling, bottlenecks, and downtime<br> </p></div>
-<div class="study-card"><h3>Reducing the number of manufacturing processes (A-level only)</h3>
-<p>Reducing the number of processes simplifies manufacture, lowers cost, and reduces production time. However, excessive simplification can <strong>reduce repairability and sustainability</strong>.</p>
-<p>Strategies include:</p>
-<p>Using <strong>single-process manufacture</strong> (e.g. injection moulding) instead of multiple forming, machining, and finishing stages<br> </p>
-<p>Selecting <strong>self-finishing materials</strong> (e.g. polymers) to eliminate secondary surface treatments<br> </p>
-<p>Reducing joining operations by incorporating <strong>integral fixings<br> </strong></p>
-<p>Using <strong>ribs and webs</strong> to produce lightweight yet strong mouldings without increasing material volume<br> </p>
-<p>Integrating snap fits, screw posts, and textures directly into mould tools to reduce assembly stages<br> </p>
-<p>Buying components from <strong>specialist suppliers</strong> to benefit from economies of scale and expertise<br> </p>
-<p>Using <strong>adhesives</strong> instead of mechanical fasteners, improving aesthetics but often reducing repairability and recyclability<br> </p></div>
-<div class="study-card"><h3>Choice of materials (manufacture-focused aspects)</h3>
-<p>Material choice directly affects a product’s <strong>manufacture, performance, maintenance, and end-of-life disposal</strong>.</p>
-<p>Key considerations:</p>
-<p>Materials are identified using <strong>standardised recycling codes</strong>, often moulded into products to aid separation<br> </p></div></div></section>
+A product should be designed so it can be manufactured **accurately, consistently and economically** at the intended production scale. Poor manufacturability increases labour, production time, errors and waste.
+
+### Designing for efficient manufacture
+
+Useful strategies from the design stage include:
+
+- **modular design** — clearly defined sub-systems can be manufactured in parallel, tested separately and replaced more easily
+- **standardised parts and sizes** — reduce the number of unique components and tooling requirements while improving interchangeability
+- **automated processes** — processes such as wave or reflow soldering can improve speed, repeatability and reliability where production volume justifies automation
+- **factory-layout simulation** — can help reduce unnecessary material movement, bottlenecks and downtime.
+
+The most suitable approach depends on the product and scale of manufacture; automation is not automatically economical for a low-volume product.
+
+## Reducing the number of manufacturing processes
+
+Reducing separate operations can lower unit cost and production time and reduce opportunities for error.
+
+Designers can:
+
+- use a **single forming process**, such as injection moulding, to create features that would otherwise require separate forming and machining
+- choose **self-finishing materials**, such as coloured polymers, to remove a secondary finishing stage
+- incorporate **integral fixings** rather than adding separate joining operations
+- mould **ribs and webs** to increase stiffness without adding large amounts of material
+- incorporate snap fits, screw posts and surface textures into a moulded component
+- use bought-in components from specialist suppliers where this gives consistent quality and economies of scale.
+
+These decisions involve trade-offs. For example, an adhesive can reduce visible fixings and simplify assembly, but a permanent adhesive may make repair and material separation much harder.
+
+## Material choice and manufacture
+
+Material choice affects the required process, tooling, finishing, assembly, maintenance and end-of-life treatment. Designers should therefore choose a material for both **product performance and manufacturability**.
+
+Standardised recycling identification codes can be moulded into components to help identify materials later. This is especially useful where a product is intended to be separated and recycled at end of life.
+
+Ease of manufacture should therefore not mean simply making the product as cheap or simple as possible. A good design balances **production efficiency, quality, performance, repairability and disposal**.
