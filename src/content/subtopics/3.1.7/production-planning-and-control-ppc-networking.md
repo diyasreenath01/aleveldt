@@ -1,23 +1,36 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
+## Production planning and control (PPC) networking
 
-<section class="note-panel">
-<div class="note-intro"><p>MPS software integrates and coordinates PPC functions.</p></div>
-<div class="note-grid"><div class="study-card"><h3>Electronic point of sale (EPOS)</h3>
-<p>EPOS systems use barcode scanning to collect sales data.</p>
-<p>Automates stock monitoring and reordering</p>
-<p>Collects customer data for marketing</p>
-<p>Supports product life-cycle decisions</p></div>
-<div class="study-card"><h3>Production, planning and control (PPC) networking (A-level only)</h3>
-<p>PPC networking coordinates production planning, material flow, and supply chain communication. An effective supply chain network (SCN) is essential for Just-in-Time (JiT) manufacturing.</p></div>
-<div class="note-group-title"><h3>Master production schedule (MPS)</h3></div>
-<div class="study-card"><h4>Materials control</h4>
-<p>Triggers supplier orders and manages inventory</p>
-<p>Ensures components arrive only when needed</p></div>
-<div class="study-card"><h4>Uses Kanban, barcodes, and RFID tracking</h4>
-<p>Enables real-time monitoring of components and products</p></div>
-<div class="study-card"><h4>Scheduling</h4>
-<p>Plans machine usage and production timings</p></div>
-<div class="study-card"><h4>Coordinates availability of skilled labour</h4>
-<p>Enables rapid reconfiguration of FMS cells to meet demand</p></div>
-<div class="study-card"><h4>Supplier and customer coordination</h4>
-<p>Links with EPOS to automatically transmit JiT manufacturing requirements</p></div></div></section>
+**PPC networking** coordinates production planning, material flow and communication across a supply chain. It links information about **demand, stock, suppliers, machines, labour and production schedules** so that manufacture can respond efficiently.
+
+It is particularly important for **Just-in-Time (JiT)** manufacture, where components and materials need to arrive when required rather than being held in large stocks.
+
+### Master production schedule (MPS)
+
+A **master production schedule** coordinates the main PPC functions so the business knows **what needs to be produced, when it is needed and what resources are required**.
+
+### Materials control
+
+PPC systems can:
+
+- trigger supplier orders and manage inventory
+- coordinate materials so components arrive when required
+- use **Kanban, barcodes and RFID** to identify and track stock
+- monitor components and products in real time.
+
+This supports JiT because production can be supplied according to actual requirements rather than relying on large buffer stocks.
+
+### Scheduling production
+
+PPC can plan **machine use and production timings** and coordinate the availability of skilled labour. In a flexible manufacturing system (FMS), production cells can be reconfigured as demand changes.
+
+This helps reduce bottlenecks and idle time, but it depends on accurate information and reliable communication across the production network.
+
+### Linking suppliers, production and customers
+
+**EPOS** systems collect sales information using barcode scanning. The sales data can support stock monitoring and reordering and can feed into production decisions.
+
+When PPC is linked with EPOS and suppliers, changes in demand can be communicated through the supply chain so purchasing and production can respond. This helps coordinate JiT manufacture and reduces unnecessary stock.
+
+### Why PPC networking is useful
+
+A connected PPC system can improve **stock control, scheduling, traceability and responsiveness to demand**. However, JiT and highly coordinated production also depend on reliable suppliers and accurate data: a late component or incorrect demand signal can interrupt production because less spare stock is available.
