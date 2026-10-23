@@ -1,83 +1,66 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
+## Manufacture, repair, maintenance and disposal
 
-<section class="note-panel"><h2>Design for MMRD</h2></section>
-<section class="note-panel"><h2>1. Manufacture, repair, maintenance and disposal</h2>
-<div class="note-intro"><p>Reducing focuses on using <strong>less material, less energy, and fewer toxic substances</strong>, lowering both environmental impact and cost.</p>
-<p>Reuse extends product life and <strong>delays recycling or disposal</strong>, reducing demand for virgin raw materials.</p>
-<p>Recycling is critical for <strong>non-renewable materials</strong> such as metals, glass, and most polymers.</p>
-<p>Maintenance concerns how designers allow products to be <strong>kept operational over time</strong>, directly affecting lifespan and sustainability.</p></div>
-<div class="note-grid"><div class="study-card"><h3>The six Rs of sustainability</h3>
-<p>Sustainability is the <strong>management of resources to minimise depletion, pollution, and environmental damage</strong> across a product’s life cycle.</p>
-<p>The six Rs provide a framework for sustainable design:</p>
-<p><strong>Reduce<br> </strong></p>
-<p><strong>Reuse<br> </strong></p>
-<p><strong>Repair<br> </strong></p>
-<p><strong>Recycle<br> </strong></p>
-<p><strong>Rethink<br> </strong></p>
-<p><strong>Refuse<br> </strong></p></div>
-<div class="note-group-title"><h3>Reduce</h3></div>
-<div class="study-card"><h4>Key strategies:</h4>
-<p>Reducing material volume and eliminating unnecessary packaging<br> </p></div>
-<div class="study-card"><h4>Using concentrated products and refill systems</h4>
-<p>Using <strong>CAD optimisation</strong> to reduce wall thickness and packaging volume<br> </p></div>
-<div class="study-card"><h4>Improving transport efficiency through higher packing density</h4>
-<p>Designing lightweight structures (e.g. <strong>honeycomb cores</strong>) that maintain strength<br> </p></div>
-<div class="study-card"><h4>Using laminated timber sections to reduce waste during processing</h4>
-<p>Reducing also lowers <strong>embodied energy</strong> and transport emissions across the supply chain.</p></div>
-<div class="note-group-title"><h3>Reuse</h3></div>
-<div class="study-card"><h4>Key approaches:</h4></div>
-<div class="study-card"><h4>Designing durable products intended for multiple use cycles</h4></div>
-<div class="study-card"><h4>Encouraging return, refurbishment, or redistribution systems</h4></div>
-<div class="study-card"><h4>Reconditioning components (e.g. engines) to restore functionality</h4>
-<p>Supporting reuse through sharing platforms and charitable redistribution<br> </p></div>
-<div class="study-card"><h3>Upcycling</h3>
-<p>Upcycling is the <strong>creative reuse of waste materials</strong> to produce products of <strong>higher value or function</strong> than the original item.</p>
-<p>It differs from reuse by <strong>adding value</strong>, rather than simply extending life.</p></div>
-<div class="study-card"><h3>Rethink</h3>
-<p>Rethinking improves sustainability by <strong>challenging traditional choices</strong> and considering alternative:</p>
-<p>materials<br> </p>
-<p>manufacturing methods<br> </p>
-<p>ownership models<br> </p>
-<p>energy sources<br> </p>
-<p>user behaviour<br> </p>
-<p>This often results in system-level changes rather than product-level ones.</p></div>
-<div class="note-group-title"><h3>Recycle</h3></div>
-<div class="study-card"><h4>Key points:</h4></div>
-<div class="study-card"><h4>Recycling effectiveness depends on material purity</h4>
-<p>Metals (e.g. aluminium) recycle efficiently; <strong>composites</strong> are difficult to recycle<br> </p></div>
-<div class="study-card"><h4>Polymer contamination can destroy entire recycled batches</h4></div>
-<div class="study-card"><h4>Recycling is supported by legislation such as ELV and WEEE</h4>
-<p>Vehicles are complex to recycle due to depollution, ASR, and lithium batteries<br> </p>
-<p><strong>‘Cradle to grave’</strong> considers the full life cycle from extraction to disposal<br> </p>
-<p><strong>‘Cradle to cradle’</strong> ensures materials re-enter production in pure form<br> </p></div>
-<div class="study-card"><h3>Refuse</h3>
-<p>Refuse involves <strong>avoiding products that cause unnecessary environmental harm</strong>.</p>
-<p>This relies on:</p>
-<p>Clear labelling and transparent marketing<br> </p>
-<p>Consumer awareness of efficiency, repairability, and recyclability<br> </p>
-<p>Rejecting products with excessive packaging, poor energy efficiency, or planned obsolescence<br> </p></div>
-<div class="note-group-title"><h3>Maintenance (A-level only)</h3></div>
-<div class="study-card"><h4>Key considerations:</h4>
-<p>Whether maintenance is intended for users or specialists<br> </p>
-<p>The need for seals, protection, and safety systems<br> </p></div>
-<div class="study-card"><h4>Use of specialist tools or diagnostic equipment</h4></div>
-<div class="study-card"><h4>The impact of adhesives and sealed construction on accessibility</h4>
-<p>Designing for maintenance increases longevity but may conflict with <strong>compact aesthetics and water resistance</strong>.</p></div>
-<div class="study-card"><h3>Temporary and integral fixings</h3>
-<p><strong>Temporary fixings</strong> (e.g. screws) allow access for repair and servicing<br> </p>
-<p><strong>Integral, tool-free fixings</strong> support routine maintenance such as battery replacement<br> </p></div>
-<div class="note-group-title"><h3>Use of standardised parts</h3></div>
-<div class="study-card"><h4>Standardised components:</h4>
-<p>Improve <strong>interchangeability and availability<br> </strong></p></div>
-<div class="study-card"><h4>Reduce downtime and repair cost</h4></div>
-<div class="study-card"><h4>Are often independently accredited (e.g. BSI)</h4>
-<p>Include fasteners, fuses, cartridges, and fittings<br> </p></div>
-<div class="study-card"><h3>Allowing for service and repair</h3>
-<p>Adhesives and plastic welding often prevent repair<br> </p>
-<p>Circuit boards are usually replaced rather than repaired<br> </p>
-<p>Modular products (e.g. Fairphone) improve repairability<br> </p>
-<p>Composite materials are difficult to repair and recycle<br> </p>
-<p>Community repair initiatives promote sustainable behaviour<br> </p></div>
-<div class="study-card"><h3>Ability to upgrade with software</h3>
-<p>Firmware updates can improve performance and extend product life<br> </p>
-<p>Software updates may also cause <strong>planned obsolescence</strong> if hardware becomes incompatible<br> </p></div></div></section>
+Design decisions affect a product throughout its life: **how efficiently it is manufactured, how long it remains useful, whether it can be maintained or repaired and what happens to its materials at end of life**.
+
+## The six Rs
+
+The **six Rs** are **Reduce, Reuse, Repair, Recycle, Rethink and Refuse**. They are ways of reducing resource depletion, pollution and waste across a product's life cycle.
+
+### Reduce
+
+Reduce means using less material, energy and harmful substances. Designers can:
+
+- remove unnecessary material and packaging
+- use concentrated products or refill systems
+- use CAD optimisation to reduce wall thickness or packaging volume
+- increase packing density to improve transport efficiency
+- use lightweight structures such as honeycomb cores where they maintain the required strength
+- use laminated timber sections to make efficient use of material.
+
+Reducing material can lower cost, embodied energy and transport impact, but material should not be removed to the point that product life or performance is reduced.
+
+### Reuse
+
+Reuse keeps products or components in use for longer before recycling or disposal. Products can be designed for **multiple use cycles, return, refurbishment, redistribution or reconditioning**. This reduces demand for virgin material when the product remains functional and worth recovering.
+
+**Upcycling** reuses waste material to create a product with a higher value or different useful function rather than simply using the original product again.
+
+### Repair
+
+Repairability depends heavily on design. Products are easier to repair when components can be reached, removed and replaced without damaging the rest of the product.
+
+**Screws and other temporary fixings** can allow access for servicing, while permanent adhesives and plastic welding can make separation difficult. Modular construction can allow a faulty unit to be replaced without discarding the complete product.
+
+### Recycle
+
+Recycling returns material to production. It is particularly important for finite materials such as metals and many polymers.
+
+Effective recycling depends on **material identification and separation**. Aluminium can be recycled efficiently, while mixed materials and bonded composites are harder to separate. Polymer contamination can reduce the quality of a recycled batch, so recycling codes and design for disassembly can help sorting.
+
+**Cradle to grave** considers the product from raw-material extraction through to final disposal. **Cradle to cradle** aims to keep materials in useful cycles so they can become inputs for new products rather than waste.
+
+### Rethink and Refuse
+
+**Rethink** means challenging an existing product or system by considering different materials, manufacturing methods, energy sources, ownership models or user behaviour.
+
+**Refuse** means avoiding unnecessary or environmentally harmful products or features, such as excessive packaging, poor energy efficiency or design choices that encourage premature replacement.
+
+## Designing for maintenance
+
+**Maintenance** keeps a product operating correctly and can extend its useful life. Designers need to decide whether maintenance will be carried out by the **user or a specialist**.
+
+Access may require removable covers, temporary fixings, tool-free features or specialist tools and diagnostic equipment. Seals and enclosed construction may improve safety, water resistance and compact appearance, but can make internal parts harder to access. There is therefore often a trade-off between **protection and serviceability**.
+
+## Standardised parts
+
+Standardised components such as **fasteners, fuses, cartridges and fittings** improve interchangeability and availability. Replacement parts can therefore be easier to source, reducing downtime and repair cost.
+
+## Designing for service and repair
+
+- Permanent adhesives and plastic welding can prevent non-destructive access.
+- Modular products allow a faulty module to be replaced separately.
+- Circuit boards are often replaced as modules rather than repaired component by component.
+- Composite structures can be difficult to repair and separate for recycling.
+- Software and firmware updates can improve performance and extend useful life, although incompatible updates can also contribute to obsolescence.
+
+A product designed for a long life should therefore consider **physical durability, access, replacement parts, software support and end-of-life recovery together**, rather than treating repair and disposal as separate issues.
