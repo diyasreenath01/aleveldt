@@ -1,1 +1,27 @@
-<section class="note-panel"><h2>Jigs, Fixtures and Tolerances</h2><div class="note-intro"><p>Accuracy can be improved by using repeatable reference points, guides, workholding and controlled manufacturing equipment.</p></div><div class="study-card"><h3>Datum</h3><p>A <strong>datum</strong> is a reference edge or surface from which dimensions are taken. Measuring from the same datum reduces accumulated errors.</p></div><div class="study-card"><h3>Templates, Jigs and Fixtures</h3><ul><li>A <strong>template</strong> provides a repeatable shape or marking pattern.</li><li>A <strong>jig</strong> guides a tool, such as a drill.</li><li>A <strong>fixture</strong> holds a workpiece in the correct position during manufacture.</li></ul></div><div class="study-card"><h3>CNC and Production Accuracy</h3><p><strong>CNC equipment</strong> repeats programmed movements consistently. Batch production relies heavily on jigs, fixtures and repeated checks. Mass production often uses automated monitoring and fast checks because thousands of parts must remain within tolerance.</p></div><div class="study-card"><h3>Tolerances</h3><p>A <strong>tolerance</strong> is the permitted variation from a specified dimension. Tight tolerances are important where parts must fit or move together, but they can increase manufacturing cost.</p></div></section>
+## Jigs, fixtures and tolerances
+
+Accuracy in manufacture depends on using reliable reference points, measuring methods, controlled workholding and repeatable processes. The required level of accuracy should match the product: unnecessary precision increases time and cost, while insufficient accuracy can prevent parts from fitting or functioning correctly.
+
+### Datums
+
+A **datum** is a reference point, edge or surface from which dimensions are taken. Measuring several features from the same datum reduces the build-up of small errors that can occur when each new measurement is taken from the previous one.
+
+### Templates, jigs and fixtures
+
+- A **template** provides a repeatable shape, position or marking pattern. It reduces repeated measuring and helps components remain consistent.
+- A **jig** locates the workpiece and **guides a tool**. A drilling jig, for example, positions the drill so repeated holes are produced in the same location and angle.
+- A **fixture** holds and locates a workpiece securely during manufacture but does not normally guide the cutting tool.
+
+These aids are particularly useful in batch production because they reduce dependence on repeated manual marking out, improve consistency and reduce human error. They also allow operators to position components more quickly.
+
+### Tolerances
+
+A **tolerance** is the permitted variation from a specified dimension. A component specified as 20.00 ± 0.10 mm can therefore be acceptable between 19.90 and 20.10 mm.
+
+Tight tolerances may be necessary for bearings, shafts, moving mechanisms or parts that must assemble precisely. They normally require more accurate equipment, measurement and process control, so specifying a tighter tolerance than the product needs can unnecessarily increase manufacturing cost.
+
+### Accuracy at different production scales
+
+For a one-off prototype, careful measuring, marking and checking may be sufficient. Batch production benefits from templates, jigs, fixtures and regular dimensional checks. Mass production often combines dedicated tooling or automated manufacture with rapid inspection because a small process error could otherwise be repeated across thousands of components.
+
+CNC equipment can repeat programmed movements very consistently, but it does not remove the need for checking. Incorrect datums, tool wear, poor workholding or an incorrect program can still produce repeated errors.
