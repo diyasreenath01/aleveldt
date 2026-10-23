@@ -1,22 +1,42 @@
 ## Iterative design in industrial or commercial contexts
 
-Commercial design is usually **cyclic rather than a one-way process**. Designers repeatedly develop, prototype, test, evaluate and modify products as new information becomes available.
+Large-scale commercial design and manufacture normally uses a **cyclic, iterative process**. Ongoing improvements are important to commercial success, so products continue to be researched, modelled, tested, evaluated and modified as new evidence becomes available.
 
 ### Collaborative working
 
-Commercial products are rarely developed by one person. **Collaborative working** can involve designers, engineers, material specialists, manufacturing staff, marketing teams, clients and users.
+Commercial products are rarely developed by one person. **Collaborative working** combines the expertise, skills and knowledge of several people involved in designing and manufacturing a product.
 
-Different specialists contribute different knowledge. Their feedback can identify technical, manufacturing, user or commercial problems that one designer may miss.
+A design team may include product and industrial designers, engineers, ergonomists, material specialists, manufacturing and production specialists, marketing staff, clients and users. External consultants may also contribute specialist knowledge in areas such as product styling, ergonomics, marketing or material selection.
 
-### Commercial iteration
+Collaboration can improve creativity because ideas are considered from different viewpoints. It also allows technical or manufacturing problems to be identified earlier. However, feedback needs to be evaluated rather than accepted automatically because different specialists may have conflicting priorities.
 
-A design may change after:
-- user or client feedback
-- prototype testing
-- material or manufacturing trials
-- cost analysis
-- safety testing
-- feedback from production engineers
-- changes in market requirements.
+### Iteration in industry
 
-A revised version is then tested again. This cyclic process reduces the risk of committing to large-scale manufacture before important problems have been identified.
+A commercial design may be modified after:
+
+- focus-group or individual user feedback
+- prototype and functional testing
+- material and manufacturing trials
+- feedback from production engineers about the manufacturing implications of a change
+- cost or production-planning analysis
+- safety or standards testing
+- changes in technology or available materials
+- market information about existing products or changing customer requirements.
+
+The modified proposal is then tested again. This reduces the risk of committing to expensive tooling or large-scale manufacture before important problems have been identified.
+
+### Prototypes and production specialists
+
+Models and prototypes allow design teams to investigate different aspects of a proposal. Scale or appearance models can communicate form, while full-size and functioning prototypes can be used to check ergonomics, mechanisms and performance.
+
+Production engineers can evaluate whether proposed changes can be manufactured efficiently and consistently. A modification that improves appearance or user comfort may also affect tooling, assembly, ventilation, component layout or cost, creating another iteration of the design.
+
+### Ongoing product development
+
+Iteration does not necessarily end when a product first reaches the market. User feedback, retail information, technological innovation and manufacturing experience can lead to improved versions. Maintaining a product's commercial life may therefore require continued redesign and development.
+
+### Cyclic and linear approaches
+
+A cyclic process is well suited to commercial development because teams can repeatedly refine a product as evidence becomes available. The class material also distinguishes this from **bespoke design and manufacture**, which may use a more linear process with a definite start and end and greater concentration on the individual client's requirements and high standards of manufacture.
+
+The most important feature of commercial iteration is that each modification has a reason: evidence from users, testing, specialists, manufacture or the market should explain why the next version is different.
