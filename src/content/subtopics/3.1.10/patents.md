@@ -1,5 +1,16 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
+## Patents
 
-<section class="note-panel"><h2>Patents</h2>
-<div class="note-intro"><p>• The government’s <strong>Intellectual Property Office (IPO)</strong> grants legal rights (<strong>patents</strong>) for novel inventions.<br> • Patents apply only to working parts of a design (e.g. a car suspension system, electronic product PCB, automatic kettle sensor).<br> • They provide up to 20 years’ legal protection, but are expensive and complicated to obtain.<br> • It is essential that the invention is completely new or significantly improves an existing design.<br> • Detailed, labelled diagrams and clear description are central to submissions.<br> • A patent attorney is often employed to check a patent prior to submission.<br> • Legal conflict examples include Apple vs Samsung (software features) and Dyson vs Hoover (dual cyclone).<br> • It can be argued that publication of a patent encourages further innovation.</p>
-<p><strong>Figure 24.2</strong> Patent drawings for the 1904 Gillette razor</p></div></section>
+A **patent** gives legal protection to a new invention or technical feature. In the UK, patents are granted through the **Intellectual Property Office (IPO)**.
+
+- Patents protect **how an invention works**, rather than simply its appearance.
+- The invention must be **new** and inventive, rather than an obvious copy of an existing solution.
+- An application requires a clear description of the invention and normally includes detailed drawings explaining how it works.
+- Protection can last for up to **20 years**, subject to the required conditions and fees.
+- Applying for a patent can be expensive and complex, so professional advice may be needed.
+- The invention must be disclosed as part of the patent process. This gives the owner legal protection but also makes the technical information public.
+
+### Why patents matter to designers
+
+A patent can prevent competitors from commercially exploiting a protected invention without permission. This can help a designer or company recover development costs through manufacture or licensing.
+
+However, patent protection is not automatically the best choice for every design because applications take time and money and protection is limited to what the patent actually covers.
