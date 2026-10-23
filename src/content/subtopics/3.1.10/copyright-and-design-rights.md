@@ -1,10 +1,41 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
+## Copyright and design rights
 
-<section class="note-panel"><h2>Protecting designs and intellectual property</h2>
-<div class="note-intro"><p>This topic is for A-level only. If you are studying at AS-level you do not need to cover the content in this chapter.</p></div></section>
-<section class="note-panel"><h2>Intellectual property (IP)</h2>
-<div class="note-intro"><p>• <strong>Intellectual property (IP)</strong> is an idea that is turned into a physical creation that did not already exist (for example, a book, film, camera lens mounting system, handbag design or car name badge).<br> • Ideas alone do not count as IP – physical format of some kind is compulsory.<br> • Uniqueness is essential when seeking to protect IP with <strong>intellectual property rights (IPR)</strong>.<br> • Some rights are automatically endowed when work is created (e.g. copyright); others have to be applied for (e.g. patent).<br> • IP laws vary from country to country and there are various rules governing applications.</p></div></section>
-<section class="note-panel"><h2>Copyright and design rights</h2>
-<div class="note-intro"><p>• <strong>Copyright</strong> is legal protection for work such as books, photos, drama, music, films, TV programmes, software, etc.<br> • It allows management of permission for others to use work (e.g. licensing photos for use in books).<br> • The UK Copyright, Designs and Patents Act 1988 provides cover for most works for 70 years after the death of the creator.<br> • <strong>Unregistered design rights</strong> provide legal protection for designers to stop unauthorised copying for ten years. They cover appearance (shape, ornamentation, etc.), not how products work.<br> • Registration is not required, but ownership is hard to prove in a dispute.<br> • Using the copyright symbol (©), and metadata and watermarks on digital files, makes it easier to assert ownership.<br> • It is a good idea to keep early drafts, sketches, recordings, etc., as well as deliberate, unique modifications as evidence.<br> • The UK Copyright Service provides an independent evidence of authorship facility.</p></div>
-<div class="note-grid"><div class="study-card"><h3>Typical mistake</h3>
-<p>If an exam question asks you to explain how designers protect their designs from being copied, you are expected to demonstrate your knowledge of a range of IPR. Don’t therefore just write about ways of keeping work secret, as this is only one aspect of the topic, which mainly affects patent applications.</p></div></div></section>
+**Intellectual property (IP)** describes original creations that can be protected through intellectual property rights. Different rights protect different aspects of a product or creative work, so a single commercial product can use several forms of protection at the same time.
+
+Some rights arise automatically when work is created, while others have to be applied for through the **Intellectual Property Office (IPO)**. IP rules can also vary between countries.
+
+### Copyright
+
+**Copyright** protects original creative work such as books, photographs, music, films, television, software and written or graphical material.
+
+- It allows the creator to control or license how other people reproduce or use the work.
+- For example, a photographer can give permission for an image to be reproduced on a website or in a publication.
+- The class notes identify the **Copyright, Designs and Patents Act 1988** as the relevant UK legislation.
+- For most works, protection can continue for **70 years after the death of the creator**.
+- The © symbol can make ownership clear, while metadata and watermarks can help identify the origin of digital work.
+
+Copyright protects the creative material itself. It does not perform the same job as a patent protecting a technical invention or a registered design protecting a product's appearance.
+
+### Unregistered design rights
+
+**Unregistered design rights** give designers protection against unauthorised copying without requiring formal registration.
+
+- The notes give protection of up to **10 years**.
+- They relate to the appearance of a design rather than how its working parts function.
+- Because the design is not formally registered, proving who created it first can be more difficult if a dispute occurs.
+- Designers should therefore keep dated sketches, early drafts, recordings, development work and other evidence showing how the design developed.
+
+### Why evidence matters
+
+A designer claiming that work has been copied needs evidence of authorship and development. Keeping dated development records can help establish when the work was created and demonstrate that it is original.
+
+### Different forms of protection can work together
+
+A product may require several types of IPR because each protects something different. For example, a product could use:
+
+- a **patent** for a novel working mechanism
+- a **registered design** for distinctive appearance
+- a **trademark** for its brand name or logo
+- **copyright** for text, illustrations or other creative material used with the product.
+
+When deciding how a design is protected, first identify **what is being protected**: the technical invention, the appearance, the brand identity or the creative work.
