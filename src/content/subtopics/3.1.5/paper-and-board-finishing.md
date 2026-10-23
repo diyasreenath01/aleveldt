@@ -1,18 +1,33 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
+## Paper and board finishing
 
-<section class="note-panel"><h2>Paper and Board Finishing</h2>
-<div class="note-intro"><p>Finishing processes are used to <strong>protect</strong> the material from spills and dirt while <strong>enhancing</strong> its tactile and visual appeal.</p></div>
-<div class="note-grid"><div class="study-card"><h3>Lamination</h3>
-<p><strong>Encapsulation:</strong> The document is sealed entirely within a polymer pouch or film roll using a desktop laminator.</p>
-<p><strong>Surface Coating:</strong> *</p>
-<p>            <strong>Liquid Lamination:</strong> Often used for large-scale signage.</p>
-<p><strong>Film Lamination:</strong> Used for items like menu cards to provide a wipe-clean surface.</p></div>
-<div class="study-card"><h3>Physical Surface Effects</h3>
-<p><strong>Embossing:</strong> Creates a <strong>raised design</strong> on the surface of the paper or card. It provides a premium visual and tactile effect, often seen on greetings cards and luxury packaging.</p>
-<p><strong>Debossing:</strong> The opposite of embossing; it produces an <strong>imprinted depression</strong> that sits below the surface of the paper.</p></div>
-<div class="study-card"><h3>Varnishing</h3>
-<p>Clear, non-pigmented inks applied to pre-coated papers to enhance color and offer protection against fingerprints and water.</p>
-<p><strong>UV Varnishing:</strong> Provides a very smooth finish (high gloss or matt). It is cured instantly under UV light, making it resistant to chemicals and abrasion.</p>
-<p><strong>Spot Varnishing:</strong> Applied only to <strong>specific spots</strong> or areas of a design to create a contrast between glossy and matt sections.</p></div>
-<div class="study-card"><h3>Foil Blocking</h3>
-<p>Heat and pressure are used to apply a metallic paper (foil) to the substrate. This adds depth, texture, and a high-end aesthetic impact.</p></div></div></section>
+Finishes are applied to paper and board to **protect the surface** and/or improve its **visual and tactile quality**. The finish should be chosen for the product: a menu needs a durable wipe-clean surface, while luxury packaging may prioritise appearance and texture.
+
+### Lamination
+
+**Encapsulation** seals the whole document inside polymer film or a pouch. This gives strong protection from dirt, spills and handling, but adds polymer material to the paper product.
+
+**Film lamination** bonds a thin polymer film to the surface. It is useful for products such as menu cards where a **wipe-clean, more durable surface** is required.
+
+**Liquid lamination** applies a clear liquid coating and is used for applications such as large-format signage.
+
+### Embossing and debossing
+
+**Embossing** forms a raised design in the paper or board. **Debossing** presses the design below the surface.
+
+Both are mainly used to create **tactile and visual detail** rather than to provide major protection. They are useful for greetings cards, branding and premium packaging where the surface itself contributes to perceived quality.
+
+### Varnishing
+
+A clear varnish can enhance colour and give protection against **fingerprints and moisture**.
+
+**UV varnish** is cured rapidly using ultraviolet light and can produce a smooth gloss or matt surface with good resistance to abrasion and chemicals.
+
+**Spot varnish** is applied only to selected areas. The contrast between varnished and unvarnished areas can highlight a logo, image or other feature without coating the whole surface.
+
+### Foil blocking
+
+**Foil blocking** uses heat and pressure to transfer a metallic foil onto the substrate. It adds colour, reflectivity, texture and a premium appearance, so it is commonly suited to decorative packaging, cards and branding rather than products where surface protection is the main requirement.
+
+### Choosing a finish
+
+The designer or manufacturer should consider the required **protection, durability, appearance, application method, production cost and end of life**. A polymer laminate may make paper much more durable in use, for example, but combining paper with a polymer layer can make material separation and recycling more difficult.
