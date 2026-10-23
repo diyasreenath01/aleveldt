@@ -1,169 +1,29 @@
-## Major developments in technology
-
-AQA requires you to discuss how major developments are shaping product design and manufacture, including **microelectronics, new materials, new methods of manufacture and advancements in CAD/CAM**.
-
-The important skill is not just naming a development. Explain **what changed**, connect it to a product or manufacturing decision, then analyse the benefit and any limitation or wider consequence.
-
-## Microelectronics
-
-**Microelectronics** uses miniature electronic components and circuits, particularly **transistors, integrated circuits (ICs) and microprocessors**. The broad development has been:
-
-**thermionic valves → transistors → integrated circuits → increasingly powerful microprocessors**
-
-Thermionic valves made early electronic products possible but were bulky, fragile, power hungry and produced considerable heat. Transistors were much smaller, more reliable and required less power. Integrated circuits then allowed many transistors and functions to be combined on a single chip.
-
-This enabled products to become **smaller, lighter, more portable and more multifunctional** and gave designers greater freedom over product form.
-
-Microelectronics works alongside other developments. Rechargeable batteries provide portable power; flash storage stores large amounts of data without moving parts; sensors and wireless communication add new functions; LCDs and capacitive touchscreens allow information and controls to change according to the task.
-
-Designers still have to consider **heat, battery life, durability, repairability, software support and electronic waste**. More functions in a smaller product do not automatically make it a better or more sustainable design.
-
-### Applied case study — portable digital products
-
-- **Development:** denser ICs allow processing, control and multiple functions to occupy far less space.
-- **Application:** improved batteries, flash storage, displays, touch input and wireless communication can be combined with microelectronics in one portable product.
-- **Analysis:** fewer large internal components give designers more freedom over size and form, while digital control allows one product to perform functions that previously required several separate devices.
-- **Evaluation:** multifunctionality and portability are valuable, but sealed construction, battery degradation, rapid software change and difficult repair can shorten useful life and increase electronic waste.
-- **Judgement:** microelectronics creates major design opportunities, but its value depends on how well the complete product balances performance, energy use, longevity and repairability.
-
-## Technological convergence
-
-**Technological convergence** occurs when several developments combine within one successful product rather than one isolated invention producing the whole change.
-
-A smartphone depends on microprocessors, compact batteries, digital storage, wireless communication, sensors, cameras, touchscreens and software developing together. Powerful microelectronics alone would not produce a practical smartphone if the battery were too large, storage too limited or communication networks unavailable.
-
-Convergence can make products more convenient and multifunctional, but increased integration can also make components harder to replace or repair.
-
-## Advancements in CAD/CAM
-
-### Computer aided design (CAD)
-
-**CAD** allows designers to create, modify, analyse and communicate digital designs. It can include accurate 2D working drawings, 3D models, assemblies, rendering and libraries of standard components.
-
-Digital models are easier to modify and share than manually produced drawings. However, CAD does not guarantee a correct design: dimensions, tolerances, material assumptions and geometry still depend on knowledgeable input and checking.
-
-Common file formats include **DXF**, commonly used to transfer 2D drawing/vector geometry, and **STL**, which represents the surface of a 3D model as triangles and is commonly used for additive manufacture.
-
-### Computer aided manufacture (CAM)
-
-**CAM** uses digital design data to control manufacturing equipment such as **CNC routers, mills, lathes, laser cutters and plotter cutters**.
-
-Linking CAD and CAM can reduce repeated manual transfer of dimensions and improve accuracy, repeatability and speed. The result still depends on correct tooling, feed rates, cutter speeds, toolpaths, work holding, datum positions and machine setup. An incorrect digital file or machine parameter can reproduce the same error repeatedly.
-
-### Mathematical prototyping: FEA and CFD
-
-**Mathematical prototyping depends on people with suitable engineering knowledge defining realistic parameters, understanding the model and interpreting the results.** The software does not simply test a design correctly by itself.
-
-**Finite Element Analysis (FEA)** divides a digital model into small elements and estimates behaviour such as **stress, strain, deformation, vibration or thermal effects**. Engineers define factors such as geometry, material properties, loads, constraints and boundary conditions.
-
-**Computational Fluid Dynamics (CFD)** mathematically models the movement of liquids or gases around or through a design. It can be used to investigate vehicle aerodynamics, cooling airflow or fluid movement through a system.
-
-FEA and CFD allow alternatives to be investigated before every version is physically manufactured. However, results are only as reliable as the **inputs, assumptions and engineering judgement** used, so physical testing remains important for validation.
-
-### Virtual reality and cloud CAD
-
-**Virtual reality (VR)** can place designers or users inside a full-scale digital environment so that layout, reach, visibility, ergonomics and spatial relationships can be assessed before manufacture. It cannot reproduce every physical characteristic of the final product.
-
-**Cloud CAD** allows people in different locations to access and work on shared design data. It supports collaboration but teams still need to manage access, connectivity and version control.
-
-### Rapid prototyping and 3D printing
-
-**Rapid prototyping** produces physical models directly from CAD data. Additive processes such as 3D printing normally build geometry layer by layer.
-
-This allows designers to move quickly from a digital model to a physical prototype, test form or fit, and modify the CAD model before committing to expensive tooling. Complex and customised geometry may also be possible without a conventional mould or die.
-
-For high-volume production, build time, material cost, surface finish and post-processing may make conventional manufacturing methods more suitable.
-
-### Applied case study — developing a lightweight vehicle component
-
-- **Development:** CAD can be combined with FEA, CFD and rapid prototyping during development.
-- **Application:** engineers can model a component in CAD, apply realistic loads and material properties in FEA, use CFD where airflow or cooling matters, then manufacture a prototype for physical testing.
-- **Analysis:** digital testing allows geometry, thickness and material assumptions to be changed quickly. Engineers can identify highly stressed areas while removing unnecessary material elsewhere, potentially reducing mass without compromising required performance.
-- **Evaluation:** simulation can reduce physical prototypes, but a convincing computer result may still be wrong if loads, material data or boundary conditions are unrealistic. Physical testing is needed to validate important predictions.
-- **Judgement:** CAD and mathematical prototyping are most effective when used by knowledgeable designers and engineers as part of an iterative process, not as a replacement for engineering judgement or physical testing.
-
-## New materials
-
-A new material matters because its **properties create a new design possibility**. The useful connection is **property → design opportunity → application → limitation**.
-
-### Glulam
-
-**Glulam** consists of timber laminations bonded together to form structural components. The laminations can create large straight or curved members with good strength relative to their mass.
-
-This allows designers to produce **large-span beams and curved structural forms** that would be difficult to obtain from a single piece of solid timber. Timber can be renewable when responsibly sourced, but adhesive, processing, transport and end-of-life separation still need to be considered.
-
-### Kevlar
-
-**Kevlar** is an aramid fibre with **high tensile strength, toughness and low mass**, but its behaviour depends on **fibre orientation and how the fibre is used**.
-
-As a **woven fabric**, Kevlar can provide flexible protection. When fibres are used as **composite reinforcement** within a resin matrix, their orientation can be selected so they carry important tensile loads and reinforce a stiffer component.
-
-This creates possibilities for protective equipment and lightweight reinforced components. Performance depends on construction and fibre direction, while composite manufacture, repair and end-of-life separation can be difficult.
-
-### Graphene
-
-**Graphene** is an extremely thin form of carbon with very high tensile strength and good electrical and thermal conductivity. These properties create potential for **thin sensors, conductive components, coatings, electronics and lightweight reinforcement**.
-
-Actual product performance depends on how graphene is manufactured and incorporated into a real product, so designers should not assume every graphene-containing product displays all the properties of an ideal graphene sheet.
-
-### Precious metal clay (PMC)
-
-**Precious metal clay** contains fine metal particles mixed with a binder and water. It can be shaped in a clay-like state before firing; the binder burns away and the metal particles form a solid metal object.
-
-This allows **detailed jewellery and decorative forms** to be produced using modelling techniques. Firing causes dimensional change, so shrinkage must be considered.
-
-### Applied case study — a lightweight protective product
-
-- **Development:** high-performance fibres such as Kevlar allow high tensile strength at relatively low mass.
-- **Application:** woven Kevlar can be used where flexible protection is required, while aligned fibres can reinforce a composite where loads act mainly in known directions.
-- **Analysis:** controlling fibre orientation lets the designer place reinforcement where tensile loads occur rather than simply increasing thickness everywhere.
-- **Evaluation:** a lighter component may improve comfort or reduce operating energy, but a bonded composite may be difficult to repair, separate and recycle. Manufacturing energy and lifespan also affect the overall environmental impact.
-- **Judgement:** an advanced lightweight material is appropriate when its performance and lifespan justify its manufacturing and end-of-life impacts; low mass alone does not prove sustainability.
-
-## New methods of manufacture
-
-New manufacturing methods can allow forms, materials or levels of precision that are difficult to achieve using conventional processes. Their suitability still depends on production volume, cost, accuracy, material, speed and required performance.
-
-### Electrohydraulic forming
-
-A high-energy electrical discharge in water creates a shock wave that forces sheet metal against a former. It can produce detailed sheet-metal forms but requires specialist high-voltage equipment and controlled operating conditions.
-
-### Metal laser powder-bed fusion and DMLS
-
-Metal additive manufacturing can build complex parts directly from digital data by spreading metal powder and selectively processing each layer with a laser.
-
-The terminology needs care. **Powder-bed fusion processes that fully melt metal powder should be described as melting or fusion rather than as if the particles are only sintered below their melting point.** The term **DMLS (Direct Metal Laser Sintering)** is widely used commercially, but some systems described using this terminology fully melt the powder during processing.
-
-The process can create **complex internal channels, lattice structures and customised or low-volume components** without conventional moulds or dies. Machines and powders are expensive, build rates can be slow, and parts may require support removal, heat treatment or machining afterwards.
-
-### Fibre injection moulding
-
-A thermoplastic containing short reinforcing fibres, such as glass or carbon fibre, is injection moulded so reinforcement and shaping occur in the same production cycle. Fibre reinforcement can increase stiffness and strength while retaining the speed and repeatability of injection moulding.
-
-Performance depends on fibre content and orientation, and the resulting fibre-filled polymer can be more difficult to recycle than a single polymer.
-
-### Laser beam welding
-
-A focused high-power laser melts and joins metal components. It can produce narrow, precise and repeatable welds rapidly with relatively limited heat distortion. The equipment is expensive and accurate alignment, control and safety systems are required.
-
-### Physical vapour deposition (PVD)
-
-**PVD** deposits a very thin coating in a vacuum chamber by vaporising a coating material and allowing it to condense onto the component. It can improve surface properties such as wear resistance or appearance without changing the whole bulk material. A PVD coating does not make a weak base material strong throughout.
-
-### Applied case study — metal additive manufacture
-
-- **Development:** laser-controlled powder-bed manufacture allows a metal component to be built directly from digital geometry layer by layer.
-- **Application:** designers can create low-volume engineering parts with internal channels or complex geometry that may be difficult to machine or cast conventionally.
-- **Analysis:** removing the need for a conventional mould or die makes complex customised geometry more practical and allows material to be concentrated where it contributes to performance.
-- **Evaluation:** this does not make the process automatically cheaper or more sustainable. Powder production, machine energy, slow build rates, support material and post-processing can create significant cost and environmental impacts.
-- **Judgement:** metal additive manufacture is particularly valuable where geometric freedom, customisation or low production volume justifies the higher processing cost; conventional manufacture may remain more efficient for simpler high-volume components.
-
-## Sustainability and technological development
-
-A technologically advanced or lightweight product is **not automatically sustainable**. Designers need to consider the whole lifecycle: **raw material extraction → manufacture → transport → use → maintenance and repair → end of life**.
-
-Reducing the mass of a vehicle component may reduce energy use throughout years of operation and potentially justify a more energy-intensive material. In another product, a lightweight bonded composite may save little energy during use but be difficult to repair or recycle.
-
-Similarly, a multifunctional electronic product may replace several separate devices, but frequent replacement, sealed batteries and difficult material separation can increase electronic waste.
-
-The correct judgement therefore depends on the **complete product and its use**, not on a single claim such as lightweight, recyclable, digital or advanced.
+<section class="note-panel"><h2>Major Developments in Technology</h2>
+<div class="note-intro"><p>Technological developments change <strong>what products can do</strong>, <strong>how designers develop them</strong>, and <strong>how they are manufactured</strong>. At A Level, knowing the development is only the starting point: you should also be able to analyse what it enabled, its limitations and the consequences for products, users and manufacture.</p></div>
+<div class="study-card"><h3>Microelectronics and Miniaturisation</h3><p><strong>Microelectronics</strong> involves very small electronic components and circuits, particularly <strong>transistors</strong> and <strong>integrated circuits (ICs)</strong>. Their development has allowed electronic products to become progressively <strong>smaller, lighter, more reliable, more energy efficient and more powerful</strong>.</p><p>Development sequence: <strong>thermionic valve → discrete transistor → integrated circuit → modern microprocessor / system-on-chip</strong>.</p><figure class="note-figure"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/955ACORN.jpg" alt="Real thermionic valve and transistor shown together for size comparison" loading="lazy"><figcaption><strong>Valve → transistor:</strong> this real component comparison shows how solid-state electronics dramatically reduced component size.</figcaption></figure></div>
+<div class="study-card"><h3>Thermionic Valves / Vacuum Tubes</h3><p>Early electronic products used <strong>thermionic valves</strong>, also called <strong>vacuum tubes</strong>. A valve controls the flow of electric current inside a sealed glass vacuum. An electric current heats a metal filament or <strong>cathode</strong>, releasing electrons by <strong>thermionic emission</strong>. A positively charged <strong>anode</strong> attracts the electrons, while a control grid can regulate the flow of current.</p><p>Valves made complex electronic products possible and were used in <strong>radios, amplifiers, televisions, communications equipment and early computers</strong>.</p><ul><li><strong>Large and bulky:</strong> glass tubes and associated wiring required large product housings.</li><li><strong>High power consumption:</strong> the filament had to be heated continuously.</li><li><strong>Heat:</strong> significant energy was wasted as heat, so equipment could require cooling.</li><li><strong>Fragile:</strong> glass envelopes and filaments could break or fail.</li><li><strong>Poor portability:</strong> their size and power requirements made small battery-powered products difficult.</li></ul></div>
+<div class="study-card"><h3>1947: The Transistor Breakthrough</h3><p>In <strong>1947</strong>, the <strong>transistor</strong> was developed. Unlike a valve, a transistor controls current using a solid <strong>semiconductor</strong> rather than a heated filament inside a vacuum. It can work as a switch or amplifier.</p><p>Compared with valves, transistors were much smaller, required less power, produced less heat and were more durable. This made genuinely portable battery-powered electronics practical.</p></div>
+<div class="study-card"><h3>Integrated Circuits and Modern Microelectronics</h3><p>In the late 1950s, the <strong>integrated circuit (IC)</strong> allowed many electronic functions to be formed on one semiconductor chip. Continued advances in fabrication have allowed modern chips to contain billions of transistors.</p><p>The design consequence is <strong>more electronic functions in less physical space</strong>: products can be smaller and lighter while gaining processing, sensing, communication and control functions. Manufacture has also shifted from extensive hand wiring towards automated production and assembly of miniature electronic systems.</p></div>
+<div class="study-card"><h3>Developments in Battery Technology</h3><p>Improved rechargeable batteries, particularly <strong>lithium-ion</strong> and thin pouch cells, provide high energy storage for their size and mass. This has helped make slim smartphones, laptops, wireless devices, cordless tools and electric vehicles practical.</p><p><strong>Evaluation:</strong> a smaller rechargeable battery can improve portability and reduce dependence on disposable cells, but sustainability still depends on extraction of battery materials, energy used in manufacture, battery lifespan, replacement, recycling and whether the product is designed for repair.</p></div>
+<div class="study-card"><h3>Technological Convergence</h3><p>Successful modern products usually depend on <strong>several technological developments working together</strong>, rather than one isolated invention. A smartphone, for example, combines microprocessors, high-density batteries, flash memory, wireless communication, sensors, capacitive touchscreens, cameras and software. Miniaturised electronics alone would not create the modern smartphone if batteries were still too large, storage too limited or wireless networks unavailable.</p><p>This is <strong>technological convergence</strong>: separate technologies develop and combine so that one product can perform functions that previously required several different products.</p></div>
+<div class="study-card"><h3>Case Study 1 — Portable Digital Products</h3><p><strong>Development:</strong> microelectronics, battery technology and digital storage.</p><p><strong>Application:</strong> portable music players and smartphones became smaller while storing more data and performing more functions.</p><p><strong>Analysis:</strong> ICs reduced the space required for processing, flash memory stored large amounts of data without moving parts, and rechargeable batteries provided portable power. Together these developments changed both the physical form of products and how people use them.</p><p><strong>Evaluation:</strong> portability and multifunctionality reduce the need for separate devices, but rapid replacement cycles, sealed construction, battery degradation and electronic waste can reduce the environmental benefit. A smaller product is therefore not automatically a more sustainable product.</p></div></section>
+<section class="note-panel"><h2>How Technology Changed Design and Manufacture</h2><div class="note-intro"><p><strong>Computer aided design (CAD)</strong> lets designers create and modify digital models. <strong>Computer aided manufacture (CAM)</strong> uses digital information to control manufacturing equipment. Digital development also includes mathematical and virtual prototyping, where engineering knowledge is used to define realistic parameters and interpret the results.</p></div>
+<div class="study-card"><h3>CAD and CAM</h3><p>CAD allows accurate 2D and 3D models to be edited, shared and transferred into manufacturing workflows. CAM converts digital design data into machine instructions or toolpaths for processes such as CNC machining and laser cutting.</p><p><strong>Evaluation:</strong> digital transfer can improve accuracy, repeatability and speed of modification, but an incorrect CAD model, toolpath or parameter can reproduce the same error repeatedly. Skilled people are still needed to set up, check and validate the process.</p></div>
+<div class="study-card"><h3>Mathematical Prototyping: FEA and CFD</h3><p><strong>Mathematical prototyping</strong> uses mathematical models and engineering simulation to predict how a proposed design may behave before a physical prototype is made. The software does not simply “know” the answer: engineers must define realistic <strong>geometry, material properties, loads, constraints, boundary conditions and other parameters</strong>, then interpret and validate the results.</p><p><strong>FEA (Finite Element Analysis)</strong> divides a model into a mesh of small elements and predicts behaviour such as stress, strain, deformation, vibration or heat transfer. It can identify areas that may be over-engineered or likely to fail.</p><p><strong>CFD (Computational Fluid Dynamics)</strong> mathematically models the movement of liquids or gases. It can be used to investigate airflow around a vehicle, cooling through a product or pressure and flow within a system.</p><p><strong>Evaluation:</strong> FEA and CFD allow many design variations to be investigated without manufacturing each one, reducing development time and physical material use. However, the result is only as reliable as the assumptions, data, mesh and boundary conditions used. Physical testing is still important to validate the model.</p></div>
+<div class="study-card"><h3>VR and Cloud CAD</h3><p><strong>Virtual reality (VR)</strong> can place a user or designer inside a full-scale digital model to assess layout, reach, visibility, ergonomics and spatial relationships before manufacture. <strong>Cloud CAD</strong> allows geographically separated teams to work on shared design data and can improve collaboration and version control.</p><p><strong>Evaluation:</strong> both can speed communication and identify problems earlier, but they depend on suitable hardware, software, connectivity and skilled interpretation. A virtual experience also cannot reproduce every physical property of a final product.</p></div>
+<div class="study-card"><h3>3D Printing / Additive Manufacture</h3><p>Additive manufacture builds geometry directly from digital data, usually layer by layer. It can shorten the route from CAD to a physical prototype and allows customised or complex forms that may be difficult to manufacture conventionally.</p><p><strong>Evaluation:</strong> it can reduce tooling requirements and is valuable for one-offs, prototypes and specialised components, but build speed, material choice, surface finish, post-processing, energy use and cost can make conventional processes more appropriate for high-volume manufacture.</p></div>
+<div class="study-card"><h3>Case Study 2 — Developing a Lightweight Vehicle Component</h3><p><strong>Development:</strong> CAD combined with FEA, CFD and rapid prototyping.</p><p><strong>Application:</strong> an engineering team can model a component in CAD, use FEA to investigate stress and deformation, use CFD where airflow or cooling matters, and manufacture a prototype for physical testing.</p><p><strong>Analysis:</strong> mathematical prototyping lets engineers alter thickness, geometry or material assumptions digitally and compare performance before committing to tooling. This can remove unnecessary mass while maintaining required performance.</p><p><strong>Evaluation:</strong> reducing mass may lower energy use during the product's working life, but this does not prove that the design is sustainable. The environmental benefit must be compared with the material's extraction, manufacturing energy, durability, repairability and end-of-life recovery. Simulation must also be validated because unrealistic parameters can produce convincing but inaccurate results.</p></div></section>
+<section class="note-panel"><h2>Modern and New Materials</h2><div class="note-intro"><p>New materials matter because their <strong>properties create new design possibilities</strong>. The important connection is not simply naming a property, but explaining what that property allows a designer or product to do.</p></div>
+<div class="study-card"><h3>Nanomaterials and Nanotechnology</h3><p>Nanomaterials can provide useful surface properties in extremely thin layers. Oleophobic or hydrophobic coatings can repel grease or water without adding a thick, heavy coating, allowing designers to improve a surface while leaving the product's dimensions and mass almost unchanged.</p></div>
+<div class="study-card"><h3>Graphene</h3><p><strong>Graphene</strong> combines very low thickness and mass with high tensile strength and electrical and thermal conductivity. These properties create possibilities for thin sensors, conductive coatings, flexible electronics and lightweight composite reinforcement where conventional thick conductors or structural materials may restrict product form.</p></div>
+<div class="study-card"><h3>Glulam</h3><p><strong>Glulam</strong> is made from bonded timber laminations. Its strength-to-weight ratio, stability and ability to be manufactured in large curved forms allow designers to create arches, long-span roofs and structural members that would be difficult to produce from a single solid timber section.</p><p><strong>Evaluation:</strong> timber can be renewable when responsibly sourced, but adhesives and laminated construction can make separation and recycling more difficult at end of life.</p></div>
+<div class="study-card"><h3>Kevlar</h3><p><strong>Kevlar</strong> is a lightweight aramid fibre with very high tensile strength. Its behaviour depends on <strong>fibre orientation and construction</strong>: woven fabric can provide flexible protection, while fibres embedded in a resin matrix can reinforce a stiffer composite. Reinforcement is most effective when fibres are oriented to carry the main tensile loads.</p><p><strong>Design possibilities:</strong> high strength at low mass allows protective equipment and reinforced components to provide performance without the weight of a much thicker metal alternative.</p><p><strong>Evaluation:</strong> low mass can improve user comfort or reduce operating energy, but difficult processing and the challenge of separating fibres from composite matrices can create manufacturing and end-of-life disadvantages.</p></div>
+<div class="study-card"><h3>Precious Metal Clay</h3><p><strong>Precious metal clay</strong> contains fine metal particles with binder and water. It can be shaped like clay before firing; the binder burns away and the metal particles sinter together. This gives designers access to intricate jewellery and decorative forms without using traditional metal-forming techniques, although firing shrinkage must be allowed for.</p></div>
+<div class="study-card"><h3>Sustainability and Advanced Materials</h3><p>Advanced materials should be evaluated over their <strong>whole lifecycle</strong>. A lighter component may use less energy during transport or operation, but an energy-intensive material or inseparable composite may have a greater manufacturing or disposal impact. Conversely, a material with a higher initial impact may be justified if it greatly extends product life or reduces energy use over many years.</p></div>
+<div class="study-card"><h3>Case Study 3 — Protective or High-Performance Product</h3><p><strong>Development:</strong> high-performance fibres and composites such as Kevlar.</p><p><strong>Application:</strong> a designer can use woven Kevlar where flexibility and protection are required, or orient Kevlar fibres within a composite where a lightweight structural component must resist tensile loads.</p><p><strong>Analysis:</strong> the design opportunity comes from combining high tensile strength with low mass. Fibre orientation lets material be placed where loads occur rather than simply increasing thickness everywhere.</p><p><strong>Evaluation:</strong> the resulting product can be lighter and highly protective, but manufacture may be more difficult and a bonded composite can be harder to repair, separate and recycle. The best choice therefore depends on performance requirements and the complete lifecycle, not weight alone.</p></div></section>
+<section class="note-panel"><h2>New Manufacturing Methods</h2><div class="note-intro"><p>Advances in digital control, lasers, high-energy electrical systems, composite materials and vacuum technology have allowed manufacturers to make products in ways that were difficult or impossible using older processes.</p></div>
+<div class="study-card"><h3>Electrohydraulic Forming</h3><p><strong>Electrohydraulic forming</strong> uses a high-energy electrical discharge in a liquid to create a shock wave that forces metal into a die or former.</p><p><strong>Applications:</strong> complex sheet-metal forms, prototypes and specialised automotive or aerospace components.</p><p><strong>Advantages:</strong> complex shapes can be formed with a single-sided die and without direct mechanical tool impact.</p><p><strong>Limitations:</strong> specialised high-voltage equipment increases setup cost.</p><p><strong>Technological link:</strong> rapid capacitor discharge through electrodes creates a controlled shock wave in water, replacing the direct force of a mechanical press.</p></div>
+<div class="study-card"><h3>Metal Laser Powder-Bed Fusion and DMLS</h3><p><strong>Metal laser powder-bed fusion</strong> spreads a thin layer of metal powder across a build platform and uses a laser to fuse selected areas from digital build data. The platform lowers and the process repeats layer by layer.</p><p><strong>DMLS terminology:</strong> although the name contains “sintering”, modern commercial DMLS systems such as EOS laser powder-bed fusion use a laser to <strong>fully melt the metal powder</strong>. This should be distinguished from processes in which particles are joined mainly by sintering below full melting.</p><p><strong>Applications:</strong> aerospace parts, medical implants and customised engineering components.</p><p><strong>Advantages:</strong> no conventional mould or die is required, and complex internal channels, lattice structures and customised forms can be produced directly from CAD data.</p><p><strong>Limitations:</strong> machines, qualified metal powders and processing are expensive; build rates are relatively slow and parts may require support removal, heat treatment or machining.</p><p><strong>Technological link:</strong> 3D CAD, slicing software and computer-controlled lasers allow metal powder to be selectively melted directly from digital data.</p></div>
+<div class="study-card"><h3>Fibre Injection Moulding</h3><p><strong>Fibre injection moulding</strong> uses a thermoplastic containing short glass or carbon fibres so reinforcement is incorporated during the moulding cycle.</p><p><strong>Advantages:</strong> fibre reinforcement can increase stiffness and strength while retaining the fast, repeatable production of injection moulding.</p><p><strong>Limitations:</strong> performance depends on fibre content and orientation, and fibre-filled polymers can be harder to recycle than a single polymer.</p><p><strong>Technological link:</strong> fibre-reinforced thermoplastics and accurately controlled injection-moulding machines combine reinforcement and shaping in one production cycle.</p></div>
+<div class="study-card"><h3>Laser Beam Welding</h3><p><strong>Laser beam welding</strong> uses the intense heat of a focused laser to melt and join metal components.</p><p><strong>Advantages:</strong> narrow, precise and repeatable welds can be produced rapidly with limited heat distortion.</p><p><strong>Limitations:</strong> equipment is expensive and accurate setup and control are required.</p><p><strong>Technological link:</strong> high-power focused lasers combined with CNC or robotic control produce narrow, repeatable welds at high speed.</p></div>
+<div class="study-card"><h3>Physical Vapour Deposition (PVD)</h3><p><strong>PVD</strong> deposits a very thin coating in a vacuum chamber by vaporising a solid coating material and allowing it to condense onto a component.</p><p><strong>Advantages:</strong> thin hard coatings can improve wear, corrosion resistance or appearance without significantly changing component dimensions.</p><p><strong>Limitations:</strong> vacuum conditions and specialised equipment increase cost and process complexity.</p><p><strong>Technological link:</strong> high-vacuum and controlled deposition technology allows vaporised material to form extremely thin, precise coatings.</p></div></section>
