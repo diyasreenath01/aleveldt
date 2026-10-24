@@ -1,9 +1,61 @@
-<section class="note-panel"><h2>Adhesives and Fixings</h2>
-<div class="note-intro"><p>For AQA 7552 you need to know the specified adhesives and be able to <strong>select and justify a suitable adhesive for a material, product and manufacturing situation</strong>. Focus on what each adhesive joins, how it works and why it is suitable.</p></div>
-<div class="study-card"><h3>PVA</h3><ul><li><strong>Best for:</strong> porous materials, especially wood and manufactured boards.</li><li><strong>Key points:</strong> water-based, dries clear and normally needs pressure or clamping while curing.</li><li><strong>Limitation:</strong> unsuitable for non-porous materials such as most metals and plastics.</li><li><strong>Exam application:</strong> a suitable choice for many timber joints because it spreads easily across porous wood surfaces and creates a strong bond when the joint is clamped.</li></ul></div>
-<div class="study-card"><h3>Epoxy resin</h3><ul><li><strong>Best for:</strong> strong bonding of different materials including metals, plastics and woods.</li><li><strong>Key points:</strong> a two-part adhesive made from resin and hardener; waterproof and able to fill small gaps.</li><li><strong>Limitation:</strong> the two parts must be mixed before use and it is less convenient for covering large areas.</li><li><strong>Exam application:</strong> useful where two different materials need a strong, durable bond.</li></ul></div>
-<div class="study-card"><h3>Contact adhesive</h3><ul><li><strong>Best for:</strong> large surface areas such as laminates.</li><li><strong>Key points:</strong> applied to both surfaces and allowed to become tacky before they are pressed together; bonds very quickly.</li><li><strong>Limitation:</strong> repositioning is difficult once the surfaces make contact.</li><li><strong>Exam application:</strong> useful for bonding a decorative laminate to a large flat board.</li></ul></div>
-<div class="study-card"><h3>UV hardening adhesive</h3><ul><li><strong>Best for:</strong> small, accurate joints where a clear adhesive is useful.</li><li><strong>Key points:</strong> a clear low-viscosity adhesive that cures rapidly when exposed to UV light.</li><li><strong>Advantage:</strong> the parts can be positioned before curing and then hardened quickly using UV light.</li></ul></div>
-<div class="study-card"><h3>Solvent cement</h3><ul><li><strong>Best for:</strong> compatible thermoplastics such as acrylic, ABS and PVC.</li><li><strong>Key points:</strong> solvent softens the contacting plastic surfaces so they fuse together as the solvent evaporates.</li><li><strong>Application:</strong> a low-viscosity solvent cement can be drawn into a close-fitting joint by capillary action.</li><li><strong>Exam application:</strong> a good choice for neat permanent joints in acrylic products.</li></ul></div>
-<div class="study-card"><h3>Choosing an adhesive</h3><p>In an exam, do not just name an adhesive. Link the choice to the <strong>materials, size and shape of the joint, required strength, environment, appearance and manufacturing method</strong>.</p><p><strong>Example:</strong> Contact adhesive is suitable for attaching laminate to a large board because it can cover a broad surface and creates an immediate bond when the two tacky surfaces are pressed together.</p></div>
-<div class="study-card"><h3>Jigs and fixtures</h3><p>A <strong>jig</strong> holds or locates the workpiece and <strong>guides the tool</strong>. This reduces repeated marking out and helps components to be produced accurately and consistently.</p><p>A <strong>fixture</strong> holds or locates the workpiece securely in the correct position while a manufacturing process takes place, but <strong>does not guide the tool</strong>.</p><p>Jigs and fixtures are particularly useful in <strong>batch and mass production</strong> because they improve repeatability, reduce human error and can reduce production time.</p><p><strong>Exam link:</strong> AQA expects you to explain their suitability for <strong>accurate and repeated manufacture</strong>. Dimensions and angles may also be important when designing jigs, fixtures and templates.</p></div></section>
+## Adhesives and fixings
+
+Adhesives should be selected according to the **materials being joined, size and shape of the joint, required strength, environment, appearance and manufacturing method**. Different adhesives work in different ways, so a strong adhesive is not automatically suitable for every material or product.
+
+### PVA
+
+**PVA (polyvinyl acetate)** is a water-based adhesive used mainly with porous materials, particularly wood and manufactured boards.
+
+- It spreads easily over timber surfaces and normally dries clear.
+- The joint usually needs pressure or clamping while the adhesive cures.
+- It is suitable for many timber joints because it can create a strong bond across porous surfaces.
+- It is generally unsuitable for non-porous materials such as most metals and plastics.
+
+### Epoxy resin
+
+**Epoxy resin** is a two-part adhesive consisting of a resin and hardener.
+
+- It can form strong, durable bonds between materials including metals, plastics and woods.
+- It is waterproof and can fill small gaps between surfaces.
+- It is useful where different materials need to be joined securely.
+- The two components must be mixed before use, making it less convenient for some large-area applications.
+
+### Contact adhesive
+
+**Contact adhesive** is useful for joining large surface areas, such as decorative laminates to boards.
+
+- It is normally applied to both surfaces and allowed to become tacky before they are pressed together.
+- It bonds very quickly once the surfaces make contact.
+- It is well suited to broad, flat surfaces.
+- Repositioning is difficult once contact has been made, so accurate alignment is important.
+
+### UV-hardening adhesive
+
+**UV-hardening adhesive** is useful for small, accurate joints where a clear bond is required.
+
+- The parts can be positioned before curing.
+- Exposure to ultraviolet light then causes the adhesive to cure rapidly.
+- This allows controlled positioning followed by fast setting.
+
+### Solvent cement
+
+**Solvent cement** is used with compatible thermoplastics such as acrylic, ABS and PVC.
+
+- The solvent softens the contacting polymer surfaces so that they fuse together as the solvent evaporates.
+- Low-viscosity solvent cement can be drawn into a close-fitting joint by capillary action.
+- It can produce neat permanent joints in products made from suitable thermoplastics.
+- It should only be used with polymers that are compatible with the particular solvent.
+
+### Selecting a suitable adhesive
+
+The choice should be justified by the product requirements rather than by simply naming an adhesive. For example, contact adhesive is appropriate for attaching laminate to a large board because it can cover a broad surface and creates a rapid bond when the prepared surfaces are pressed together.
+
+## Fixings
+
+Mechanical fixings are useful where components need to be positioned securely and may also allow later maintenance, repair or disassembly.
+
+- **Screws, nuts and bolts** can create strong joints that can normally be dismantled.
+- **Rivets** can provide fast permanent mechanical joints, particularly in sheet materials.
+- **Snap fittings and integral fixings** can reduce separate components and speed assembly, although their suitability depends on the material and whether future disassembly is required.
+
+Permanent adhesives can simplify assembly and avoid visible fasteners, but they may make repair and material separation more difficult. Mechanical fixings can therefore be preferable where a product is intended to be maintained, upgraded or dismantled at the end of its life.
