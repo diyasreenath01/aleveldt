@@ -19,3 +19,6 @@
 # Additional legacy URLs found in Search Console, 13 October 2026
 /notes/3.2.9/quality-control/ /notes/3.2.9/quality-control-qc/ 301
 /notes/3.1.7/rapid-prototyping/ /notes/3.1.7/rapid-prototyping-processes/ 301
+
+# Retired user-research URL: the existing UCD notes cover this material.
+/notes/3.2.1/user-centred-research/ /notes/3.2.1/user-centred-design-ucd/ 301
