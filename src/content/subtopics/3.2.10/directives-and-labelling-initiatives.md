@@ -25,7 +25,10 @@ This can require designers to select compliant **materials, finishes, solder and
 
 #### WEEE symbol
 
-The **crossed-out wheeled bin** means the electrical or electronic product should **not be disposed of with unsorted household waste**. It should enter a separate collection system for appropriate treatment, reuse, recycling or recovery.
+<div class="label-note">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/IEC_60417_-_Ref-No_6414.svg/500px-IEC_60417_-_Ref-No_6414.svg.png" alt="Crossed-out wheeled bin WEEE symbol" loading="lazy" />
+  <p>The <strong>crossed-out wheeled bin</strong> means the electrical or electronic product should <strong>not be disposed of with unsorted household waste</strong>. It should enter a separate collection system for appropriate treatment, reuse, recycling or recovery.</p>
+</div>
 
 These requirements can influence the original design of a product: making components accessible, materials identifiable and the product easier to dismantle can improve end-of-life recovery and reduce demand for new raw materials.
 
@@ -55,11 +58,40 @@ They can help consumers compare products and encourage manufacturers to improve 
 
 ### Main labels required by AQA
 
-- **Mobius Loop** – the three-arrow recycling symbol. It communicates recycling-related information. Its presence alone does not guarantee that the item will actually be recycled; local collection and processing facilities still matter.
-- **European Ecolabel** – a voluntary environmental label awarded to eligible products and services that meet defined environmental criteria. It provides evidence that specified environmental requirements have been met rather than relying only on a manufacturer's own claim.
-- **EC/EU energy label** – gives standardised information about the energy performance of relevant products so consumers can compare alternatives. The current main scale runs from **A to G**, with A at the more energy-efficient end.
-- **Energy Efficient label/logo** – indicates that a product meets specified energy-efficiency requirements, helping consumers identify products designed to use energy more efficiently.
-- **FSC — Forest Stewardship Council** – identifies forest-based materials and products linked to certified responsible forest management and controlled supply chains. It relates specifically to the sourcing of forest products; it does not mean that the complete product has no environmental impact.
-- **EPA ENERGY STAR** – identifies qualifying products that meet specified energy-efficiency criteria, allowing energy performance to form part of the consumer's purchasing decision.
+<div class="label-grid">
+  <div class="label-note">
+    <div class="label-symbol mobius" aria-label="Mobius Loop recycling symbol">♻</div>
+    <p><strong>Mobius Loop</strong> – the three-arrow recycling symbol. It communicates recycling-related information. Its presence alone does not guarantee that the item will actually be recycled; local collection and processing facilities still matter.</p>
+  </div>
+
+  <div class="label-note">
+    <img src="https://www.technofashionworld.com/files/2017/11/ecolabel_logo.jpg" alt="European Ecolabel logo" loading="lazy" />
+    <p><strong>European Ecolabel</strong> – a voluntary environmental label awarded to eligible products and services that meet defined environmental criteria. It provides evidence that specified environmental requirements have been met rather than relying only on a manufacturer's own claim.</p>
+  </div>
+
+  <div class="label-note energy-rating">
+    <div class="energy-scale" aria-label="Energy efficiency scale from A to G"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span></div>
+    <p><strong>EC/EU energy label</strong> – gives standardised information about the energy performance of relevant products so consumers can compare alternatives. The current main scale runs from <strong>A to G</strong>, with A at the more energy-efficient end.</p>
+  </div>
+
+  <div class="label-note">
+    <div class="label-symbol efficiency" aria-label="Energy efficient symbol">⚡</div>
+    <p><strong>Energy Efficient label/logo</strong> – indicates that a product meets specified energy-efficiency requirements, helping consumers identify products designed to use energy more efficiently.</p>
+  </div>
+
+  <div class="label-note">
+    <img src="https://dk.fsc.org/sites/default/files/assets/FSC_newsentry_1576841684_image.jpg" alt="FSC Forest Stewardship Council logo" loading="lazy" />
+    <p><strong>FSC — Forest Stewardship Council</strong> – identifies forest-based materials and products linked to certified responsible forest management and controlled supply chains. It relates specifically to the sourcing of forest products; it does not mean that the complete product has no environmental impact.</p>
+  </div>
+
+  <div class="label-note">
+    <img src="https://www.energy.gov/sites/default/files/styles/full_article_width/public/2023-02/EnergyStar-405x270.jpg?itok=1PHs6UDx" alt="ENERGY STAR energy efficiency logo" loading="lazy" />
+    <p><strong>EPA ENERGY STAR</strong> – identifies qualifying products that meet specified energy-efficiency criteria, allowing energy performance to form part of the consumer's purchasing decision.</p>
+  </div>
+</div>
 
 The important point is to understand **what each label or directive does and how it can affect a design, manufacturing or purchasing decision**, rather than only recognising its logo.
+
+<style>
+.label-grid{display:grid;gap:14px;margin:18px 0 26px}.label-note{display:flex;align-items:center;gap:22px;background:#fff;border:1px solid #e7d8ed;border-radius:14px;padding:18px 22px;margin:16px 0}.label-note img{width:112px!important;height:100px!important;max-width:112px!important;max-height:100px!important;object-fit:contain!important;margin:0!important;border-radius:8px}.label-note p{margin:0;flex:1}.label-symbol{width:112px;min-width:112px;height:100px;display:flex;align-items:center;justify-content:center;border-radius:8px;background:#fbf8fd;color:#2d6539;font-size:72px;line-height:1}.label-symbol.efficiency{font-size:58px;color:#5b3480}.energy-scale{width:112px;min-width:112px;display:grid;gap:2px}.energy-scale span{display:block;padding:2px 8px;border-radius:3px;font-weight:800;font-size:14px;background:#f2eef4}.energy-scale span:nth-child(1){width:52%}.energy-scale span:nth-child(2){width:60%}.energy-scale span:nth-child(3){width:68%}.energy-scale span:nth-child(4){width:76%}.energy-scale span:nth-child(5){width:84%}.energy-scale span:nth-child(6){width:92%}.energy-scale span:nth-child(7){width:100%}@media(max-width:650px){.label-note{align-items:flex-start;gap:14px;padding:15px}.label-note img,.label-symbol,.energy-scale{width:82px!important;min-width:82px!important;max-width:82px!important}.label-note img,.label-symbol{height:76px!important;max-height:76px!important}.label-symbol{font-size:52px}.label-symbol.efficiency{font-size:42px}}
+</style>
