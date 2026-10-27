@@ -1,28 +1,41 @@
 ## International Organization for Standardization (ISO)
 
-The **International Organization for Standardization (ISO)** develops internationally agreed standards. These help products, services and manufacturing systems achieve consistent levels of **quality, safety, efficiency and compatibility** across different countries.
+The **International Organization for Standardization (ISO)** is an independent international organisation made up of national standards bodies. It develops internationally agreed standards for products, services and systems.
+
+International standards provide common specifications and methods that can improve **quality, safety, efficiency and compatibility** and make international trade easier.
 
 ### Why ISO matters in product design
 
-International standards are especially useful when products, components or materials are designed in one country and manufactured or sold in another. They can:
-- create common requirements and terminology
-- improve consistency between suppliers and manufacturers
-- support quality and environmental management
+International standards are particularly useful when a product is designed, manufactured, supplied or sold across different countries. They can:
+- give designers, suppliers and manufacturers common requirements and terminology
+- improve consistency between factories and suppliers
 - make components and systems more compatible
-- give customers and businesses greater confidence in processes and products.
+- support controlled quality and environmental management
+- increase confidence between businesses and consumers
+- reduce barriers when products and components move through international supply chains.
 
-### Useful examples
+ISO standards are developed through international collaboration. This is useful because a manufacturer can work to requirements recognised beyond one national market.
 
-**ISO 9001** concerns quality management systems. It focuses on having controlled, documented processes and continually improving them so organisations can provide consistent products and services.
+### ISO 9001
 
-**ISO 14001** concerns environmental management systems. It helps organisations manage environmental impacts such as waste, resource use and pollution.
+**ISO 9001** concerns **quality management systems (QMS)**. It focuses on controlled and documented processes, monitoring performance and continual improvement so an organisation can consistently provide products or services that meet requirements.
 
-You do not need to memorise large numbers of ISO standards. For an exam answer, the important point is to explain **why a recognised international standard is useful** to a designer, manufacturer or consumer.
+Possible benefits include:
+- more consistent quality and fewer avoidable errors
+- clearer procedures and responsibilities
+- improved efficiency and customer confidence
+- evidence to customers or suppliers that a recognised quality-management system is being used.
 
-### Exam application
+There are also costs. Establishing and maintaining a certified system can require **training, documentation, auditing, monitoring and staff time**. Certification of a management system also does not mean that every individual product is automatically defect-free.
 
-A strong chain is:
+### ISO 14001
 
-**international standard → common requirements → more consistent manufacture/quality → easier global supply and greater customer confidence**.
+**ISO 14001** concerns **environmental management systems**. It helps organisations identify, manage and improve environmental impacts such as waste, resource use, energy use and pollution.
 
-Do not confuse **ISO** with an eco-label. ISO develops standards; environmental labels and directives such as FSC, WEEE and energy labels are covered separately.
+This can encourage environmental issues to be managed systematically across an organisation rather than relying on isolated changes to individual products.
+
+### ISO and BSI
+
+A **British Standard** is a national standard published through BSI, whereas an **ISO standard** is developed internationally. In practice the two systems can overlap because national standards bodies participate in international standardisation and international standards can be adopted nationally.
+
+The important design decision is therefore not simply whether an international standard is 'better' than a national one, but **which standards are relevant to the product, process and market concerned**.
