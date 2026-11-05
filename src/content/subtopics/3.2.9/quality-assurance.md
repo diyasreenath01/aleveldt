@@ -1,25 +1,33 @@
 ## Quality assurance (QA)
 
-**Quality** is a product's fitness for purpose: it should meet its specification, satisfy user requirements, function reliably and be free from unacceptable defects. Because expectations differ between products and users, quality must be defined through measurable criteria.
+### What quality means
 
-**Quality assurance (QA)** uses planned procedures throughout design and manufacture to **prevent defects**, rather than relying only on checking finished products. **QA focuses on the process; QC checks the product.**
+**Quality** is the standard of a product relative to its intended requirements and comparable products. It is partly **subjective**: different users may value different features, so quality needs to be defined for the product.
 
-### QA methods
+A product should be **fit for purpose**, satisfy user requirements, function as intended and be free from unacceptable defects. The design specification turns these expectations into criteria that can be checked.
 
-- **Design reviews:** check CAD drawings, dimensions, tolerances and specifications before manufacture to identify errors while changes are relatively inexpensive.
-- **Computer-based analysis:** finite element analysis (FEA) predicts how a design responds to loads; computational fluid dynamics (CFD) models fluid or airflow; mould-flow analysis predicts how molten polymer fills a mould, helping identify potential filling problems before tooling is finalised.
-- **Supplier and incoming-material controls:** define requirements for raw materials and bought-in components, assess suppliers and retain evidence that deliveries meet the specification.
-- **Controlled production procedures:** provide clear work instructions, train staff, maintain and calibrate equipment, and record process checks so work is carried out consistently.
-- **Monitoring and corrective action:** record defects and process results, investigate recurring causes and change the process to prevent the same problem happening again.
+### Quality assurance versus quality control
 
-**ISO 9001** provides requirements for a quality management system, including controlled processes, evidence and continual improvement. It does not guarantee that every product is defect-free.
+**Quality assurance (QA)** consists of **planned activities that prevent defects** by managing how a product is designed, made and monitored. It covers the journey **from design, through manufacture, to end use**, rather than only checking the final product.
+
+**Quality control (QC)** inspects or tests materials, components and products **at different production stages and on completion**, comparing results with requirements. A check may give a pass/fail decision.
+
+**QA controls the system and process; QC checks the output.** Both are needed to help products meet user requirements.
+
+### How QA is carried out
+
+- **Pre-production design checks:** review CAD drawings, dimensions, tolerances and specifications before manufacture. Errors found here can be corrected before materials and production time are wasted.
+- **Mathematical and computer modelling:** **FEA** predicts the effect of forces and stresses; **CFD** models fluid or airflow; **mould-flow analysis (MFA)** predicts how molten polymer will flow into and fill a mould. These can reveal likely design or processing problems before production.
+- **Raw materials and bought-in components:** specify and verify required material/component quality and assess suppliers. **ISO 9001** provides requirements for a quality management system and documented, repeatable procedures; it is **not** a guarantee that every material or product passes.
+- **Production systems and staff:** provide work instructions and training so tasks are performed consistently; check and maintain machinery and calibrate measuring equipment to reduce process errors.
+- **Monitoring and evidence:** schedule checks, tests and inspections, record findings, investigate recurring problems and use **fact-based evidence** to improve procedures. Inspection and testing supply evidence to the QA system, even though the actual product checks are QC activities.
 
 ### Continuous improvement
 
-**Total quality management (TQM)** involves staff across the organisation in preventing problems and improving processes, rather than leaving responsibility only to inspectors.
+**Total quality management (TQM)** involves workers throughout the organisation in reporting problems and improving processes, with the aim of making products correctly first time.
 
-**Six Sigma** aims to reduce variation and defects using **DMAIC**: **Define** the problem, **Measure** performance, **Analyse** causes, **Improve** the process and **Control** the results.
+**Six Sigma** reduces process variation and defects through **DMAIC**: **Define** the problem, **Measure** performance, **Analyse** causes, **Improve** the process and **Control** the improvement.
 
 ### Why QA matters
 
-Finding a drawing error or a poorly controlled process before full production can prevent an entire batch being made incorrectly, reducing scrap, rework and customer complaints. However, training, documentation, equipment maintenance and analysis require time and money; **QC is still needed** to verify that products meet requirements.
+A faulty drawing, inconsistent material or poorly maintained machine can affect an entire production batch. Preventing such problems can reduce scrap, rework and complaints, although training, modelling, monitoring and documentation cost time and money. **Final and in-process QC remain necessary** to verify that actual products meet the specification.
