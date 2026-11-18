@@ -12,11 +12,9 @@ Open design does not automatically mean that a creator has abandoned all rights.
 
 ### Examples
 
-**Practical Action** is used in the notes as an example of design for social benefit. It promotes freely accessible designs for projects such as water pumping and purification systems and other technologies intended to improve people's lives.
+**Practical Action** provides an example of design for social benefit. It promotes freely accessible designs for projects such as water pumping and purification systems and other technologies intended to improve people's lives.
 
 **Fairphone** demonstrates ideas connected with open-source development, modular construction, upgrading and repair. Its approach challenges short product replacement cycles by making maintenance and component replacement easier.
-
-The notes also identify the standardisation of **shipping containers** as an example of intellectual-property decisions helping wider adoption: container patents were made available to support international standardisation and worldwide freight.
 
 ### Advantages and considerations
 
