@@ -52,13 +52,13 @@ You should be able to connect the named polymer to the following characteristics
 - ability to be **self-finishing**
 - ability to be combined with **other polymers or additives**.
 
-Polymers are often self-finishing because colour and surface texture can be created during moulding, reducing secondary finishing operations. Additives can further change behaviour: plasticisers increase flexibility, pigments add colour, flame retardants reduce combustion, UV stabilisers slow UV degradation and fillers can reduce cost or alter processing/performance. Your source notes explain these enhancement methods in detail. fileciteturn40file8L746-L787
+Polymers are often self-finishing because colour and surface texture can be created during moulding, reducing secondary finishing operations. Additives can further change behaviour: plasticisers increase flexibility, pigments add colour, flame retardants reduce combustion, UV stabilisers slow UV degradation and fillers can reduce cost or alter processing/performance. The relevant enhancement methods include plasticising, adding pigments and fillers, and using UV stabilisers or flame retardants where the product specification requires them.
 
 ## Stock forms
 
 AQA expects recognition of common polymer stock forms: **sheet, film, granules, rod/other extruded sections, foam and powder**.
 
-Polymer film is generally thin and flexible, whereas polymer sheet is thicker and available in different stock thicknesses. Your notes give LDPE film, cellulose acetate and PLA as film examples and foam board, modelling foam, Plastazote and polypropylene as sheet/foam examples. fileciteturn39file3L3-L17
+Polymer film is generally thin and flexible, whereas polymer sheet is thicker and available in different stock thicknesses. Examples include LDPE film, PP sheet, PLA film, foam board and closed-cell polymer foam; suitability depends on the grade, thickness and required properties.
 
 ## Polymer-based sheet and film examples
 
@@ -70,10 +70,10 @@ Polymer film is generally thin and flexible, whereas polymer sheet is thicker an
 | **Styrofoam** | Lightweight closed-cell foam, easily cut/shaped | Models, formers and packaging |
 | **LDPE sheet/film** | Thin, flexible, chemical resistant, moisture barrier | Wrapping, bags and packaging |
 | **Plastazote** | Tough, flexible closed-cell foam with good impact resistance | Protective packaging, mats and flotation products |
-| **Cellulose acetate** | Tough, transparent/translucent and biodegradable | Transparent film and packaging |
+| **Cellulose acetate** | Tough and transparent/translucent; biodegradation depends on degree of substitution and environmental conditions | Transparent film and packaging |
 | **PLA sheet/film** | Bio-based/biodegradable under appropriate conditions | Short-life biodegradable packaging |
 
-Your supplied polymer sheet/film notes specifically describe these characteristics and uses. fileciteturn39file3L6-L35
+Material grades and commercial products differ, so always check a supplier's datasheet before specifying a precise application.
 
 ## Exam focus
 

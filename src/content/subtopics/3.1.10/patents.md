@@ -1,5 +1,28 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
+## Patents — protection for technical inventions
 
-<section class="note-panel"><h2>Patents</h2>
-<div class="note-intro"><p>• The government’s <strong>Intellectual Property Office (IPO)</strong> grants legal rights (<strong>patents</strong>) for novel inventions.<br> • Patents apply only to working parts of a design (e.g. a car suspension system, electronic product PCB, automatic kettle sensor).<br> • They provide up to 20 years’ legal protection, but are expensive and complicated to obtain.<br> • It is essential that the invention is completely new or significantly improves an existing design.<br> • Detailed, labelled diagrams and clear description are central to submissions.<br> • A patent attorney is often employed to check a patent prior to submission.<br> • Legal conflict examples include Apple vs Samsung (software features) and Dyson vs Hoover (dual cyclone).<br> • It can be argued that publication of a patent encourages further innovation.</p>
-<p><strong>Figure 24.2</strong> Patent drawings for the 1904 Gillette razor</p></div></section>
+A **patent** is an intellectual-property right protecting a qualifying technical invention, such as a product, device, machine, chemical composition or manufacturing process. It is **not limited to the working parts** of a design. A patent protects what is defined in its legal claims, rather than a general idea or appearance.
+
+In the UK, applicants apply through the **Intellectual Property Office (IPO)**. To be patentable, an invention normally must be **new**, involve an **inventive step** and be **capable of industrial application**. Publicly disclosing an invention before applying can jeopardise novelty, so confidentiality matters.
+
+### How the process works
+1. Search for existing inventions and assess whether the idea may be novel.
+2. Prepare an application containing a description, **claims** and (where useful) labelled technical drawings.
+3. File the application and follow the search, publication and substantive-examination process.
+4. If granted, maintain protection by paying renewal fees.
+
+UK patents can last **up to 20 years from filing**, subject to renewal fees and other legal requirements. Applications can be expensive and specialist patent advice may help.
+
+### Do not confuse these rights
+
+| Right | Generally protects | Example |
+|---|---|---|
+| Patent | New technical inventions | A new mechanism that controls a kettle's water temperature |
+| Registered design | A product's visual appearance | The distinctive external shape of the kettle |
+| Trade mark | Signs identifying the source of goods/services | The kettle brand name and logo |
+| Copyright | Original qualifying creative expression | Original illustrations or instruction-manual text |
+
+A patent is a territorial right. Protection in one country does not automatically cover the whole world. Publishing detailed technical information in a patent can help others learn from the invention even while commercial use of its claims is restricted.
+
+**Design decision:** A new bicycle braking mechanism may be considered for patent protection, while its unique decorative styling may be better protected as a registered design. The same product can have multiple forms of intellectual-property protection.
+
+Source: [UK Intellectual Property Office — patents](https://www.gov.uk/patent-your-invention).
