@@ -44,3 +44,12 @@ It is particularly useful for boat hulls and large shells because it is lightwei
 A composite should be justified by the contribution of its different materials. For example, reinforced concrete is suitable for a structural beam because concrete performs well in compression while embedded steel provides the tensile strength that plain concrete lacks.
 
 The advantages must also be balanced against manufacturing difficulty, cost, repair and end-of-life. A lightweight high-performance composite may improve performance during use but still be difficult to separate or recycle.
+## Applying composite knowledge in AQA answers
+
+AQA expects you to **explain the suitability of a named composite for a specified product**, not just identify its constituents. Build a linked explanation: **constituents → working properties → product requirement → limitation or trade-off**.
+
+For a bicycle frame, CFRP's carbon-fibre reinforcement provides high stiffness and tensile strength at low mass, while the resin holds the fibres and transfers loads. Fibre lay-up can be arranged to resist the frame's expected forces. However, manufacture and inspection are expensive and impact damage can be difficult to detect or repair. A justified choice depends on whether performance gains outweigh cost and end-of-life limitations.
+
+For a marine hull, GRP can be formed into a large curved shell and resists corrosion in wet environments. It is typically cheaper than CFRP, but laminate quality depends on fibre wet-out, correct curing and avoiding trapped air.
+
+**Comparison checklist:** strength-to-weight ratio; stiffness; toughness and impact response; corrosion resistance; formability; production volume; tooling and labour costs; maintenance and disposal. Do not assume all composites are lightweight: reinforced concrete is heavy but valuable for structural strength.
