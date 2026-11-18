@@ -4,7 +4,7 @@ Design decisions affect a product throughout its life: **how efficiently it is m
 
 ## The six Rs
 
-The **six Rs** are **Reduce, Reuse, Repair, Recycle, Rethink and Refuse**. They are ways of reducing resource depletion, pollution and waste across a product's life cycle.
+A commonly taught **six Rs** framework is **Reduce, Reuse, Repair, Recycle, Rethink and Refuse**. AQA's specification explicitly discusses reduce, reuse, rethink and recycle in this section; the remaining labels help organise wider sustainable-design decisions. They are ways of reducing resource depletion, pollution and waste across a product's life cycle.
 
 ### Reduce
 
@@ -64,3 +64,10 @@ Standardised components such as **fasteners, fuses, cartridges and fittings** im
 - Software and firmware updates can improve performance and extend useful life, although incompatible updates can also contribute to obsolescence.
 
 A product designed for a long life should therefore consider **physical durability, access, replacement parts, software support and end-of-life recovery together**, rather than treating repair and disposal as separate issues.
+## Applying the six Rs to a real product
+
+Consider a rechargeable desk lamp. **Reduce** material through ribs rather than thick solid walls; **Reuse** its housing in a refurbished lamp; **Repair** by making the LED driver accessible using screws; **Recycle** by separating aluminium from polymer parts; **Rethink** the need for a permanently sealed battery; **Refuse** unnecessary disposable packaging. Each choice must be assessed against safety, performance and cost.
+
+For an AQA explanation, identify a **specific design change**, explain **how it reduces environmental impact**, then consider any **trade-off**. For example, screws enable repair but may increase assembly time and component count. Saying only “make it recyclable” is not enough: name the material and explain how it can be identified and separated.
+
+**Specification link:** AQA 7552, section 3.1.11, design for manufacture, maintenance, repair and disposal.
