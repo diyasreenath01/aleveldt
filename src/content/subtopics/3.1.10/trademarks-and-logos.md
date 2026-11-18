@@ -1,5 +1,3 @@
-<!-- DESIGN NOTES DOCX IMPORT -->
-
 <section class="note-panel"><h2>Trademarks and logos</h2>
 <div class="note-intro"><p>• <strong>Trademarks</strong> give legal protection for brand identity and facilitate marketing. A recognisable combination of words, sounds, colours and logos is important for companies.<br> • A <strong>logo</strong> is a graphical symbol; it needs to be instantly identifiable and unique in order to stand out.<br> • A trademark may incorporate graphics, but can be a word or phrase such as ‘dual cyclone’.<br> • Trademarks are registered by making an application and paying a fee to the IPO.<br> • Trademarks need to be renewed every ten years.<br> • The ® symbol indicates a registered trade mark and should not be used for an unregistered mark. A logo is not automatically a registered trade mark; registration depends on the relevant application and rules.</p></div>
 <div class="note-grid"><div class="study-card"><h3>How several rights can apply to one product</h3>
