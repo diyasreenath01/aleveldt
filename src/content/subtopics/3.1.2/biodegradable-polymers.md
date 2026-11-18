@@ -32,6 +32,19 @@ The conditions matter. Some materials described as compostable require controlle
 | **Lactide/glycolide-based polymers** | Biodegradable synthetic polymers | Can break down in the body, making them useful for temporary components | Medical implants, sutures, pins and temporary medical devices |
 | **Water-soluble film (for example some PVOH grades)** | Water-soluble polymer; biodegradation depends on the formulation and treatment conditions | Dissolves in water but dissolution alone does not confirm biodegradation | Soluble bags and specialist packaging |
 
+## Important material trade-offs
+
+| Material | Useful additional detail | Limitation to consider |
+|---|---|---|
+| **Corn-starch-based polymer** | Can replace conventional loose-fill packaging and some short-life films. | Moisture sensitivity and relatively low strength can make it unsuitable for prolonged damp use. |
+| **Potatopak** | Potato-starch-based rigid packaging can replace some disposable foam trays. | May become brittle when dry or soften when exposed to hot liquids. |
+| **Biopol (PHB)** | **Polyhydroxybutyrate (PHB)** is a member of the PHA family, made by microorganisms from carbon-rich feedstocks. | Production can be expensive, and its narrow processing-temperature window increases manufacturing difficulty. |
+| **PHA family** | Includes several microbial polyesters, which can be formulated for films, coatings and medical uses. | Material properties and biodegradation rates vary by PHA type and environment; extraction and production costs can be high. |
+| **PLA** | Made using lactic acid obtained from fermented plant sugars; widely used in 3D-printing filament and cold-food packaging. | Limited heat resistance; many PLA products require **industrial composting** conditions rather than ordinary home composting. |
+| **PLA and PGA medical polymers** | **Lactide** is a precursor used to make PLA; **glycolide** is a precursor used to make polyglycolic acid (PGA). The precursors themselves are **not polymers**. | Medical degradation rates and breakdown products must be controlled for the intended application. |
+
+**Bio-based is about origin; biodegradable is about end-of-life behaviour.** A renewable feedstock does not guarantee that the finished plastic will break down in landfill, seawater or home compost. Similarly, a claim of compostability should specify the conditions and standard under which it was tested.
+
 ## Advantages
 
 - Renewable feedstocks can reduce dependence on **finite fossil resources**.
