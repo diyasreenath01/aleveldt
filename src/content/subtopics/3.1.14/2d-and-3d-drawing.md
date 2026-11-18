@@ -22,3 +22,20 @@ Rendering communicates material and surface qualities using colour, texture, hig
 ### Choosing the communication method
 
 A client presentation may prioritise realistic form, colour and finish, while a manufacturer needs dimensions, tolerances, materials and construction details. The most effective drawing is therefore the one that communicates the required information clearly, rather than the most visually impressive one.
+### Reading technical drawings: conventions and theory
+
+| Convention | Meaning | Why it matters |
+|---|---|---|
+| **Orthographic** | Separate front, plan and side views projected at right angles | Shows true sizes/shapes of faces for manufacture when properly dimensioned |
+| **Third-angle projection** | The plan is placed above the front elevation; right-side view is placed to the right | Keeps views in a consistent convention; check the projection symbol on a drawing |
+| **First-angle projection** | The plan is placed below the front elevation; right-side view appears to the left | Avoids mistaking one international convention for another |
+| **Visible outline** | Continuous, prominent line | Identifies visible edges |
+| **Hidden detail** | Short dashed line | Indicates an edge not visible from that view |
+| **Centre line** | Thin chain line | Marks centres, axes or symmetry |
+| **Section lines** | Hatching on cut surfaces | Communicates internal details in a sectional view |
+
+An **isometric drawing** represents three principal axes at 120° to one another (typically two at 30° to the horizontal and one vertical), usually using equal scales along the axes. Parallel edges remain parallel, so it is not perspective: distant parts do not become smaller. Circles on an isometric plane appear elliptical.
+
+**Common error:** A pictorial isometric view is useful for visualising a product, but it normally does not replace dimensioned orthographic views for manufacture.
+
+<figure><img src="/images/spec-revision/orthographic-vs-isometric.svg" alt="Comparison of front, plan and side orthographic projections with an isometric representation of a simple block." loading="lazy" /><figcaption>Compare conventional multi-view orthographic drawings with a single pictorial isometric view.</figcaption></figure>
