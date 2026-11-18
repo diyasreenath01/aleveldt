@@ -8,4 +8,4 @@
 - Registered design protection is particularly important where a product's distinctive appearance contributes to its commercial value and brand identity.
 - This differs from a **patent**, which protects a new invention or technical feature rather than simply the product's appearance.
 
-The notes use counterfeit designer products as an example of why legal protection of appearance can be commercially important.
+**Product example:** a manufacturer developing a distinctive kettle body could register its external shape, while using a patent (if eligible) for a genuinely new heating mechanism and a trade mark for its brand name. Registration protects the design’s appearance, not the general idea of making a kettle.
