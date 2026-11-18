@@ -12,6 +12,30 @@ Polymers are widely used because their properties can be tailored to the product
 
 **Thermosets undergo an irreversible chemical change when cured.** Strong cross-links form between polymer chains, so they cannot simply be reheated and remoulded. They tend to have good heat resistance and dimensional stability.
 
+## How molecular structure affects performance
+
+- **LDPE versus HDPE:** LDPE has more branched chains, which prevents close packing and makes it less dense and more flexible. HDPE has less branching, so chains pack more closely and produce a stiffer, stronger material.
+- **HIPS:** rubber particles dispersed through polystyrene absorb impact energy and reduce brittle fracture, making it tougher than ordinary polystyrene.
+- **ABS:** the acrylonitrile component contributes chemical resistance, butadiene improves impact toughness and styrene provides rigidity and a good moulded surface finish.
+- **Nylon:** attraction between polyamide chains, including hydrogen bonding, helps provide strength and abrasion resistance for gears and moving parts.
+- **Plasticised PVC:** plasticisers allow chains to move more easily, making cable sheathing flexible. Unplasticised PVC retains rigidity for window frames and pipes.
+- **Thermosets:** permanent covalent cross-links stop chains moving past one another when heated, so cured resins cannot be remoulded like thermoplastics.
+
+## Elastomers and rubber
+
+**Elastomers** are polymers that can stretch significantly and return towards their original shape. Coiled polymer chains extend under tension; a limited number of cross-links help pull them back when the load is removed.
+
+| Elastomer | Characteristics and reasons for use |
+|---|---|
+| **Natural rubber (polyisoprene)** | Highly elastic and resilient; used in tyres and flexible products. **Vulcanisation** creates sulfur cross-links between chains, improving elastic recovery and resistance to permanent deformation. |
+| **Polybutadiene rubber (BR)** | Resilient and abrasion resistant, useful in tyre compounds subjected to repeated flexing. |
+| **Neoprene (polychloroprene)** | Resists weathering and many oils better than natural rubber; used for seals, gaskets and wetsuit foams. |
+| **Silicone rubber** | Flexible across a wide temperature range and resistant to water and weathering; its silicon–oxygen backbone helps give thermal stability. Used in bakeware, seals and medical products. |
+
+## Where conventional polymers come from
+
+A typical route from **crude oil to polymer pellets** is **extraction → fractional distillation** (separating hydrocarbon fractions such as naphtha) **→ cracking** (producing smaller molecules including alkenes) **→ polymerisation** (joining monomers into chains) **→ extrusion and pelletising**. Natural gas can also supply feedstocks: ethane is separated and steam-cracked to ethene before polymerisation. Not every polymer follows exactly the same chemical route.
+
 ## Thermoplastics you must know
 
 | Polymer | Key characteristics | Typical applications / why |
