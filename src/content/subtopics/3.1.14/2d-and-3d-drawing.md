@@ -39,3 +39,11 @@ An **isometric drawing** represents three principal axes at 120° to one another
 **Common error:** A pictorial isometric view is useful for visualising a product, but it normally does not replace dimensioned orthographic views for manufacture.
 
 <figure><img src="/images/spec-revision/orthographic-vs-isometric.svg" alt="Comparison of front, plan and side orthographic projections with an isometric representation of a simple block." loading="lazy" /><figcaption>Compare conventional multi-view orthographic drawings with a single pictorial isometric view.</figcaption></figure>
+
+### Interpreting a drawing rather than just recognising it
+
+When reading **orthographic views**, identify which edges and features line up between the front, plan and side views: a hole seen as a circle in one view may appear as hidden parallel lines in another. A **sectional view** can reveal the hole or internal cavity more clearly than hidden detail alone. Dimensions should be read from the stated measurements, not estimated from the drawing.
+
+In **isometric**, parallel edges stay parallel and the three axes show the product's overall form in one image. This makes it easier to visualise how parts fit together, but sloping faces and circles are not shown in their true shape. Use dimensioned orthographic views when precise manufacture is required.
+
+**Choosing between them:** a designer might use isometric to explain a proposed casing to a client, then orthographic front, plan, side and sectional views to communicate hole positions, wall thickness and assembly details to a manufacturer.
