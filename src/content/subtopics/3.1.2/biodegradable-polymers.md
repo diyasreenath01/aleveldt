@@ -1,20 +1,20 @@
 # Biodegradable polymers
 
-Biodegradable polymers are polymers designed to **break down after use** through environmental or biological action. Their suitability depends on the product, required service life and the conditions available at end-of-life.
+Biodegradable polymers are polymers designed to **undergo breakdown by biological activity** under specified conditions. Their suitability depends on the product, required service life and the conditions available at end-of-life.
 
 ## Biopolymer vs biodegradable polymer
 
 These terms do not mean exactly the same thing.
 
 - A **biopolymer** is produced from biological or renewable sources, or by living organisms.
-- A **biodegradable polymer** is defined by its ability to break down after use into simpler products through biological or environmental action.
+- A **biodegradable polymer** can be broken down by biological activity under appropriate conditions; dissolving, fragmenting under UV light or merely becoming brittle is not evidence of complete biodegradation.
 - A polymer can therefore be bio-based without necessarily being readily biodegradable, while some biodegradable polymers can be manufactured synthetically.
 
 Many bio-based polymers use renewable raw materials such as **starch, cellulose, vegetable oils and sugars** rather than relying entirely on finite crude-oil resources.
 
 ## How biodegradable polymers degrade
 
-Biodegradable polymers can be designed to degrade through the action of **UV light, water, enzymes or microorganisms**. The chemical structure of the polymer and the disposal conditions affect how easily this happens.
+UV light and water can start chemical degradation, but **biodegradation** specifically involves biological activity, usually microorganisms and their enzymes. Fragmentation alone does not prove mineralisation. The chemical structure of the polymer and the disposal conditions affect how easily this happens.
 
 Under suitable conditions microorganisms can convert biodegradable material into products such as **water, carbon dioxide and biomass**. Methane may also be produced under anaerobic conditions.
 
@@ -26,11 +26,11 @@ The conditions matter. Some materials described as compostable require controlle
 |---|---|---|---|
 | **Corn-starch polymer** | Starch from crops such as corn or maize | Renewable and biodegradable/compostable under suitable conditions | Packaging, bags, cups, disposable cutlery and takeaway containers |
 | **Potatopak** | Starch-based material, particularly potato starch | Biodegradable and suited to short-life disposable products | Disposable food-service and packaging products |
-| **Biopol / bio-batch systems** | Biodegradable polymer or additive systems | Designed to reduce persistence compared with conventional polymers | Short-life products and packaging |
+| **Biopol (a PHA-family material)** | Biologically produced polyester | Biodegradable in suitable environments | Short-life products and packaging |
 | **Polylactic acid (PLA)** | Produced from fermented plant sugars or starches such as maize, corn or sugar cane | Good strength and dimensional stability but relatively poor heat resistance; can be made into film or moulded forms | Food packaging, disposable cutlery and some medical applications |
 | **Polyhydroxyalkanoate (PHA)** | Biopolymer produced by microorganisms | Biodegradable and processable into films and moulded products | Packaging, disposable products and some medical applications |
 | **Lactide/glycolide-based polymers** | Biodegradable synthetic polymers | Can break down in the body, making them useful for temporary components | Medical implants, sutures, pins and temporary medical devices |
-| **Water-soluble biodegradable film** | Specially formulated biodegradable or water-soluble polymer | Dissolves or breaks down when exposed to water under appropriate conditions | Soluble bags and specialist packaging |
+| **Water-soluble film (for example some PVOH grades)** | Water-soluble polymer; biodegradation depends on the formulation and treatment conditions | Dissolves in water but dissolution alone does not confirm biodegradation | Soluble bags and specialist packaging |
 
 ## Advantages
 
